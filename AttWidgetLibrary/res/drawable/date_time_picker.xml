@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the XML layout for CloseEditText widget -->
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/relative_inside"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+	<TextView
+	  	android:id="@+id/label_background"
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:background="@drawable/date_time_style"
+	  	android:layout_marginTop="3dp"
+	  	android:singleLine="true"
+	  	android:drawableRight="@drawable/arrow_date_time"
+	  	android:drawablePadding="5dp"
+	  	android:editable="false"
+	  	android:cursorVisible="false"
+	  	android:inputType="none"
+	  	android:clickable="true"
+	  	android:focusable="true"
+	  	>
+	 </TextView>
+	 <TextView
+	  	android:id="@+id/label_text_date_time"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:layout_alignLeft="@id/edit_text"
+	  	android:layout_marginLeft="10dp"
+	  	android:layout_marginTop="30dp"
+	  	android:textColor="@color/black"
+	  	android:textSize="20dp">
+	</TextView>
+	 <TextView
+	  	android:id="@+id/label_text_bold"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:layout_alignLeft="@id/edit_text"
+	  	android:layout_marginLeft="10dp"
+	  	android:layout_marginTop="5dp"
+	  	android:textStyle="bold"
+	  	android:textColor="@color/black"
+	  	android:textSize="20dp" >
+	</TextView>
+</RelativeLayout>

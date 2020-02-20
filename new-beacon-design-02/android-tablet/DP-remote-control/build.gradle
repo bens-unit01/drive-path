@@ -1,0 +1,26 @@
+
+
+task message_fin{
+	doLast {
+		println 'Build terminer ...'
+	}
+}
+
+
+
+buildscript {
+	repositories {
+		jcenter()
+	}
+
+	dependencies {
+		classpath 'com.android.tools.build:gradle:2.2.1'
+	}
+}
+
+apply plugin: 'com.android.application'
+
+android {
+	compileSdkVersion 22
+		buildToolsVersion "22.0.1"
+}

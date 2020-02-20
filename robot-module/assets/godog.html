@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+	<title></title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+	<link rel="stylesheet" type="text/css" href="gdf-site.css">
+	<link rel="stylesheet" href="https://labs.godogfetch.com/css/godog.css" type="text/css">
+
+	<script src="https://labs.godogfetch.com/js/jquery/jquery.min.js"></script>
+	<script src="https://labs.godogfetch.com/js/jquery/jquery.widget.min.js"></script>
+
+	<script src="https://labs.godogfetch.com/js/gdf-site-progress.js"></script>
+	<script src="https://labs.godogfetch.com/js/gdf-site.min.js"></script>
+	<style>
+	.mirror{
+
+		-moz-transform: scale(-1, 1);
+		-webkit-transform: scale(-1, 1);
+		-o-transform: scale(-1, 1);
+		-ms-transform: scale(-1, 1);
+		transform: scale(-1, 1);
+	}
+
+
+	body {
+		background-image: url('images/sasha_eyes.png') ;
+		background-color: #cccccc;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 1200px;
+	}
+	</style>	
+</head>
+<body class="metro mirror" >
+	<script>
+
+	function updateChat(data, io) {
+		data = decodeURIComponent(data);
+		
+		if (io === 'in') {
+			
+			$('#listview').empty();
+			var item =
+			"<div class=\"notice marker-on-top bg-darkCyan padding20 text-center\" style=\" opacity: .6;\" >" +
+			"<h1 class=\"fg-white\" style=\"font-size: 40px; line-height: 60px; margin-bottom: 20px\">" + data + "</h1>" +
+			"</div>";
+			
+			$('#listview').append(item).trigger('create');
+		} else if (io === 'out') {
+			if (data.indexOf('<img') === -1) {
+				var item =
+				"<div class=\"notice marker-on-bottom bg-darkIndigo padding20 text-center\" style=\" opacity: .6; margin-top:220px; \" >" +
+				"<h1 class=\"fg-white\" style=\"font-size: 40px; line-height: 60px; margin-bottom: 20px\">" + data + "</h1>" +
+				"</div>";
+				$('#listview').append(item).trigger('create');
+			}
+		}
+	}
+
+
+	function setMirror(pos) {
+			var $doc = $(document.body);
+			$doc.removeClass('mirror');
+			if(pos == 1){
+			    $doc.addClass('mirror');
+			}
+		}
+	</script>
+
+	<div class="container" style="margin:100px 10px 10px 10px; padding-bottom: 5px;">
+		<div class="conversation" data-role="content">
+			<div id="listview" class="listview" style="margin-top: 150px; margin-bottom: 10px; text-align:center;">
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

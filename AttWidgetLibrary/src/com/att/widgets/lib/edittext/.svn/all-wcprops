@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/CBKMOBILE/!svn/ver/2287/trunk/04-Implementaci%C3%B3n/01-Fuentes/Android/ATT001/AttWidgetLibrary/src/com/att/widgets/lib/edittext
+END
+EditableTextField.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/CBKMOBILE/!svn/ver/2287/trunk/04-Implementaci%C3%B3n/01-Fuentes/Android/ATT001/AttWidgetLibrary/src/com/att/widgets/lib/edittext/EditableTextField.java
+END
+SimpleTextField.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/CBKMOBILE/!svn/ver/2287/trunk/04-Implementaci%C3%B3n/01-Fuentes/Android/ATT001/AttWidgetLibrary/src/com/att/widgets/lib/edittext/SimpleTextField.java
+END
+ExpandingTextField.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/CBKMOBILE/!svn/ver/2287/trunk/04-Implementaci%C3%B3n/01-Fuentes/Android/ATT001/AttWidgetLibrary/src/com/att/widgets/lib/edittext/ExpandingTextField.java
+END
+SearchTextField.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/CBKMOBILE/!svn/ver/2287/trunk/04-Implementaci%C3%B3n/01-Fuentes/Android/ATT001/AttWidgetLibrary/src/com/att/widgets/lib/edittext/SearchTextField.java
+END

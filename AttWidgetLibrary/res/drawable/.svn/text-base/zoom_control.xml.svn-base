@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+	<com.att.widgets.lib.zoom.ZoomView 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:id="@+id/zoom_control_view" />
+	
+
+	<RelativeLayout android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:id="@+id/zoom_control_layers"/>	
+	
+	<ImageView android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="@drawable/zoom_show_btn"
+	android:id="@+id/zoom_control_show" 
+	android:layout_centerVertical="true"/>
+	
+	<com.att.widgets.lib.zoom.slider.ZoomSlider 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:id="@+id/zoom_control_slider"
+	android:visibility="gone" 
+	android:layout_centerVertical="true" 
+	android:layout_marginLeft="10dip"/>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<!-- Checked -->
+	<item android:state_pressed="true" android:drawable="@drawable/cntl_gbl_slider_scrubber_point" />
+	<item android:state_checked="true"  android:state_focused="true" android:drawable="@drawable/cntl_gbl_slider_scrubber" /> <!-- focused -->
+	<item android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/cntl_gbl_slider_scrubber" /> 	<!-- enable  -->
+	<item android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/cntl_gbl_slider_scrubber_disable" /> 	<!-- disable -->
+	
+	
+	<!-- Unchecked -->
+	<item android:state_checked="false" android:state_focused="true" android:drawable="@drawable/cntl_gbl_slider_scrubber_focus" /> 	<!-- focused -->
+	<item android:state_enabled="true" android:state_checked="false" android:drawable="@drawable/cntl_gbl_slider_scrubber" /> 	<!-- enable  -->
+	<item android:state_enabled="false" android:state_checked="false" android:drawable="@drawable/cntl_gbl_slider_scrubber_disable" /> <!-- disable -->
+
+</selector>

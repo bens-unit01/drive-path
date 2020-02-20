@@ -1,0 +1,57 @@
+
+
+ // new-beacon-design-01    
+     BC_Start.X.production.hex         fichier hex pour le pic du beacon a 9 emetteurs 
+     
+     BC_Start.X.prebuilt.X             projet pour flasher le hex sur le pic     
+     
+     beacon-rx                         projet pour nordic coté robot, lecture utilisant 
+                                       ancienne technique (sans ppi)                     
+     
+     beacon-tx                         projet pour nordics coté beacon ( 9 emetteurs)  
+     
+     general_tests_01                  projet nordic coté robot utilisant nouvelle technique
+                                       pour la lecture ( utilisant ppi)
+     
+
+     general_tests_02                  qq modifs sur   general_tests_01 
+
+
+
+     log-calculation-01                projet android contient affichage matrice, position robot
+                                       (canevas), valeurs calculées 'heading, range, pos.angle' et
+				       un joystick pour controller le mouvement du robot
+     
+     rc-tablet                         projet android pour avoir lectures brute, joystick pour
+                                       controller le mouvement du robot 
+     
+     rc-tablet-joystick                projet contenant juste le joystick, on l'utilise pour le 
+                                       test des moteurs
+																	                                     
+// test-encoders-01
+
+   code pour nuvoton + nordics pour tester les encodeurs 
+  Pour les tests avec le pid voir  --> /c/Users/user/Documents/Raouf/REPO/drive-path/encoders-tests-01/nuvoton/test-01/Source  
+
+
+
+// new-beacon-design-02
+
+
++---android-tablet
+|   |
+|   \---log-calculation-01      projet pour la tablet, RC + affichage graphique + affichage de la matrice 
+|    
++---nordic
+|   |
+|   |
+|   |---beacon-tx          code nrf51822 pour le chip nordics du beacon 
+|   \---general_tests_02   version pour BLE cote robot, les donnees sont envoye via bluetooth 
+|    
+|   
+\---stm32f4                version pour le st
+
+
+
+
+

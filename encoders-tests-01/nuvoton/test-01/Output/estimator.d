@@ -1,0 +1,13 @@
+.\output\estimator.o: ..\Libraries\MiP_Libraries\Estimator\Estimator.c
+.\output\estimator.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\output\estimator.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\output\estimator.o: ..\Libraries\Include\M051.h
+.\output\estimator.o: ..\Libraries\Include\Register_Bit.h
+.\output\estimator.o: ..\Libraries\Include\Common.h
+.\output\estimator.o: ..\Libraries\Include\Retarget.h
+.\output\estimator.o: ..\Libraries\MiP_Libraries\Estimator\Estimator.h
+.\output\estimator.o: ..\Libraries\MiP_Libraries\Estimator\..\IMU\IMU.h
+.\output\estimator.o: ..\Libraries\MiP_Libraries\Estimator\..\UART\UART.h
+.\output\estimator.o: ..\Libraries\MiP_Libraries\Estimator\..\Encoders\Encoders.h
+.\output\estimator.o: ..\Libraries\MiP_Libraries\Estimator\..\System_Clock\System_Clock.h
+.\output\estimator.o: ..\Libraries\MiP_Libraries\Estimator\..\Robot_Values\Robot_Values.h

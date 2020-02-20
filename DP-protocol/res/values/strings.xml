@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DP-rc-module</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_user_setting">UserSettingActivity</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    
+    <string name="pref_send_report">Send crash reports</string>
+    <string name="pref_send_report_summary">Helps to fix bugs</string>
+    <string name="pref_sync_frequency">Sync frequency</string>
+    <string name="pref_sync_frequency_summary">Set the sync frequency</string>
+    <string name="pref_user_name">Set username</string>
+    <string name="pref_user_name_summary">Set your username</string>
+    
+     <string name="pref_host_name">Set IP address</string>
+     <string name="pref_host_name_summary">Set the Megamip IP address</string>
+     
+    <string name="pref_user_profile">User Profile</string>
+    <string name="pref_update_setting">Megamip Settings</string>
+    
+     <string name="country_prompt">Choose a city</string>
+    <string-array name="country_arrays">
+        <item>   Montreal  </item>
+        <item>San Francisco</item>
+        <item>    Tokyo      </item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,83 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\user\Documents\Raouf\REPO\drive-path\encoders-tests-01\nuvoton\test-01\Switchbot.uvproj
+Project File Date:  04/19/2016
+
+<h2>Output:</h2>
+Build target 'Switchbot'
+compiling switchbotMain.c...
+Source\..\..\Libraries\MiP_Libraries\Encoders\Encoders.h(26): warning:  #1295-D: Deprecated declaration reset_pulse - give arg types
+  void reset_pulse();
+Source\switchbotMain.c(39): warning:  #47-D: incompatible redefinition of macro "PI" (declared at line 12 of "Source\..\..\Libraries\MiP_Libraries\Robot_Values\Robot_Values.h")
+  #define PI 3.14159265 
+Source\switchbotMain.c(196): warning:  #546-D: transfer of control bypasses initialization of:
+            variable "error" (declared at line 241)
+                        switch (mode)
+                        ^
+Source\switchbotMain.c(189): warning:  #177-D: variable "old_u0" was declared but never referenced
+  static float old_u0 = 0, old_u1 =0, old_u2 = 0; 
+Source\switchbotMain.c(189): warning:  #177-D: variable "old_u1" was declared but never referenced
+  static float old_u0 = 0, old_u1 =0, old_u2 = 0; 
+Source\switchbotMain.c(189): warning:  #177-D: variable "old_u2" was declared but never referenced
+  static float old_u0 = 0, old_u1 =0, old_u2 = 0; 
+Source\switchbotMain.c(383): warning:  #177-D: variable "a1" was declared but never referenced
+        float a1 = -57.0;
+Source\switchbotMain.c(120): warning:  #177-D: function "LOG2" was declared but never referenced
+  static void LOG2(int input)
+Source\switchbotMain.c: 8 warnings, 0 errors
+linking...
+Program Size: Code=25472 RO-data=1088 RW-data=344 ZI-data=1744  
+After Build - User command #1: fromelf --bin ".\output\Switchbot.axf" --output ".\output\Switchbot.bin"
+After Build - User command #2: fromelf --text -c ".\output\Switchbot.axf" --output ".\output\Switchbot.txt"
+".\Output\Switchbot.axf" - 0 Error(s), 8 Warning(s).
+Load "C:\\Users\\user\\Documents\\Raouf\\REPO\\drive-path\\encoders-tests-01\\nuvoton\\test-01\\Output\\Switchbot.axf" 
+Load "C:\\Users\\user\\Documents\\Raouf\\REPO\\drive-path\\encoders-tests-01\\nuvoton\\test-01\\Output\\Switchbot.axf" 
+</pre>
+</body>
+</html>
+Documents\\Raouf\\REPO\\drive-path\\encoders-tests-01\\nuvoton\\test-01\\Output\\Switchbot.axf" 
+iable "angle3" (declared at line 148)
+            variable "v1" (declared at line 150)
+            variable "v2" (declared at line 151)
+            variable "v3" (declared at line 152)
+            variable "direction" (declared at line 161)
+            variable "speed" (declared at line 162)
+            variable "sp" (declared at line 185)
+                switch(RX0Data[0])
+                ^
+..\Libraries\MiP_Libraries\UART\UART.c: 2 warnings, 0 errors
+compiling SPI.c...
+compiling IMU.c...
+compiling Timers.c...
+compiling GPIO.c...
+compiling PWM.c...
+compiling Encoders.c...
+..\Libraries\MiP_Libraries\Encoders\Encoders.h(26): warning:  #1295-D: Deprecated declaration reset_pulse - give arg types
+  void reset_pulse();
+..\Libraries\MiP_Libraries\Encoders\Encoders.c: 1 warning, 0 errors
+compiling Motor_Drive.c...
+compiling Estimator.c...
+..\Libraries\MiP_Libraries\Estimator\..\Encoders\Encoders.h(26): warning:  #1295-D: Deprecated declaration reset_pulse - give arg types
+  void reset_pulse();
+..\Libraries\MiP_Libraries\Estimator\Estimator.c: 1 warning, 0 errors
+compiling ADC.c...
+compiling Interrupt_Priority.c...
+..\Libraries\MiP_Libraries\Interrupt_Priority\Interrupt_Priority.c(112): warning:  #61-D: integer operation result is out of range
+                        NVIC_IPR3 |= (1<<31);                   //SPI1 = set to priority 2 
+..\Libraries\MiP_Libraries\Interrupt_Priority\Interrupt_Priority.c(112): warning:  #68-D: integer conversion resulted in a change of sign
+                        NVIC_IPR3 |= (1<<31);                   //SPI1 = set to priority 2 
+..\Libraries\MiP_Libraries\Interrupt_Priority\Interrupt_Priority.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=24752 RO-data=1088 RW-data=344 ZI-data=1744  
+After Build - User command #1: fromelf --bin ".\output\Switchbot.axf" --output ".\output\Switchbot.bin"
+After Build - User command #2: fromelf --text -c ".\output\Switchbot.axf" --output ".\output\Switchbot.txt"
+".\Output\Switchbot.axf" - 0 Error(s), 15 Warning(s).
+Load "C:\\Users\\user\\Documents\\Raouf\\REPO\\drive-path\\encoders-tests-01\\nuvoton\\test-01\\Output\\Switchbot.axf" 
+User command #1: fromelf --bin ".\output\Switchbot.axf" --output ".\output\Switchbot.bin"
+After Build - User command #2: fromelf --text -c ".\output\Switchbot.axf" --output ".\output\Switchbot.txt"
+".\Output\Switchbot.axf" - 0 Error(s), 18 Warning(s).
+Load "C:\\Users\\user\\Documents\\Raouf\\REPO\\drive-path\\encoders-tests-01\\nuvoton\\test-01\\Output\\Switchbot.axf" 
+Error: Flash Download failed  -  Target DLL has been cancelled

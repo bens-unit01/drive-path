@@ -1,0 +1,74 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/relativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="18dp" 
+            android:background="@drawable/shadow"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="140dp"
+                android:layout_marginRight="1dp"
+                android:layout_toRightOf="@+id/imageView1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txtTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="44dp"
+                    android:layout_toRightOf="@+id/imageView1"
+                    android:text="1. Sapori Di Napoli"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/txtDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="44dp"
+                    android:layout_marginTop="10dp"
+                    android:text="1455, rue Dudemaine \n Montreal, QC H3M 1P9 \n 514-335-1465 \n 1.5mi"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/linearLayout1"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="19dp"
+                    android:src="@drawable/stars_0"
+                     />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/no_image_avatar" />
+
+            <TextView
+                android:id="@+id/txtReviews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/linearLayout1"
+                android:layout_below="@+id/linearLayout1"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="7dp"
+                android:text="0 reviews"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/holo_blue_dark" />
+
+        </RelativeLayout>

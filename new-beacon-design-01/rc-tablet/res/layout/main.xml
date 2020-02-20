@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+ 
+     <TextView
+        android:id="@+id/textview_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dip"
+        android:gravity="center_horizontal" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dip"
+        android:layout_marginBottom="5dip"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+        
+               <ScrollView
+            android:layout_marginTop="5dp"
+            android:id="@+id/scrLog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.79"
+            android:padding="2dp" >
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/txtLog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx"
+                android:textSize="26sp" />
+        </ScrollView> 
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="beacon on/off" 
+            android:padding="15dip" 
+            />
+
+        <ImageButton
+            android:id="@+id/button_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/button_stop"
+            android:src="@android:drawable/ic_media_pause"
+            android:text="@string/button_stop" />
+
+                <Button
+                    android:id="@+id/btnConnect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Connect"
+                    android:padding="15dip" 
+                     />
+                
+            <ImageButton
+                android:id="@+id/btnLedBluetooth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_led_states"
+                android:padding="10dp" 
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="50dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <com.rc.new_beacon.JoystickView
+            android:id="@+id/joystick"
+            android:layout_width="501dp"
+            android:layout_height="245dp" />
+
+        </LinearLayout>
+</LinearLayout>

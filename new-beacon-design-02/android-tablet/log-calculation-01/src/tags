@@ -1,0 +1,268 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACTION_DATA_AVAILABLE	.\com\rc\new_beacon\UartService.java	/^    public final static String ACTION_DATA_AVAILABLE =$/;"	f	class:UartService
+ACTION_GATT_CONNECTED	.\com\rc\new_beacon\UartService.java	/^    public final static String ACTION_GATT_CONNECTED =$/;"	f	class:UartService
+ACTION_GATT_DISCONNECTED	.\com\rc\new_beacon\UartService.java	/^    public final static String ACTION_GATT_DISCONNECTED =$/;"	f	class:UartService
+ACTION_GATT_SERVICES_DISCOVERED	.\com\rc\new_beacon\UartService.java	/^    public final static String ACTION_GATT_SERVICES_DISCOVERED =$/;"	f	class:UartService
+BOTTOM	.\com\rc\new_beacon\JoystickView.java	/^	public final static int BOTTOM = 7;$/;"	f	class:JoystickView
+BOTTOM_LEFT	.\com\rc\new_beacon\JoystickView.java	/^	public final static int BOTTOM_LEFT = 8;$/;"	f	class:JoystickView
+CCCD	.\com\rc\new_beacon\UartService.java	/^    public static final UUID CCCD = UUID.fromString("00002902-0000-1000-8000-00805f9b34fb");$/;"	f	class:UartService
+DEFAULT_LOOP_INTERVAL	.\com\rc\new_beacon\JoystickView.java	/^	public final static long DEFAULT_LOOP_INTERVAL = 100; \/\/ 100 ms$/;"	f	class:JoystickView
+DEVICE_DOES_NOT_SUPPORT_UART	.\com\rc\new_beacon\UartService.java	/^    public final static String DEVICE_DOES_NOT_SUPPORT_UART =$/;"	f	class:UartService
+DIS_UUID	.\com\rc\new_beacon\UartService.java	/^    public static final UUID DIS_UUID = UUID.fromString("0000180a-0000-1000-8000-00805f9b34fb");$/;"	f	class:UartService
+DeviceAdapter	.\com\rc\new_beacon\DeviceListActivity.java	/^        public DeviceAdapter(Context context, List<BluetoothDevice> devices) {$/;"	m	class:DeviceListActivity.DeviceAdapter
+DeviceAdapter	.\com\rc\new_beacon\DeviceListActivity.java	/^    class DeviceAdapter extends BaseAdapter {$/;"	c	class:DeviceListActivity
+DeviceListActivity	.\com\rc\new_beacon\DeviceListActivity.java	/^public class DeviceListActivity extends Activity {$/;"	c
+EXTRA_DATA	.\com\rc\new_beacon\UartService.java	/^    public final static String EXTRA_DATA =$/;"	f	class:UartService
+FILE_NAME	.\com\rc\new_beacon\MainActivity.java	/^	public static String FILE_NAME;$/;"	f	class:MainActivity
+FILTER	.\com\rc\new_beacon\DeviceListActivity.java	/^    private final String FILTER = "SwitchBot";$/;"	f	class:DeviceListActivity	file:
+FIRMWARE_REVISON_UUID	.\com\rc\new_beacon\UartService.java	/^    public static final UUID FIRMWARE_REVISON_UUID = UUID.fromString("00002a26-0000-1000-8000-00805f9b34fb");$/;"	f	class:UartService
+FRONT	.\com\rc\new_beacon\JoystickView.java	/^	public final static int FRONT = 3;$/;"	f	class:JoystickView
+FRONT_RIGHT	.\com\rc\new_beacon\JoystickView.java	/^	public final static int FRONT_RIGHT = 4;$/;"	f	class:JoystickView
+GridViewCustomAdapter	.\com\rc\new_beacon\GridViewCustomAdapter.java	/^    public GridViewCustomAdapter(Activity activity, ArrayList<String> tempTitle) {$/;"	m	class:GridViewCustomAdapter
+GridViewCustomAdapter	.\com\rc\new_beacon\GridViewCustomAdapter.java	/^public class GridViewCustomAdapter extends BaseAdapter {$/;"	c
+JoystickView	.\com\rc\new_beacon\JoystickView.java	/^	public JoystickView(Context context) {$/;"	m	class:JoystickView
+JoystickView	.\com\rc\new_beacon\JoystickView.java	/^	public JoystickView(Context context, AttributeSet attrs) {$/;"	m	class:JoystickView
+JoystickView	.\com\rc\new_beacon\JoystickView.java	/^	public JoystickView(Context context, AttributeSet attrs, int defaultStyle) {$/;"	m	class:JoystickView
+JoystickView	.\com\rc\new_beacon\JoystickView.java	/^public class JoystickView extends View implements Runnable {$/;"	c
+LEFT	.\com\rc\new_beacon\JoystickView.java	/^	public final static int LEFT = 1;$/;"	f	class:JoystickView
+LEFT_FRONT	.\com\rc\new_beacon\JoystickView.java	/^	public final static int LEFT_FRONT = 2;$/;"	f	class:JoystickView
+LocalBinder	.\com\rc\new_beacon\UartService.java	/^    public class LocalBinder extends Binder {$/;"	c	class:UartService
+LogData	.\com\rc\new_beacon\LogData.java	/^	public LogData(String mLabel, String mRange, String mHeading,$/;"	m	class:LogData
+LogData	.\com\rc\new_beacon\LogData.java	/^   private LogData(){}$/;"	m	class:LogData	file:
+LogData	.\com\rc\new_beacon\LogData.java	/^public class LogData {$/;"	c
+LogDataList	.\com\rc\new_beacon\LogDataList.java	/^	public LogDataList() {$/;"	m	class:LogDataList
+LogDataList	.\com\rc\new_beacon\LogDataList.java	/^public class LogDataList {$/;"	c
+MAX_VALUE	.\com\rc\new_beacon\MainActivity.java	/^    private final int MAX_VALUE = 0x10;$/;"	f	class:MainActivity	file:
+MESSAGE_LOG	.\com\rc\new_beacon\MainActivity.java	/^	public static final int MESSAGE_LOG = 0;$/;"	f	class:MainActivity
+MESSAGE_READ	.\com\rc\new_beacon\MainActivity.java	/^	public static final int MESSAGE_READ = 2;$/;"	f	class:MainActivity
+MESSAGE_STATE_CHANGE	.\com\rc\new_beacon\MainActivity.java	/^	public static final int MESSAGE_STATE_CHANGE = 1;$/;"	f	class:MainActivity
+MESSAGE_WRITE	.\com\rc\new_beacon\MainActivity.java	/^	public static final int MESSAGE_WRITE = 3;$/;"	f	class:MainActivity
+MainActivity	.\com\rc\new_beacon\MainActivity.java	/^public class MainActivity extends Activity {$/;"	c
+OnJoystickMoveListener	.\com\rc\new_beacon\JoystickView.java	/^	public static interface OnJoystickMoveListener {$/;"	i	class:JoystickView
+PI	.\com\rc\new_beacon\MainActivity.java	/^	static double PI = 3.14159265;$/;"	f	class:MainActivity
+PlanView	.\com\rc\new_beacon\PlanView.java	/^	public PlanView(Context context, AttributeSet attrs) {$/;"	m	class:PlanView
+PlanView	.\com\rc\new_beacon\PlanView.java	/^	public PlanView(Context context, AttributeSet attrs, int defaultStyle) {$/;"	m	class:PlanView
+PlanView	.\com\rc\new_beacon\PlanView.java	/^    public PlanView(Context context) {$/;"	m	class:PlanView
+PlanView	.\com\rc\new_beacon\PlanView.java	/^public class PlanView extends View{$/;"	c
+RAD	.\com\rc\new_beacon\JoystickView.java	/^	private final double RAD = 57.2957795;$/;"	f	class:JoystickView	file:
+REQUEST_ENABLE_BT	.\com\rc\new_beacon\MainActivity.java	/^	private static final int REQUEST_ENABLE_BT = 2;$/;"	f	class:MainActivity	file:
+REQUEST_ENABLE_BT	.\com\rc\new_beacon\SBBluetoothClient.java	/^	public static final int REQUEST_ENABLE_BT = 2;$/;"	f	class:SBBluetoothClient
+REQUEST_SELECT_DEVICE	.\com\rc\new_beacon\MainActivity.java	/^	private static final int REQUEST_SELECT_DEVICE = 1;$/;"	f	class:MainActivity	file:
+REQUEST_SELECT_DEVICE	.\com\rc\new_beacon\SBBluetoothClient.java	/^	public static final int REQUEST_SELECT_DEVICE = 1;$/;"	f	class:SBBluetoothClient
+RIGHT	.\com\rc\new_beacon\JoystickView.java	/^	public final static int RIGHT = 5;$/;"	f	class:JoystickView
+RIGHT_BOTTOM	.\com\rc\new_beacon\JoystickView.java	/^	public final static int RIGHT_BOTTOM = 6;$/;"	f	class:JoystickView
+RX_CHAR_UUID	.\com\rc\new_beacon\UartService.java	/^    public static final UUID RX_CHAR_UUID = UUID.fromString("6e400002-b5a3-f393-e0a9-e50e24dcca9e");$/;"	f	class:UartService
+RX_SERVICE_UUID	.\com\rc\new_beacon\UartService.java	/^    public static final UUID RX_SERVICE_UUID = UUID.fromString("6e400001-b5a3-f393-e0a9-e50e24dcca9e");$/;"	f	class:UartService
+SBBluetoothClient	.\com\rc\new_beacon\SBBluetoothClient.java	/^	public SBBluetoothClient() {$/;"	m	class:SBBluetoothClient
+SBBluetoothClient	.\com\rc\new_beacon\SBBluetoothClient.java	/^	public SBBluetoothClient(Context context) {$/;"	m	class:SBBluetoothClient
+SBBluetoothClient	.\com\rc\new_beacon\SBBluetoothClient.java	/^public class SBBluetoothClient {$/;"	c
+SBBluetoothListener	.\com\rc\new_beacon\SBBluetoothClient.java	/^	    public interface SBBluetoothListener {$/;"	i	class:SBBluetoothClient
+SCAN_PERIOD	.\com\rc\new_beacon\DeviceListActivity.java	/^    private static final long SCAN_PERIOD = 10000; \/\/10 seconds$/;"	f	class:DeviceListActivity	file:
+STATE_CONNECTED	.\com\rc\new_beacon\UartService.java	/^    private static final int STATE_CONNECTED = 2;$/;"	f	class:UartService	file:
+STATE_CONNECTING	.\com\rc\new_beacon\UartService.java	/^    private static final int STATE_CONNECTING = 1;$/;"	f	class:UartService	file:
+STATE_DISCONNECTED	.\com\rc\new_beacon\UartService.java	/^    private static final int STATE_DISCONNECTED = 0;$/;"	f	class:UartService	file:
+STATE_OFF	.\com\rc\new_beacon\SBBluetoothClient.java	/^    public static final int STATE_OFF = 10;$/;"	f	class:SBBluetoothClient
+TAG	.\com\rc\new_beacon\DeviceListActivity.java	/^    public static final String TAG = "DeviceListActivity";$/;"	f	class:DeviceListActivity
+TAG	.\com\rc\new_beacon\MainActivity.java	/^	private static final String TAG = "joystick";$/;"	f	class:MainActivity	file:
+TAG	.\com\rc\new_beacon\PlanView.java	/^	static String TAG ="PlanView"; $/;"	f	class:PlanView
+TAG	.\com\rc\new_beacon\UartService.java	/^    private final static String TAG = UartService.class.getSimpleName();$/;"	f	class:UartService	file:
+TX_CHAR_UUID	.\com\rc\new_beacon\UartService.java	/^    public static final UUID TX_CHAR_UUID = UUID.fromString("6e400003-b5a3-f393-e0a9-e50e24dcca9e");$/;"	f	class:UartService
+TX_POWER_LEVEL_UUID	.\com\rc\new_beacon\UartService.java	/^    public static final UUID TX_POWER_LEVEL_UUID = UUID.fromString("00002a07-0000-1000-8000-00805f9b34fb");$/;"	f	class:UartService
+TX_POWER_UUID	.\com\rc\new_beacon\UartService.java	/^    public static final UUID TX_POWER_UUID = UUID.fromString("00001804-0000-1000-8000-00805f9b34fb");$/;"	f	class:UartService
+UARTStatusChangeReceiver	.\com\rc\new_beacon\SBBluetoothClient.java	/^	 private final BroadcastReceiver UARTStatusChangeReceiver = new BroadcastReceiver() {$/;"	f	class:SBBluetoothClient	file:
+UART_PROFILE_CONNECTED	.\com\rc\new_beacon\SBBluetoothClient.java	/^    public static final int UART_PROFILE_CONNECTED = 20;$/;"	f	class:SBBluetoothClient
+UART_PROFILE_DISCONNECTED	.\com\rc\new_beacon\SBBluetoothClient.java	/^    public static final int UART_PROFILE_DISCONNECTED = 21;$/;"	f	class:SBBluetoothClient
+UART_PROFILE_READY	.\com\rc\new_beacon\SBBluetoothClient.java	/^    public static final int UART_PROFILE_READY = 10;$/;"	f	class:SBBluetoothClient
+UartService	.\com\rc\new_beacon\UartService.java	/^public class UartService extends Service {$/;"	c
+Utils	.\com\rc\new_beacon\Utils.java	/^	public Utils() {$/;"	m	class:Utils
+Utils	.\com\rc\new_beacon\Utils.java	/^public class Utils {$/;"	c
+adapter	.\com\rc\new_beacon\MainActivity.java	/^	private GridViewCustomAdapter adapter;$/;"	f	class:MainActivity	file:
+addDevice	.\com\rc\new_beacon\DeviceListActivity.java	/^    private void addDevice(BluetoothDevice device, int rssi) {$/;"	m	class:DeviceListActivity	file:
+addLog	.\com\rc\new_beacon\LogDataList.java	/^	public void addLog(LogData log){$/;"	m	class:LogDataList
+addSBBluetoothListener	.\com\rc\new_beacon\SBBluetoothClient.java	/^	    public void addSBBluetoothListener(SBBluetoothListener listener) {$/;"	m	class:SBBluetoothClient
+angle	.\com\rc\new_beacon\MainActivity.java	/^	int[] angle = { 90, 180, 270, 0 };$/;"	f	class:MainActivity
+broadcastUpdate	.\com\rc\new_beacon\UartService.java	/^    private void broadcastUpdate(final String action) {$/;"	m	class:UartService	file:
+broadcastUpdate	.\com\rc\new_beacon\UartService.java	/^    private void broadcastUpdate(final String action,$/;"	m	class:UartService	file:
+btnConnect	.\com\rc\new_beacon\MainActivity.java	/^	private Button btnConnect, btnSave;$/;"	f	class:MainActivity	file:
+btnSave	.\com\rc\new_beacon\MainActivity.java	/^	private Button btnConnect, btnSave;$/;"	f	class:MainActivity	file:
+buffer	.\com\rc\new_beacon\MainActivity.java	/^	private int[][] buffer = new int[9][4];$/;"	f	class:MainActivity	file:
+button	.\com\rc\new_beacon\JoystickView.java	/^	private Paint button;$/;"	f	class:JoystickView	file:
+buttonRadius	.\com\rc\new_beacon\JoystickView.java	/^	private int buttonRadius;$/;"	f	class:JoystickView	file:
+bytesToHex	.\com\rc\new_beacon\Utils.java	/^	public static String bytesToHex(byte[] bytes) {$/;"	m	class:Utils
+bytesToHex2	.\com\rc\new_beacon\Utils.java	/^	public static String bytesToHex2(byte[] a) {$/;"	m	class:Utils
+centerX	.\com\rc\new_beacon\JoystickView.java	/^	private double centerX = 0; \/\/ Center view x position$/;"	f	class:JoystickView	file:
+centerY	.\com\rc\new_beacon\JoystickView.java	/^	private double centerY = 0; \/\/ Center view y position$/;"	f	class:JoystickView	file:
+close	.\com\rc\new_beacon\UartService.java	/^    public void close() {$/;"	m	class:UartService
+closeApp	.\com\rc\new_beacon\Utils.java	/^	public void closeApp(String packageName, Context context) {$/;"	m	class:Utils
+com.rc.new_beacon	.\com\rc\new_beacon\DeviceListActivity.java	/^package com.rc.new_beacon;$/;"	p
+com.rc.new_beacon	.\com\rc\new_beacon\GridViewCustomAdapter.java	/^package com.rc.new_beacon;$/;"	p
+com.rc.new_beacon	.\com\rc\new_beacon\JoystickView.java	/^package com.rc.new_beacon;$/;"	p
+com.rc.new_beacon	.\com\rc\new_beacon\LogData.java	/^package com.rc.new_beacon;$/;"	p
+com.rc.new_beacon	.\com\rc\new_beacon\LogDataList.java	/^package com.rc.new_beacon;$/;"	p
+com.rc.new_beacon	.\com\rc\new_beacon\MainActivity.java	/^package com.rc.new_beacon;$/;"	p
+com.rc.new_beacon	.\com\rc\new_beacon\PlanView.java	/^package com.rc.new_beacon;$/;"	p
+com.rc.new_beacon	.\com\rc\new_beacon\SBBluetoothClient.java	/^package com.rc.new_beacon;$/;"	p
+com.rc.new_beacon	.\com\rc\new_beacon\UartService.java	/^package com.rc.new_beacon;$/;"	p
+com.rc.new_beacon	.\com\rc\new_beacon\Utils.java	/^package com.rc.new_beacon;$/;"	p
+connect	.\com\rc\new_beacon\SBBluetoothClient.java	/^      public void connect(String deviceAddress){$/;"	m	class:SBBluetoothClient
+connect	.\com\rc\new_beacon\UartService.java	/^    public boolean connect(final String address) {$/;"	m	class:UartService
+connectionState	.\com\rc\new_beacon\MainActivity.java	/^	private static final String[] connectionState = { "not connected",$/;"	f	class:MainActivity	file:
+context	.\com\rc\new_beacon\DeviceListActivity.java	/^        Context context;$/;"	f	class:DeviceListActivity.DeviceAdapter
+context	.\com\rc\new_beacon\SBBluetoothClient.java	/^    private Context context = null;$/;"	f	class:SBBluetoothClient	file:
+data	.\com\rc\new_beacon\MainActivity.java	/^	ArrayList<String> data = new ArrayList<String>();$/;"	f	class:MainActivity
+devRssiValues	.\com\rc\new_beacon\DeviceListActivity.java	/^    Map<String, Integer> devRssiValues;$/;"	f	class:DeviceListActivity
+deviceAdapter	.\com\rc\new_beacon\DeviceListActivity.java	/^    private DeviceAdapter deviceAdapter;$/;"	f	class:DeviceListActivity	file:
+deviceList	.\com\rc\new_beacon\DeviceListActivity.java	/^    List<BluetoothDevice> deviceList;$/;"	f	class:DeviceListActivity
+devices	.\com\rc\new_beacon\DeviceListActivity.java	/^        List<BluetoothDevice> devices;$/;"	f	class:DeviceListActivity.DeviceAdapter
+disconnect	.\com\rc\new_beacon\SBBluetoothClient.java	/^      public void disconnect() {$/;"	m	class:SBBluetoothClient
+disconnect	.\com\rc\new_beacon\UartService.java	/^    public void disconnect() {$/;"	m	class:UartService
+displayCoordinates	.\com\rc\new_beacon\MainActivity.java	/^	void displayCoordinates() {$/;"	m	class:MainActivity
+displayStatus	.\com\rc\new_beacon\MainActivity.java	/^	private void displayStatus(final byte[] data) {$/;"	m	class:MainActivity	file:
+doCmds	.\com\rc\new_beacon\Utils.java	/^	private static void doCmds(List<String> cmds) throws Exception {$/;"	m	class:Utils	file:
+emitter	.\com\rc\new_beacon\MainActivity.java	/^	int[] emitter = { 0, 18, 36, 54, 72, 90, 108, 126, 144, 162 };$/;"	f	class:MainActivity
+enableTXNotification	.\com\rc\new_beacon\UartService.java	/^    public void enableTXNotification()$/;"	m	class:UartService
+ex	.\com\rc\new_beacon\MainActivity.java	/^	float[] ex = new float[10];$/;"	f	class:MainActivity
+ey	.\com\rc\new_beacon\MainActivity.java	/^	float[] ey = new float[10];$/;"	f	class:MainActivity
+floatFormat	.\com\rc\new_beacon\MainActivity.java	/^    private DecimalFormat floatFormat =  new DecimalFormat("###.##"); $/;"	f	class:MainActivity	file:
+getAngle	.\com\rc\new_beacon\JoystickView.java	/^	private int getAngle() {$/;"	m	class:JoystickView	file:
+getAngle	.\com\rc\new_beacon\MainActivity.java	/^	private int getAngle(int angle, int minValue) {$/;"	m	class:MainActivity	file:
+getCount	.\com\rc\new_beacon\DeviceListActivity.java	/^        public int getCount() {$/;"	m	class:DeviceListActivity.DeviceAdapter
+getCount	.\com\rc\new_beacon\GridViewCustomAdapter.java	/^    public final int getCount() {$/;"	m	class:GridViewCustomAdapter
+getDirection	.\com\rc\new_beacon\JoystickView.java	/^	private int getDirection() {$/;"	m	class:JoystickView	file:
+getIPAddress	.\com\rc\new_beacon\Utils.java	/^	public static String getIPAddress() {$/;"	m	class:Utils
+getIPAddress	.\com\rc\new_beacon\Utils.java	/^	public static String getIPAddress(boolean useIPv4) {$/;"	m	class:Utils
+getItem	.\com\rc\new_beacon\DeviceListActivity.java	/^        public Object getItem(int position) {$/;"	m	class:DeviceListActivity.DeviceAdapter
+getItem	.\com\rc\new_beacon\GridViewCustomAdapter.java	/^    public final Object getItem(int position) {$/;"	m	class:GridViewCustomAdapter
+getItemId	.\com\rc\new_beacon\DeviceListActivity.java	/^        public long getItemId(int position) {$/;"	m	class:DeviceListActivity.DeviceAdapter
+getItemId	.\com\rc\new_beacon\GridViewCustomAdapter.java	/^    public final long getItemId(int position) {$/;"	m	class:GridViewCustomAdapter
+getPower	.\com\rc\new_beacon\JoystickView.java	/^	private int getPower() {$/;"	m	class:JoystickView	file:
+getService	.\com\rc\new_beacon\UartService.java	/^        UartService getService() {$/;"	m	class:UartService.LocalBinder
+getState	.\com\rc\new_beacon\SBBluetoothClient.java	/^	    public int getState() {$/;"	m	class:SBBluetoothClient
+getSupportedGattServices	.\com\rc\new_beacon\UartService.java	/^    public List<BluetoothGattService> getSupportedGattServices() {$/;"	m	class:UartService
+getView	.\com\rc\new_beacon\DeviceListActivity.java	/^        public View getView(int position, View convertView, ViewGroup parent) {$/;"	m	class:DeviceListActivity.DeviceAdapter
+getView	.\com\rc\new_beacon\GridViewCustomAdapter.java	/^    public View getView(final int position, View convertView, ViewGroup parent) {$/;"	m	class:GridViewCustomAdapter
+getYoutubeVideoId	.\com\rc\new_beacon\Utils.java	/^	public String getYoutubeVideoId(String youtubeUrl) {$/;"	m	class:Utils
+gridView	.\com\rc\new_beacon\MainActivity.java	/^	private GridView gridView;$/;"	f	class:MainActivity	file:
+hexArray	.\com\rc\new_beacon\Utils.java	/^	final protected static char[] hexArray = "0123456789ABCDEF".toCharArray();$/;"	f	class:Utils
+horizontalLine	.\com\rc\new_beacon\JoystickView.java	/^	private Paint horizontalLine;$/;"	f	class:JoystickView	file:
+inflater	.\com\rc\new_beacon\DeviceListActivity.java	/^        LayoutInflater inflater;$/;"	f	class:DeviceListActivity.DeviceAdapter
+inflater	.\com\rc\new_beacon\GridViewCustomAdapter.java	/^    private static LayoutInflater inflater = null;$/;"	f	class:GridViewCustomAdapter	file:
+initCalc	.\com\rc\new_beacon\MainActivity.java	/^	void initCalc() {$/;"	m	class:MainActivity
+initJoystickView	.\com\rc\new_beacon\JoystickView.java	/^	protected void initJoystickView() {$/;"	m	class:JoystickView
+initPlanView	.\com\rc\new_beacon\PlanView.java	/^	private void initPlanView() {$/;"	m	class:PlanView	file:
+initialize	.\com\rc\new_beacon\UartService.java	/^    public boolean initialize() {$/;"	m	class:UartService
+isBtConnected	.\com\rc\new_beacon\MainActivity.java	/^	private boolean isBtConnected() {$/;"	m	class:MainActivity	file:
+isDisconnectRequested	.\com\rc\new_beacon\MainActivity.java	/^	private boolean isDisconnectRequested = false;$/;"	f	class:MainActivity	file:
+isUsbDisconnected	.\com\rc\new_beacon\SBBluetoothClient.java	/^    private boolean isUsbDisconnected = false;$/;"	f	class:SBBluetoothClient	file:
+isWifiConnected	.\com\rc\new_beacon\Utils.java	/^	public static boolean isWifiConnected() {$/;"	m	class:Utils
+is_playing_desired	.\com\rc\new_beacon\MainActivity.java	/^	private boolean is_playing_desired; \/\/ Whether the user asked to go to$/;"	f	class:MainActivity	file:
+items	.\com\rc\new_beacon\GridViewCustomAdapter.java	/^    ArrayList<String> items;$/;"	f	class:GridViewCustomAdapter
+joystick	.\com\rc\new_beacon\MainActivity.java	/^	private JoystickView joystick;$/;"	f	class:MainActivity	file:
+joystickRadius	.\com\rc\new_beacon\JoystickView.java	/^	private int joystickRadius;$/;"	f	class:JoystickView	file:
+lastAngle	.\com\rc\new_beacon\JoystickView.java	/^	private int lastAngle = 0;$/;"	f	class:JoystickView	file:
+lastPower	.\com\rc\new_beacon\JoystickView.java	/^	private int lastPower = 0;$/;"	f	class:JoystickView	file:
+ledBluetooth	.\com\rc\new_beacon\MainActivity.java	/^	private ImageButton ledBluetooth;$/;"	f	class:MainActivity	file:
+listeners	.\com\rc\new_beacon\SBBluetoothClient.java	/^    private ArrayList<SBBluetoothListener> listeners;$/;"	f	class:SBBluetoothClient	file:
+log	.\com\rc\new_beacon\MainActivity.java	/^	private void log(final String str) {$/;"	m	class:MainActivity	file:
+log	.\com\rc\new_beacon\SBBluetoothClient.java	/^	private void log(String string) {$/;"	m	class:SBBluetoothClient	file:
+logDataList	.\com\rc\new_beacon\LogDataList.java	/^	private ArrayList<LogData> logDataList;$/;"	f	class:LogDataList	file:
+loopInterval	.\com\rc\new_beacon\JoystickView.java	/^	private long loopInterval = DEFAULT_LOOP_INTERVAL;$/;"	f	class:JoystickView	file:
+mActivity	.\com\rc\new_beacon\GridViewCustomAdapter.java	/^    static Activity mActivity;$/;"	f	class:GridViewCustomAdapter
+mBinder	.\com\rc\new_beacon\UartService.java	/^    private final IBinder mBinder = new LocalBinder();$/;"	f	class:UartService	file:
+mBluetoothAdapter	.\com\rc\new_beacon\DeviceListActivity.java	/^    private BluetoothAdapter mBluetoothAdapter;$/;"	f	class:DeviceListActivity	file:
+mBluetoothAdapter	.\com\rc\new_beacon\UartService.java	/^    private BluetoothAdapter mBluetoothAdapter;$/;"	f	class:UartService	file:
+mBluetoothDeviceAddress	.\com\rc\new_beacon\UartService.java	/^    private String mBluetoothDeviceAddress;$/;"	f	class:UartService	file:
+mBluetoothGatt	.\com\rc\new_beacon\UartService.java	/^    private BluetoothGatt mBluetoothGatt;$/;"	f	class:UartService	file:
+mBluetoothManager	.\com\rc\new_beacon\UartService.java	/^    private BluetoothManager mBluetoothManager;$/;"	f	class:UartService	file:
+mBtAdapter	.\com\rc\new_beacon\MainActivity.java	/^	private BluetoothAdapter mBtAdapter = null;$/;"	f	class:MainActivity	file:
+mBtClient	.\com\rc\new_beacon\MainActivity.java	/^	private SBBluetoothClient mBtClient = null;$/;"	f	class:MainActivity	file:
+mConnectionState	.\com\rc\new_beacon\UartService.java	/^    private int mConnectionState = STATE_DISCONNECTED;$/;"	f	class:UartService	file:
+mDevice	.\com\rc\new_beacon\MainActivity.java	/^	private BluetoothDevice mDevice = null;$/;"	f	class:MainActivity	file:
+mDevice	.\com\rc\new_beacon\SBBluetoothClient.java	/^    private BluetoothDevice mDevice = null;$/;"	f	class:SBBluetoothClient	file:
+mDeviceAdress	.\com\rc\new_beacon\MainActivity.java	/^	private String mDeviceAdress = null;$/;"	f	class:MainActivity	file:
+mDeviceClickListener	.\com\rc\new_beacon\DeviceListActivity.java	/^    private OnItemClickListener mDeviceClickListener = new OnItemClickListener() {$/;"	f	class:DeviceListActivity	file:
+mEmptyList	.\com\rc\new_beacon\DeviceListActivity.java	/^    private TextView mEmptyList;$/;"	f	class:DeviceListActivity	file:
+mGattCallback	.\com\rc\new_beacon\UartService.java	/^    private final BluetoothGattCallback mGattCallback = new BluetoothGattCallback() {$/;"	f	class:UartService	file:
+mHandler	.\com\rc\new_beacon\DeviceListActivity.java	/^    private Handler mHandler;$/;"	f	class:DeviceListActivity	file:
+mHeading	.\com\rc\new_beacon\LogData.java	/^	private String mHeading;$/;"	f	class:LogData	file:
+mLabel	.\com\rc\new_beacon\LogData.java	/^	private String mLabel; $/;"	f	class:LogData	file:
+mLeScanCallback	.\com\rc\new_beacon\DeviceListActivity.java	/^    private BluetoothAdapter.LeScanCallback mLeScanCallback =$/;"	f	class:DeviceListActivity	file:
+mLogDataList	.\com\rc\new_beacon\MainActivity.java	/^    private LogDataList mLogDataList; $/;"	f	class:MainActivity	file:
+mMatrix	.\com\rc\new_beacon\LogData.java	/^	private String[][] mMatrix;$/;"	f	class:LogData	file:
+mPaint	.\com\rc\new_beacon\PlanView.java	/^    private Paint mPaint = new Paint();$/;"	f	class:PlanView	file:
+mPosAngle	.\com\rc\new_beacon\LogData.java	/^	private String mPosAngle;$/;"	f	class:LogData	file:
+mRange	.\com\rc\new_beacon\LogData.java	/^	private String mRange;$/;"	f	class:LogData	file:
+mScanning	.\com\rc\new_beacon\DeviceListActivity.java	/^    private boolean mScanning;$/;"	f	class:DeviceListActivity	file:
+mService	.\com\rc\new_beacon\SBBluetoothClient.java	/^	private UartService mService = null;$/;"	f	class:SBBluetoothClient	file:
+mServiceConnection	.\com\rc\new_beacon\SBBluetoothClient.java	/^	private ServiceConnection mServiceConnection = new ServiceConnection() {$/;"	f	class:SBBluetoothClient	file:
+mState	.\com\rc\new_beacon\SBBluetoothClient.java	/^    private int mState = UART_PROFILE_DISCONNECTED;$/;"	f	class:SBBluetoothClient	file:
+mX	.\com\rc\new_beacon\PlanView.java	/^	private int mX = 1200, mY = 1200; $/;"	f	class:PlanView	file:
+mXbase	.\com\rc\new_beacon\PlanView.java	/^    private int mXbase, mYbase; $/;"	f	class:PlanView	file:
+mY	.\com\rc\new_beacon\PlanView.java	/^	private int mX = 1200, mY = 1200; $/;"	f	class:PlanView	file:
+mYbase	.\com\rc\new_beacon\PlanView.java	/^    private int mXbase, mYbase; $/;"	f	class:PlanView	file:
+mainCircle	.\com\rc\new_beacon\JoystickView.java	/^	private Paint mainCircle;$/;"	f	class:JoystickView	file:
+makeGattUpdateIntentFilter	.\com\rc\new_beacon\SBBluetoothClient.java	/^    private static IntentFilter makeGattUpdateIntentFilter() {$/;"	m	class:SBBluetoothClient	file:
+measure	.\com\rc\new_beacon\JoystickView.java	/^	private int measure(int measureSpec) {$/;"	m	class:JoystickView	file:
+nativeClassInit	.\com\rc\new_beacon\MainActivity.java	/^	private static native boolean nativeClassInit(); \/\/ Initialize native class:$/;"	m	class:MainActivity	file:
+onActivityResult	.\com\rc\new_beacon\MainActivity.java	/^	protected void onActivityResult(int requestCode, int resultCode, Intent data) {$/;"	m	class:MainActivity
+onBackPressed	.\com\rc\new_beacon\MainActivity.java	/^	public void onBackPressed() {$/;"	m	class:MainActivity
+onBackPressed	.\com\rc\new_beacon\SBBluetoothClient.java	/^	    public void onBackPressed() {$/;"	m	class:SBBluetoothClient
+onBind	.\com\rc\new_beacon\UartService.java	/^    public IBinder onBind(Intent intent) {$/;"	m	class:UartService
+onCreate	.\com\rc\new_beacon\DeviceListActivity.java	/^    protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:DeviceListActivity
+onCreate	.\com\rc\new_beacon\MainActivity.java	/^	public void onCreate(Bundle savedInstanceState) {$/;"	m	class:MainActivity
+onDestroy	.\com\rc\new_beacon\DeviceListActivity.java	/^    protected void onDestroy() {$/;"	m	class:DeviceListActivity
+onDestroy	.\com\rc\new_beacon\MainActivity.java	/^	protected void onDestroy() {$/;"	m	class:MainActivity
+onDestroy	.\com\rc\new_beacon\SBBluetoothClient.java	/^	    public void onDestroy() {$/;"	m	class:SBBluetoothClient
+onDraw	.\com\rc\new_beacon\JoystickView.java	/^	protected void onDraw(Canvas canvas) {$/;"	m	class:JoystickView
+onDraw	.\com\rc\new_beacon\PlanView.java	/^	protected void onDraw(Canvas canvas) {$/;"	m	class:PlanView
+onFinishInflate	.\com\rc\new_beacon\JoystickView.java	/^	protected void onFinishInflate() {$/;"	m	class:JoystickView
+onJoystickMoveListener	.\com\rc\new_beacon\JoystickView.java	/^	private OnJoystickMoveListener onJoystickMoveListener; \/\/ Listener$/;"	f	class:JoystickView	file:
+onMeasure	.\com\rc\new_beacon\JoystickView.java	/^	protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {$/;"	m	class:JoystickView
+onNotify	.\com\rc\new_beacon\SBBluetoothClient.java	/^	    	public void onNotify(String action, byte[] data);$/;"	m	interface:SBBluetoothClient.SBBluetoothListener
+onPause	.\com\rc\new_beacon\DeviceListActivity.java	/^    protected void onPause() {$/;"	m	class:DeviceListActivity
+onResume	.\com\rc\new_beacon\MainActivity.java	/^	public void onResume() {$/;"	m	class:MainActivity
+onResume	.\com\rc\new_beacon\SBBluetoothClient.java	/^	    public void onResume() {$/;"	m	class:SBBluetoothClient
+onSaveInstanceState	.\com\rc\new_beacon\MainActivity.java	/^	protected void onSaveInstanceState(Bundle outState) {$/;"	m	class:MainActivity
+onService	.\com\rc\new_beacon\DeviceListActivity.java	/^    private ServiceConnection onService = null;$/;"	f	class:DeviceListActivity	file:
+onSizeChanged	.\com\rc\new_beacon\JoystickView.java	/^	protected void onSizeChanged(int xNew, int yNew, int xOld, int yOld) {$/;"	m	class:JoystickView
+onStart	.\com\rc\new_beacon\DeviceListActivity.java	/^    public void onStart() {$/;"	m	class:DeviceListActivity
+onStop	.\com\rc\new_beacon\DeviceListActivity.java	/^    public void onStop() {$/;"	m	class:DeviceListActivity
+onTouchEvent	.\com\rc\new_beacon\JoystickView.java	/^	public boolean onTouchEvent(MotionEvent event) {$/;"	m	class:JoystickView
+onTouchEvent	.\com\rc\new_beacon\PlanView.java	/^	public boolean onTouchEvent(MotionEvent event) {$/;"	m	class:PlanView
+onUnbind	.\com\rc\new_beacon\UartService.java	/^    public boolean onUnbind(Intent intent) {$/;"	m	class:UartService
+onValueChanged	.\com\rc\new_beacon\JoystickView.java	/^		public void onValueChanged(int angle, int power, int direction);$/;"	m	interface:JoystickView.OnJoystickMoveListener
+planView	.\com\rc\new_beacon\MainActivity.java	/^	private PlanView planView;$/;"	f	class:MainActivity	file:
+populateList	.\com\rc\new_beacon\DeviceListActivity.java	/^    private void populateList() {$/;"	m	class:DeviceListActivity	file:
+radian	.\com\rc\new_beacon\MainActivity.java	/^	static float radian = (float) PI \/ 180;$/;"	f	class:MainActivity
+readCharacteristic	.\com\rc\new_beacon\UartService.java	/^    public void readCharacteristic(BluetoothGattCharacteristic characteristic) {$/;"	m	class:UartService
+readData	.\com\rc\new_beacon\Utils.java	/^	public String readData(String fileName) {$/;"	m	class:Utils
+run	.\com\rc\new_beacon\JoystickView.java	/^	public void run() {$/;"	m	class:JoystickView
+rx	.\com\rc\new_beacon\MainActivity.java	/^	float[] rx = new float[10];$/;"	f	class:MainActivity
+ry	.\com\rc\new_beacon\MainActivity.java	/^	float[] ry = new float[10];$/;"	f	class:MainActivity
+saveData	.\com\rc\new_beacon\Utils.java	/^	public void saveData(String fileName, String mJsonResponse) {$/;"	m	class:Utils
+scanLeDevice	.\com\rc\new_beacon\DeviceListActivity.java	/^    private void scanLeDevice(final boolean enable) {$/;"	m	class:DeviceListActivity	file:
+scrLog	.\com\rc\new_beacon\MainActivity.java	/^	private ScrollView scrLog;$/;"	f	class:MainActivity	file:
+secondaryCircle	.\com\rc\new_beacon\JoystickView.java	/^	private Paint secondaryCircle;$/;"	f	class:JoystickView	file:
+service_init	.\com\rc\new_beacon\SBBluetoothClient.java	/^    private void service_init() {$/;"	m	class:SBBluetoothClient	file:
+setCoords	.\com\rc\new_beacon\PlanView.java	/^	public void setCoords(int x, int y){$/;"	m	class:PlanView
+setListeners	.\com\rc\new_beacon\MainActivity.java	/^	private void setListeners() {$/;"	m	class:MainActivity	file:
+setOnJoystickMoveListener	.\com\rc\new_beacon\JoystickView.java	/^	public void setOnJoystickMoveListener(OnJoystickMoveListener listener,$/;"	m	class:JoystickView
+showMessage	.\com\rc\new_beacon\DeviceListActivity.java	/^    private void showMessage(String msg) {$/;"	m	class:DeviceListActivity	file:
+showMessage	.\com\rc\new_beacon\UartService.java	/^    private void showMessage(String msg) {$/;"	m	class:UartService	file:
+thread	.\com\rc\new_beacon\JoystickView.java	/^	private Thread thread = new Thread(this);$/;"	f	class:JoystickView	file:
+txtHeading	.\com\rc\new_beacon\MainActivity.java	/^	private TextView txtHeading;$/;"	f	class:MainActivity	file:
+txtLabel	.\com\rc\new_beacon\MainActivity.java	/^    private EditText txtLabel; 	$/;"	f	class:MainActivity	file:
+txtPosAngle	.\com\rc\new_beacon\MainActivity.java	/^	private TextView txtPosAngle, txtXY;$/;"	f	class:MainActivity	file:
+txtRange	.\com\rc\new_beacon\MainActivity.java	/^	private TextView txtRange;$/;"	f	class:MainActivity	file:
+txtXY	.\com\rc\new_beacon\MainActivity.java	/^	private TextView txtPosAngle, txtXY;$/;"	f	class:MainActivity	file:
+updateValues	.\com\rc\new_beacon\MainActivity.java	/^	private void updateValues(int angle, int power) {$/;"	m	class:MainActivity	file:
+verticalLine	.\com\rc\new_beacon\JoystickView.java	/^	private Paint verticalLine;$/;"	f	class:JoystickView	file:
+writeRX	.\com\rc\new_beacon\SBBluetoothClient.java	/^		public void writeRX(byte[] value){$/;"	m	class:SBBluetoothClient
+writeRXCharacteristic	.\com\rc\new_beacon\UartService.java	/^    public void writeRXCharacteristic(byte[] value)$/;"	m	class:UartService
+xPosition	.\com\rc\new_beacon\JoystickView.java	/^	private int xPosition = 0; \/\/ Touch x position$/;"	f	class:JoystickView	file:
+yPosition	.\com\rc\new_beacon\JoystickView.java	/^	private int yPosition = 0; \/\/ Touch y position$/;"	f	class:JoystickView	file:

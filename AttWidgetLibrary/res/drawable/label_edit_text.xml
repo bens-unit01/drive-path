@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the XML layout for CloseEditText widget -->
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/relative_inside"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+	<EditText
+	  	android:id="@+id/edit_text"
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:background="@drawable/label_edit_text_style"
+	  	android:layout_marginTop="3dp">
+	 </EditText>
+	 <TextView
+	  	android:id="@+id/label_text"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:layout_alignLeft="@id/edit_text"
+	  	android:layout_marginLeft="10dp"
+	  	android:layout_marginTop="5dp"
+	  	android:textStyle="bold"
+	  	android:textColor="@color/black" >
+	</TextView>
+  	 <ImageButton
+	  	android:id="@+id/clear_button"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:background="@drawable/button_style"
+	  	android:layout_alignRight="@id/edit_text"
+	  	android:layout_alignBottom="@id/edit_text"
+	  	android:layout_marginRight="5dp"
+	  	android:layout_marginBottom="5dp">
+	 </ImageButton>
+</RelativeLayout>

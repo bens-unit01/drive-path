@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/time_picker_linear_outside"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    <TextView android:id="@+id/time_picker_label"
+	  android:text="Set Time"
+	  android:textSize="18dp"
+	  android:textStyle="bold"
+	  android:textColor="@color/white"
+	  android:layout_gravity="center_horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:layout_marginBottom="5dp"/>
+  <LinearLayout
+	  android:id="@+id/linear_inside"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:background="@color/white">
+ 	  <com.att.widgets.lib.datetime.WheelView
+		    android:id="@+id/time_picker_hours"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			/>
+	  <com.att.widgets.lib.datetime.WheelView
+		    android:id="@+id/time_picker_minutes"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			/>
+	  <com.att.widgets.lib.datetime.WheelView 
+		    android:id="@+id/time_picker_am_pm"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			/>	
+ </LinearLayout>		
+  <com.att.widgets.lib.button.StaticTextButton 
+	android:id="@+id/time_picker_done" 
+	android:layout_width="100dp" 
+	android:layout_height="40dp" 
+	android:text="Done"
+	android:layout_marginTop="5dp"
+	android:layout_gravity="center_horizontal"
+	android:layout_marginBottom="5dp"/>
+</LinearLayout>

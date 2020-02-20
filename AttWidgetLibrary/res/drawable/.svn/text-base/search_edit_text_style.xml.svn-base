@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  This xml is the style xml for CloseEditText widget -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" >
+        <shape>
+            <gradient
+                android:startColor="@color/yellow_pressed"
+                android:endColor="@color/yellow_pressed"
+                android:angle="270" />
+            <stroke
+                android:width="3dp"
+                android:color="@color/yellow_border_pressed" />
+            <corners
+                android:radius="2dp" />
+            <padding
+                android:right="28dp"
+                android:left="30dp"/>
+        </shape>
+    </item>
+    <item android:state_focused="true" >
+        <shape>
+            <gradient
+            	android:startColor="@color/white"
+                android:endColor="@color/medium_gray"
+                android:angle="270" />
+            <stroke
+                android:width="3dp"
+                android:color="@color/yellow_border"/>
+            <corners
+                android:radius="2dp" />
+        </shape>
+    </item>
+    <item android:state_focused="false" >
+        <shape>
+            <gradient
+            	android:startColor="@color/white"
+                android:endColor="@color/medium_gray"
+                android:angle="270" />
+            <stroke
+                android:width="3dp"/>
+            <corners
+                android:radius="2dp" />
+        </shape>
+    </item>
+    <!-- Estos valores son los generales del widget, SON OBLIGATORIOS para darle forma y que despues cambien segun el estado -->
+    <item>        
+        <shape>
+            <gradient
+                android:startColor="@color/white"
+                android:endColor="@color/medium_gray"
+                android:angle="270" />
+            <stroke
+                android:width="3dp"
+                android:color="@color/gray"/>
+            <corners
+                android:radius="2dp"/>
+            <padding                      
+                android:top="8dp"
+                android:bottom="8dp" />  <!-- Estas son los valores del tamaño del widget -->
+        </shape>
+    </item>
+</selector>

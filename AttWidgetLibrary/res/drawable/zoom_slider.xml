@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  
+  <ImageButton android:layout_width="wrap_content" 
+  	android:layout_height="wrap_content"
+  	android:layout_gravity="center"
+  	android:id="@+id/zoom_slider_plus" 
+  	android:background="@drawable/zoom_plus" android:padding="10dip"/>
+  
+
+  	
+  <com.att.widgets.lib.zoom.slider.VerticalSeekBar
+    android:id="@+id/zoom_slider_bar"
+    android:thumb="@drawable/slider_progress_point"
+    android:layout_height="wrap_content" 
+    android:layout_width="27dip"
+    />
+    
+  <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+  	android:id="@+id/zoom_slider_minus" android:background="@drawable/zoom_minus" android:layout_gravity="center"/>
+  
+</LinearLayout>

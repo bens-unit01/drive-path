@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+  
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <!-- ===========================    status leds               ================ -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue2"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:gravity="center_vertical" >
+
+                <ImageButton
+                    
+                    android:id="@+id/btnLedBluetooth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_led_states"
+                    android:padding="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="Bluetooth connection" />
+           <Button
+            android:id="@+id/btnConnect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connect" />
+            </LinearLayout>
+ 
+        </LinearLayout>
+     
+
+        <ScrollView
+            android:layout_marginTop="5dp"
+            android:id="@+id/scrLog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.79"
+            android:background="@color/blue1"
+            android:padding="2dp" >
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/txtLog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx"
+                android:textColor="@color/blue2"
+                android:textSize="26sp" />
+        </ScrollView>
+    </LinearLayout>
+
+   
+</RelativeLayout>

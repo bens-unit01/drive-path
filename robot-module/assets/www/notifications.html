@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Megamip picture, video and web search</title>
+
+        <link rel="stylesheet" type="text/css" href="css-js/style.css" />
+         <link rel="stylesheet" type="text/css" href="css-js/notification-panel.css" />
+
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+        <script type="text/javascript" src="css-js/mip01.js"></script> 
+        <script type="text/javascript" src="css-js/mip02.js"></script> 
+        <script type="text/javascript" src="css-js/mip03.js"></script>
+
+
+
+       
+    </head>
+    <body style='background-color:white;'>
+
+        <div id='container' class='resize-not'>
+
+
+
+           
+
+            <!-- ########## ########## principal 3 ####################### -->
+
+            <div id='principal-3' class='active'>
+                <br>
+                <!--   top-panel  -->
+                <div id='top-panel' >
+                    <div class='weather left'>
+                        <img  src="img/weather-icon02.png"  width='200' />
+                        <div id='temperature' class='font-white'>
+                            <span id='temp-max' >22/</span>
+                            <span id='temp-min'>16&#x2103;</span>
+                        </div>
+                        <div id='location' >montreal</div>
+                    </div>
+                    <div id='pnl-date' class='left'>
+                      <ul>
+                            <li>Monday</li>
+                            <li>June 02</li>
+                            <li>2014</li>
+                        </ul>
+                     </div>
+
+
+                    <div id='date-time' class='left clearfix'>
+
+                        <div id='pnl-time' class='font-white big left'>
+                            10:10
+                        </div>
+
+                        <span id='clock' class='right'>
+                            <img src="img/clock.png"  width='50'/>
+                        </span>
+                        <span id="pnl-am-pm" class='font-white  midium'>
+                            <br><br>am
+                        </span>
+
+                    </div>
+              </div>
+
+
+
+                <!--  bottom-panel  -->
+
+                <div id='bottom-panel'>
+
+                    <div id='pnl-email' class='left font-black'>
+
+                        <div class='email-icon'>
+                            <img  src="img/email.png" width='50'  />
+                        </div>
+                        <br>
+                        Mr Bacon <br>
+                        <span class='green-color'>RE:</span> MEAT PARTY <hr>
+
+                        JOHN CLEESE<br>
+                        <span class='green-color'>RE:</span> SILLY WALKS<hr>
+                        BEEKER <br>
+                        MEEP MEEP<hr>
+                        <img src='img/red-dots.png'  width='50' />
+
+                    </div>
+                    <div id='calendar' class='left font-black'>
+                        <div class='calendar-icon'>
+                            <img  src="img/calendar.png"  width='50' />
+                        </div>
+                        <br>
+                        <span class='green-color'>9:30 -</span> ROOM A<br>
+                        PROJECT MEETING<hr>
+                        <span class='green-color'>11:00 -</span> <br>
+                        CALL WITH MIRIAM <hr>
+                        <span class='green-color'>13:30 -</span> FOOD CO.<br>
+                        LUNCH WITH GREG <hr>
+                        <img src='img/green-dots.png'  width='50'/>
+
+
+                    </div>
+                    <div id='map' class='right font-white' >
+                        minutes to work<br>
+                        <img  class='right' src="img/map01.png" width='350'  />
+                    </div>
+                    <div class='maps-minutes right font-white'>
+                        22
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!--      ....................................            -->
+
+        <script>
+
+            var batteryLevel = 0;
+            $.support.cors = true;  // support to load cross domain pages - important for PhoneGap
+
+            // PhoneGap init methods 
+
+
+
+            $(document).ready(function() {
+
+              showNotifications4();
+            }
+            );
+
+
+
+
+        </script>
+    </body>
+</html>

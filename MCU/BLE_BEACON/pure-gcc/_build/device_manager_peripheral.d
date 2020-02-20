@@ -1,0 +1,49 @@
+_build/device_manager_peripheral.o: \
+ ../../../nrf51822_sdk/Source/ble/device_manager/device_manager_peripheral.c \
+ ../../../nrf51822_sdk/Include/ble/device_manager/device_manager.h \
+ c:\development\ble\nordic_dev\nrf51822_sdk\arm-gcc\bin\../lib/gcc/arm-none-eabi/4.7.4/include/stdint.h \
+ c:\development\ble\nordic_dev\nrf51822_sdk\arm-gcc\bin\../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/stdint.h \
+ c:\development\ble\nordic_dev\nrf51822_sdk\arm-gcc\bin\../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/_ansi.h \
+ c:\development\ble\nordic_dev\nrf51822_sdk\arm-gcc\bin\../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/newlib.h \
+ c:\development\ble\nordic_dev\nrf51822_sdk\arm-gcc\bin\../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/sys/config.h \
+ c:\development\ble\nordic_dev\nrf51822_sdk\arm-gcc\bin\../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/machine/ieeefp.h \
+ c:\development\ble\nordic_dev\nrf51822_sdk\arm-gcc\bin\../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/sys/features.h \
+ c:\development\ble\nordic_dev\nrf51822_sdk\arm-gcc\bin\../lib/gcc/arm-none-eabi/4.7.4/include/stdbool.h \
+ ../../../nrf51822_sdk/Include/sdk/sdk_common.h \
+ c:\development\ble\nordic_dev\nrf51822_sdk\arm-gcc\bin\../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/string.h \
+ c:\development\ble\nordic_dev\nrf51822_sdk\arm-gcc\bin\../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/_ansi.h \
+ c:\development\ble\nordic_dev\nrf51822_sdk\arm-gcc\bin\../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/sys/reent.h \
+ c:\development\ble\nordic_dev\nrf51822_sdk\arm-gcc\bin\../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/sys/_types.h \
+ c:\development\ble\nordic_dev\nrf51822_sdk\arm-gcc\bin\../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/machine/_types.h \
+ c:\development\ble\nordic_dev\nrf51822_sdk\arm-gcc\bin\../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/machine/_default_types.h \
+ c:\development\ble\nordic_dev\nrf51822_sdk\arm-gcc\bin\../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/sys/lock.h \
+ c:\development\ble\nordic_dev\nrf51822_sdk\arm-gcc\bin\../lib/gcc/arm-none-eabi/4.7.4/include/stddef.h \
+ c:\development\ble\nordic_dev\nrf51822_sdk\arm-gcc\bin\../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/sys/string.h \
+ ../../../nrf51822_sdk/Include/nordic_common.h \
+ ../../../nrf51822_sdk/Include/compiler_abstraction.h \
+ ../../../nrf51822_sdk/Include/sdk/sdk_os.h \
+ ../../../nrf51822_sdk/Include/sdk/sdk_errors.h \
+ ../../../nrf51822_sdk/Include/s110/nrf_error.h \
+ ../../../nrf51822_sdk/Include/app_common/app_util.h \
+ ../../../nrf51822_sdk/Include/s110/ble.h \
+ ../../../nrf51822_sdk/Include/s110/ble_ranges.h \
+ ../../../nrf51822_sdk/Include/s110/ble_types.h \
+ ../../../nrf51822_sdk/Include/s110/ble_gap.h \
+ ../../../nrf51822_sdk/Include/s110/nrf_svc.h \
+ ../../../nrf51822_sdk/Include/s110/ble_l2cap.h \
+ ../../../nrf51822_sdk/Include/s110/ble_err.h \
+ ../../../nrf51822_sdk/Include/s110/nrf_error.h \
+ ../../../nrf51822_sdk/Include/s110/ble_gatt.h \
+ ../../../nrf51822_sdk/Include/s110/ble_gattc.h \
+ ../../../nrf51822_sdk/Include/s110/ble_gatts.h \
+ ../../../nrf51822_sdk/Include/s110/ble_gap.h ../device_manager_cnfg.h \
+ ../../../nrf51822_sdk/Include/app_common/app_trace.h \
+ c:\development\ble\nordic_dev\nrf51822_sdk\arm-gcc\bin\../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/stdio.h \
+ c:\development\ble\nordic_dev\nrf51822_sdk\arm-gcc\bin\../lib/gcc/arm-none-eabi/4.7.4/include/stdarg.h \
+ c:\development\ble\nordic_dev\nrf51822_sdk\arm-gcc\bin\../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/sys/types.h \
+ c:\development\ble\nordic_dev\nrf51822_sdk\arm-gcc\bin\../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/machine/types.h \
+ c:\development\ble\nordic_dev\nrf51822_sdk\arm-gcc\bin\../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/sys/stdio.h \
+ ../../../nrf51822_sdk/Include/ble/ble_advdata.h \
+ ../../../nrf51822_sdk/Include/app_common/pstorage.h \
+ ../pstorage_platform.h ../../../nrf51822_sdk/Include/s110/ble_hci.h \
+ ../../../nrf51822_sdk/Include/app_common/app_error.h

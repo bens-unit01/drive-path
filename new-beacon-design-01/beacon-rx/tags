@@ -1,0 +1,432 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADC_IRQHandler	.\battery.c	/^void ADC_IRQHandler(void)$/;"	f
+ADC_PRE_SCALING_COMPENSATION	.\battery.c	42;"	d	file:
+ADC_REF_VOLTAGE_IN_MILLIVOLTS	.\battery.c	41;"	d	file:
+ADC_RESULT_IN_MILLI_VOLTS	.\battery.c	49;"	d	file:
+ADVERTISING_LED_PIN_NO	.\arm\main0.c	73;"	d	file:
+APP_ADV_INTERVAL	.\arm\main0.c	83;"	d	file:
+APP_ADV_INTERVAL	.\main.c	47;"	d	file:
+APP_ADV_TIMEOUT_IN_SECONDS	.\arm\main0.c	84;"	d	file:
+APP_ADV_TIMEOUT_IN_SECONDS	.\main.c	48;"	d	file:
+APP_CMD_ARM	.\ble_app.h	20;"	d
+APP_CMD_MOVE	.\ble_app.h	21;"	d
+APP_GPIOTE_MAX_USERS	.\arm\main0.c	110;"	d	file:
+APP_GPIOTE_MAX_USERS	.\main.c	66;"	d	file:
+APP_TIMER_MAX_TIMERS	.\arm\main0.c	87;"	d	file:
+APP_TIMER_MAX_TIMERS	.\main.c	51;"	d	file:
+APP_TIMER_OP_QUEUE_SIZE	.\arm\main0.c	88;"	d	file:
+APP_TIMER_OP_QUEUE_SIZE	.\main.c	52;"	d	file:
+APP_TIMER_PRESCALER	.\arm\main0.c	86;"	d	file:
+APP_TIMER_PRESCALER	.\main.c	50;"	d	file:
+APP_UUID_BASE	.\ble_app.h	16;"	d
+ASSERT_LED_PIN_NO	.\arm\main0.c	75;"	d	file:
+BATTERY_H__	.\battery.h	25;"	d
+BATTERY_LEVEL_INCREMENT	.\arm\main0.c	93;"	d	file:
+BATTERY_LEVEL_MEAS_INTERVAL	.\arm\main0.c	90;"	d	file:
+BATTERY_LEVEL_MEAS_INTERVAL	.\main.c	2;"	d	file:
+BLE_BONDMNGR_CCCD_COUNT	.\ble_bondmngr_cfg.h	27;"	d
+BLE_BONDMNGR_CFG_H__	.\ble_bondmngr_cfg.h	24;"	d
+BLE_BONDMNGR_MAX_BONDED_CENTRALS	.\ble_bondmngr_cfg.h	30;"	d
+BLE_NUS_H__	.\ble_nus.h	33;"	d
+BLE_NUS_MAX_DATA_LEN	.\ble_nus.h	44;"	d
+BLE_NUS_MAX_RX_CHAR_LEN	.\ble_nus.h	46;"	d
+BLE_NUS_MAX_TX_CHAR_LEN	.\ble_nus.h	47;"	d
+BLE_UUID_NUS_RX_CHARACTERISTIC	.\ble_nus.h	42;"	d
+BLE_UUID_NUS_SERVICE	.\ble_nus.h	40;"	d
+BLE_UUID_NUS_TX_CHARACTERISTIC	.\ble_nus.h	41;"	d
+BONDMNGR_DELETE_BUTTON_PIN_NO	.\arm\main0.c	71;"	d	file:
+BUTTON_0	.\arm\main0.c	59;"	d	file:
+BUTTON_0	.\main.c	40;"	d	file:
+BUTTON_1	.\arm\main0.c	60;"	d	file:
+BUTTON_1	.\main.c	41;"	d	file:
+BUTTON_DETECTION_DELAY	.\arm\main0.c	112;"	d	file:
+BUTTON_PULL	.\arm\main0.c	62;"	d	file:
+BUTTON_PULL	.\main.c	37;"	d	file:
+BUTTON_START	.\arm\main0.c	58;"	d	file:
+BUTTON_STOP	.\arm\main0.c	61;"	d	file:
+CELCIUS_DEGREES_INCREMENT	.\arm\main0.c	99;"	d	file:
+CLEAR_ESTOP	.\SwitchbotNordic.h	128;"	d
+CONNECTED_LED_PIN_NO	.\arm\main0.c	74;"	d	file:
+CONN_SUP_TIMEOUT	.\arm\main0.c	104;"	d	file:
+CONN_SUP_TIMEOUT	.\main.c	57;"	d	file:
+CTS_PIN_NUMBER	.\SwitchbotNordic.h	75;"	d
+CTS_PIN_NUMBER	.\SwitchbotNordic.h	83;"	d
+CTS_PIN_NUMBER	.\arm\main0.c	66;"	d	file:
+DEAD_BEEF	.\arm\main0.c	125;"	d	file:
+DEAD_BEEF	.\main.c	78;"	d	file:
+DEBUG_MODE	.\SwitchbotNordic.h	20;"	d
+DEVICE_NAME	.\arm\main0.c	77;"	d	file:
+DEVICE_NAME	.\main.c	44;"	d	file:
+DRIVE	.\SwitchbotNordic.h	129;"	d
+ESTOP	.\SwitchbotNordic.h	127;"	d
+FIRST_CONN_PARAMS_UPDATE_DELAY	.\arm\main0.c	106;"	d	file:
+FIRST_CONN_PARAMS_UPDATE_DELAY	.\main.c	58;"	d	file:
+FLASH_PAGE_BOND	.\arm\main0.c	123;"	d	file:
+FLASH_PAGE_SYS_ATTR	.\arm\main0.c	122;"	d	file:
+GAP_TICKS	.\ir_processing.h	44;"	d
+HWFC	.\SwitchbotNordic.h	77;"	d
+HWFC	.\SwitchbotNordic.h	85;"	d
+Head	.\SwitchbotNordic.c	/^int Range, Head, easyRange;$/;"	v
+Head	.\main.c	/^int 									Head, Range, easyRange;$/;"	v
+IR	.\main.c	/^uint8_t									IR[8];$/;"	v
+IRM_head	.\SwitchbotNordic.h	47;"	d
+IRM_head_far	.\SwitchbotNordic.h	54;"	d
+IRM_left	.\SwitchbotNordic.h	49;"	d
+IRM_left_far	.\SwitchbotNordic.h	56;"	d
+IRM_right	.\SwitchbotNordic.h	50;"	d
+IRM_right_far	.\SwitchbotNordic.h	57;"	d
+IRM_tail	.\SwitchbotNordic.h	48;"	d
+IRM_tail_far	.\SwitchbotNordic.h	55;"	d
+IR_PROCESSING_H_	.\ir_processing.h	9;"	d
+KNEEL	.\SwitchbotNordic.h	125;"	d
+LEAN	.\SwitchbotNordic.h	126;"	d
+LED_0	.\arm\main0.c	54;"	d	file:
+LED_1	.\arm\main0.c	55;"	d	file:
+LED_START	.\arm\main0.c	53;"	d	file:
+LED_STOP	.\arm\main0.c	56;"	d	file:
+LED_head	.\SwitchbotNordic.h	31;"	d
+LED_left	.\SwitchbotNordic.h	30;"	d
+LED_right	.\SwitchbotNordic.h	32;"	d
+LED_tail	.\SwitchbotNordic.h	33;"	d
+LOG	.\SwitchbotNordic.h	22;"	d
+LOG	.\SwitchbotNordic.h	25;"	d
+LOG2	.\main.c	/^static void LOG2(int input)$/;"	f	file:
+LOG3	.\main.c	/^static void LOG3(int input)$/;"	f	file:
+MANUFACTURER_ID	.\arm\main0.c	80;"	d	file:
+MANUFACTURER_NAME	.\arm\main0.c	78;"	d	file:
+MARK	.\ir_processing.h	39;"	d
+MAX_BATTERY_LEVEL	.\arm\main0.c	92;"	d	file:
+MAX_CELCIUS_DEGRESS	.\arm\main0.c	98;"	d	file:
+MAX_CONN_INTERVAL	.\arm\main0.c	102;"	d	file:
+MAX_CONN_INTERVAL	.\main.c	55;"	d	file:
+MAX_CONN_PARAMS_UPDATE_COUNT	.\arm\main0.c	108;"	d	file:
+MAX_CONN_PARAMS_UPDATE_COUNT	.\main.c	62;"	d	file:
+MIN_BATTERY_LEVEL	.\arm\main0.c	91;"	d	file:
+MIN_CELCIUS_DEGREES	.\arm\main0.c	97;"	d	file:
+MIN_CONN_INTERVAL	.\arm\main0.c	101;"	d	file:
+MIN_CONN_INTERVAL	.\main.c	54;"	d	file:
+MODEL_NUM	.\arm\main0.c	79;"	d	file:
+NEVER_SLEEP	.\main.c	1;"	d	file:
+NEXT_CONN_PARAMS_UPDATE_DELAY	.\arm\main0.c	107;"	d	file:
+NEXT_CONN_PARAMS_UPDATE_DELAY	.\main.c	60;"	d	file:
+NOTF_ACTIVATE_ADB	.\SwitchbotNordic.h	123;"	d
+NOTF_GET_STATUS	.\SwitchbotNordic.h	121;"	d
+NOTF_SET_STATUS	.\SwitchbotNordic.h	122;"	d
+ORG_UNIQUE_ID	.\arm\main0.c	81;"	d	file:
+PGM_LOG	.\SwitchbotNordic.h	23;"	d
+PGM_LOG	.\SwitchbotNordic.h	26;"	d
+PITCH_MAX	.\SwitchbotNordic.h	104;"	d
+PITCH_MIN	.\SwitchbotNordic.h	103;"	d
+PSTORAGE_CMD_QUEUE_SIZE	.\pstorage_platform.h	36;"	d
+PSTORAGE_DATA_END_ADDR	.\pstorage_platform.h	32;"	d
+PSTORAGE_DATA_START_ADDR	.\pstorage_platform.h	30;"	d
+PSTORAGE_FLASH_EMPTY_MASK	.\pstorage_platform.h	19;"	d
+PSTORAGE_FLASH_PAGE_END	.\pstorage_platform.h	21;"	d
+PSTORAGE_FLASH_PAGE_SIZE	.\pstorage_platform.h	18;"	d
+PSTORAGE_MAX_APPLICATIONS	.\pstorage_platform.h	27;"	d
+PSTORAGE_MAX_BLOCK_SIZE	.\pstorage_platform.h	35;"	d
+PSTORAGE_MIN_BLOCK_SIZE	.\pstorage_platform.h	28;"	d
+PSTORAGE_PL_H__	.\pstorage_platform.h	14;"	d
+PSTORAGE_SWAP_ADDR	.\pstorage_platform.h	33;"	d
+ParseCommandUART	.\main.c	/^void ParseCommandUART(uint8_t cr)$/;"	f
+RAWBUF	.\ir_processing.h	15;"	d
+READ_IR	.\main.c	/^	READ_IR,$/;"	e	enum:__anon4	file:
+READ_SPACE	.\main.c	/^	READ_SPACE,$/;"	e	enum:__anon4	file:
+READ_STOP	.\main.c	/^	READ_STOP$/;"	e	enum:__anon4	file:
+RESULTS_TABLE_SIZE	.\main.c	77;"	d	file:
+REV	.\SwitchbotNordic.h	13;"	d
+RGB_BLUE	.\SwitchbotNordic.h	37;"	d
+RGB_GREEN	.\SwitchbotNordic.h	36;"	d
+RGB_RED	.\SwitchbotNordic.h	35;"	d
+ROLL_MAX	.\SwitchbotNordic.h	106;"	d
+ROLL_MIN	.\SwitchbotNordic.h	105;"	d
+RTS_PIN_NUMBER	.\SwitchbotNordic.h	76;"	d
+RTS_PIN_NUMBER	.\SwitchbotNordic.h	84;"	d
+RTS_PIN_NUMBER	.\arm\main0.c	67;"	d	file:
+RX_PIN_NUMBER	.\SwitchbotNordic.h	73;"	d
+RX_PIN_NUMBER	.\SwitchbotNordic.h	81;"	d
+Range	.\SwitchbotNordic.c	/^int Range, Head, easyRange;$/;"	v
+Range	.\main.c	/^int 									Head, Range, easyRange;$/;"	v
+SCHED_MAX_EVENT_DATA_SIZE	.\main.c	130;"	d	file:
+SCHED_QUEUE_SIZE	.\main.c	131;"	d	file:
+SEC_PARAM_BOND	.\arm\main0.c	115;"	d	file:
+SEC_PARAM_BOND	.\main.c	71;"	d	file:
+SEC_PARAM_IO_CAPABILITIES	.\arm\main0.c	117;"	d	file:
+SEC_PARAM_IO_CAPABILITIES	.\main.c	73;"	d	file:
+SEC_PARAM_MAX_KEY_SIZE	.\arm\main0.c	120;"	d	file:
+SEC_PARAM_MAX_KEY_SIZE	.\main.c	76;"	d	file:
+SEC_PARAM_MIN_KEY_SIZE	.\arm\main0.c	119;"	d	file:
+SEC_PARAM_MIN_KEY_SIZE	.\main.c	75;"	d	file:
+SEC_PARAM_MITM	.\arm\main0.c	116;"	d	file:
+SEC_PARAM_MITM	.\main.c	72;"	d	file:
+SEC_PARAM_OOB	.\arm\main0.c	118;"	d	file:
+SEC_PARAM_OOB	.\main.c	74;"	d	file:
+SEC_PARAM_TIMEOUT	.\arm\main0.c	114;"	d	file:
+SEC_PARAM_TIMEOUT	.\main.c	70;"	d	file:
+SEND_MEAS_BUTTON_PIN_NO	.\arm\main0.c	70;"	d	file:
+SIMPLE_UART_H	.\uart_comm2.h	14;"	d
+SLAVE_LATENCY	.\arm\main0.c	103;"	d	file:
+SLAVE_LATENCY	.\main.c	56;"	d	file:
+SPACE	.\ir_processing.h	40;"	d
+STAND_UP	.\SwitchbotNordic.h	124;"	d
+STATE_IDLE	.\ir_processing.h	31;"	d
+STATE_MARK	.\ir_processing.h	32;"	d
+STATE_OVERFLOW	.\ir_processing.h	35;"	d
+STATE_SPACE	.\ir_processing.h	33;"	d
+STATE_STOP	.\ir_processing.h	34;"	d
+SYNC_WAIT	.\main.c	/^	SYNC_WAIT,$/;"	e	enum:__anon4	file:
+Switch	.\SwitchbotNordic.h	38;"	d
+TEMP_TYPE_AS_CHARACTERISTIC	.\arm\main0.c	95;"	d	file:
+THRUST_MAX	.\SwitchbotNordic.h	99;"	d
+THRUST_MIN	.\SwitchbotNordic.h	98;"	d
+TIMER2_IRQHandler	.\main.c	/^void TIMER2_IRQHandler(void)$/;"	f
+TX_MEDIA_BOX	.\SwitchbotNordic.h	89;"	d
+TX_PIN_NUMBER	.\SwitchbotNordic.h	74;"	d
+TX_PIN_NUMBER	.\SwitchbotNordic.h	82;"	d
+Tir1_string	.\main.c	/^char                                    Tir1_string[4];$/;"	v
+UART0_IRQHandler	.\main.c	/^void UART0_IRQHandler(void)$/;"	f
+UART_data_index	.\main.c	/^static uint8_t                          UART_data_index = 3;$/;"	v	file:
+USECPERTICK	.\ir_processing.h	42;"	d
+UUID_QR_CHR	.\ble_app.h	18;"	d
+UUID_QR_SVC	.\ble_app.h	17;"	d
+YAW_MAX	.\SwitchbotNordic.h	102;"	d
+YAW_MIN	.\SwitchbotNordic.h	101;"	d
+_BLE_APP_H_	.\ble_app.h	8;"	d
+_GAP	.\ir_processing.h	43;"	d
+__FILE	.\retarget.c	/^struct __FILE { int handle; \/* Add whatever you need here *\/ };$/;"	s	file:
+__stdin	.\retarget.c	/^FILE __stdin;$/;"	v
+__stdout	.\retarget.c	/^FILE __stdout;$/;"	v
+_write	.\retarget.c	/^int _write(int fd, char * str, int len)$/;"	f
+advertising_init	.\arm\main0.c	/^static void advertising_init(void)$/;"	f	file:
+advertising_init	.\main.c	/^static void advertising_init(void)$/;"	f	file:
+advertising_start	.\arm\main0.c	/^static void advertising_start(void)$/;"	f	file:
+advertising_start	.\main.c	/^static void advertising_start(void)$/;"	f	file:
+angle	.\main.c	/^uint8_t angle, angle_far;$/;"	v
+angle_far	.\main.c	/^uint8_t angle, angle_far;$/;"	v
+app	.\main.c	/^static ble_app_t 						app;                                    \/**< Structure to identify the Nordic UART Service. *\/$/;"	v	file:
+app_error_handler	.\arm\main0.c	/^void app_error_handler(uint32_t error_code, uint32_t line_num, const uint8_t * p_file_name)$/;"	f
+app_error_handler	.\main.c	/^void app_error_handler(uint32_t error_code, uint32_t line_num, const uint8_t *p_file_name)$/;"	f
+application_timers_start	.\arm\main0.c	/^static void application_timers_start(void)$/;"	f	file:
+assert_nrf_callback	.\arm\main0.c	/^void assert_nrf_callback(uint16_t line_num, const uint8_t * p_file_name)$/;"	f
+assert_nrf_callback	.\main.c	/^void assert_nrf_callback(uint16_t line_num, const uint8_t *p_file_name)$/;"	f
+aux1	.\SwitchbotNordic.h	/^	uint16_t aux1;$/;"	m	struct:qr_cmd
+aux2	.\SwitchbotNordic.h	/^	uint16_t aux2;$/;"	m	struct:qr_cmd
+aux3	.\SwitchbotNordic.h	/^	uint16_t aux3;$/;"	m	struct:qr_cmd
+aux4	.\SwitchbotNordic.h	/^	uint16_t aux4;$/;"	m	struct:qr_cmd
+bas	.\battery.c	/^ble_bas_t bas;      \/* battery service struct *\/$/;"	v
+batt_tid	.\main.c	/^app_timer_id_t batt_tid;								\/* battery timer ID *\/$/;"	v
+battery_level_meas_timeout_handler	.\arm\main0.c	/^static void battery_level_meas_timeout_handler(void * p_context)$/;"	f	file:
+battery_level_update	.\arm\main0.c	/^static void battery_level_update(void)$/;"	f	file:
+battery_mv	.\battery.c	/^volatile uint16_t battery_mv;$/;"	v
+battery_pcnt	.\battery.c	/^volatile uint8_t battery_pcnt;$/;"	v
+battery_start	.\battery.c	/^void battery_start(void)$/;"	f
+ble_app_cmd_handler_t	.\ble_app.h	/^typedef void (*ble_app_cmd_handler_t) (ble_app_t *app, uint8_t *cmd, uint8_t cmdlen);$/;"	t
+ble_app_init	.\ble_app.c	/^uint32_t ble_app_init(ble_app_t *app, const ble_app_init_t *app_init)$/;"	f
+ble_app_init_t	.\ble_app.h	/^} ble_app_init_t;$/;"	t	typeref:struct:__anon1
+ble_app_on_ble_evt	.\ble_app.c	/^void ble_app_on_ble_evt(ble_app_t *app, ble_evt_t *evt)$/;"	f
+ble_app_s	.\ble_app.h	/^typedef struct ble_app_s {$/;"	s
+ble_app_t	.\ble_app.h	/^typedef struct ble_app_s ble_app_t;$/;"	t	typeref:struct:ble_app_s
+ble_app_t	.\ble_app.h	/^} ble_app_t;$/;"	t	typeref:struct:ble_app_s
+ble_app_tx_blob	.\ble_app.c	/^uint32_t ble_app_tx_blob(ble_app_t *app, uint8_t *data, uint32_t len)$/;"	f
+ble_evt_dispatch	.\arm\main0.c	/^static void ble_evt_dispatch(ble_evt_t * p_ble_evt)$/;"	f	file:
+ble_evt_dispatch	.\main.c	/^static void ble_evt_dispatch(ble_evt_t * p_ble_evt)$/;"	f	file:
+ble_nus_data_handler_t	.\ble_nus.h	/^typedef void (*ble_nus_data_handler_t) (ble_nus_t * p_nus, uint8_t * data, uint16_t length);$/;"	t
+ble_nus_init	.\ble_nus.c	/^uint32_t ble_nus_init(ble_nus_t * p_nus, const ble_nus_init_t * p_nus_init)$/;"	f
+ble_nus_init_t	.\ble_nus.h	/^} ble_nus_init_t;$/;"	t	typeref:struct:__anon2
+ble_nus_on_ble_evt	.\ble_nus.c	/^void ble_nus_on_ble_evt(ble_nus_t * p_nus, ble_evt_t * p_ble_evt)$/;"	f
+ble_nus_s	.\ble_nus.h	/^typedef struct ble_nus_s$/;"	s
+ble_nus_send_string	.\ble_nus.c	/^uint32_t ble_nus_send_string(ble_nus_t * p_nus, uint8_t * string, uint16_t length)$/;"	f
+ble_nus_t	.\ble_nus.h	/^typedef struct ble_nus_s ble_nus_t;$/;"	t	typeref:struct:ble_nus_s
+ble_nus_t	.\ble_nus.h	/^} ble_nus_t;$/;"	t	typeref:struct:ble_nus_s
+ble_stack_init	.\arm\main0.c	/^static void ble_stack_init(void)$/;"	f	file:
+ble_stack_init	.\main.c	/^static void ble_stack_init(void)$/;"	f	file:
+blinkflag	.\ir_processing.h	/^	uint8_t blinkflag;       \/\/ true -> enable blinking of pin on IR processing$/;"	m	struct:__anon3
+blinkpin	.\ir_processing.h	/^	uint8_t blinkpin;$/;"	m	struct:__anon3
+block_id	.\pstorage_platform.h	/^    pstorage_block_t    block_id;       \/**< Block ID.*\/$/;"	m	struct:__anon5
+bond_evt_handler	.\arm\main0.c	/^static void bond_evt_handler(ble_bondmngr_evt_t * p_evt)$/;"	f	file:
+bond_manager_error_handler	.\arm\main0.c	/^static void bond_manager_error_handler(uint32_t nrf_error)$/;"	f	file:
+bond_manager_init	.\arm\main0.c	/^static void bond_manager_init(void)$/;"	f	file:
+button_event_handler	.\arm\main0.c	/^static void button_event_handler(uint8_t pin_no)$/;"	f	file:
+buttons_init	.\arm\main0.c	/^static void buttons_init(void)$/;"	f	file:
+calc_coord	.\SwitchbotNordic.c	/^int calc_coord(uint8_t IR[], int *Head, int *Range)$/;"	f
+calcul_01	.\main.c	/^void calcul_01(void){$/;"	f
+calcul_02	.\main.c	/^void calcul_02(void){$/;"	f
+calcul_03	.\main.c	/^void calcul_03(void){$/;"	f
+calcul_04	.\main.c	/^void calcul_04(void){$/;"	f
+calculate_angle	.\SwitchbotNordic.c	/^bool calculate_angle(const uint8_t IR[], const int MaxRange, int16_t *fwd_bwd,$/;"	f
+calculate_speed	.\SwitchbotNordic.c	/^bool calculate_speed(const uint8_t IR[], const int MaxRange, int16_t *fwd_bwd,$/;"	f
+cmd_char_add	.\ble_app.c	/^static uint32_t cmd_char_add(ble_app_t *app, const ble_app_init_t *app_init)$/;"	f	file:
+cmd_char_handles	.\ble_app.h	/^	ble_gatts_char_handles_t cmd_char_handles;$/;"	m	struct:ble_app_s
+cmd_handler	.\ble_app.h	/^	ble_app_cmd_handler_t cmd_handler;	\/* Event handler to be called when LED characteristic is written. *\/$/;"	m	struct:__anon1
+cmd_handler	.\ble_app.h	/^	ble_app_cmd_handler_t cmd_handler;$/;"	m	struct:ble_app_s
+command	.\main.c	/^uint8_t									command;$/;"	v
+conn_handle	.\ble_app.h	/^	uint16_t conn_handle;$/;"	m	struct:ble_app_s
+conn_handle	.\ble_nus.h	/^    uint16_t                 conn_handle;             \/**< Handle of the current connection (as provided by the S110 SoftDevice). This will be BLE_CONN_HANDLE_INVALID if not in a connection. *\/$/;"	m	struct:ble_nus_s
+conn_params_error_handler	.\arm\main0.c	/^static void conn_params_error_handler(uint32_t nrf_error)$/;"	f	file:
+conn_params_error_handler	.\main.c	/^static void conn_params_error_handler(uint32_t nrf_error)$/;"	f	file:
+conn_params_init	.\arm\main0.c	/^static void conn_params_init(void)$/;"	f	file:
+conn_params_init	.\main.c	/^static void conn_params_init(void)$/;"	f	file:
+cur_cmd	.\main.c	/^struct qr_cmd cur_cmd;$/;"	v	typeref:struct:qr_cmd
+data_handler	.\ble_nus.h	/^    ble_nus_data_handler_t   data_handler;            \/**< Event handler to be called for handling received data. *\/$/;"	m	struct:__anon2
+data_handler	.\ble_nus.h	/^    ble_nus_data_handler_t   data_handler;            \/**< Event handler to be called for handling received data. *\/$/;"	m	struct:ble_nus_s
+data_index	.\main.c	/^uint8_t                                   data_index = 0;$/;"	v
+debug	.\main.c	/^uint32_t								debug[15] = {0};$/;"	v
+debug2	.\main.c	/^uint16_t									debug2[200] = {0};$/;"	v
+easyRange	.\SwitchbotNordic.c	/^int Range, Head, easyRange;$/;"	v
+easyRange	.\main.c	/^int 									Head, Range, easyRange;$/;"	v
+fDecoy	.\main.c	/^bool 									fDecoy = false;$/;"	v
+fNewData	.\main.c	/^bool 									fNewData = false;$/;"	v
+fintCount	.\main.c	/^uint8_t									fintCount,fperCount;$/;"	v
+fl_new	.\SwitchbotNordic.c	/^uint8_t fl_new[8], fl_old[8];$/;"	v
+fl_old	.\SwitchbotNordic.c	/^uint8_t fl_new[8], fl_old[8];$/;"	v
+fperCount	.\main.c	/^uint8_t									fintCount,fperCount;$/;"	v
+fputc	.\retarget.c	/^int fputc(int ch, FILE * p_file) $/;"	f
+fr1	.\main.c	/^uint8_t									r1,r2,r3,r4, r4_old, fr1, fr2, fr3, fr4;$/;"	v
+fr2	.\main.c	/^uint8_t									r1,r2,r3,r4, r4_old, fr1, fr2, fr3, fr4;$/;"	v
+fr3	.\main.c	/^uint8_t									r1,r2,r3,r4, r4_old, fr1, fr2, fr3, fr4;$/;"	v
+fr4	.\main.c	/^uint8_t									r1,r2,r3,r4, r4_old, fr1, fr2, fr3, fr4;$/;"	v
+frangeAll	.\main.c	/^uint8_t									frangeAll,frangeOld;$/;"	v
+frangeOld	.\main.c	/^uint8_t									frangeAll,frangeOld;$/;"	v
+fs1	.\main.c	/^uint8_t									fs1,fs2,fs3,fs4;$/;"	v
+fs2	.\main.c	/^uint8_t									fs1,fs2,fs3,fs4;$/;"	v
+fs3	.\main.c	/^uint8_t									fs1,fs2,fs3,fs4;$/;"	v
+fs4	.\main.c	/^uint8_t									fs1,fs2,fs3,fs4;$/;"	v
+fwd_bwd	.\main.c	/^int16_t									fwd_bwd;$/;"	v
+gap_params_init	.\arm\main0.c	/^static void gap_params_init(void)$/;"	f	file:
+gap_params_init	.\main.c	/^static void gap_params_init(void)$/;"	f	file:
+get_tx_id	.\main.c	/^uint8_t get_tx_id(uint32_t space){$/;"	f
+gpiote_init	.\arm\main0.c	/^static void gpiote_init(void)$/;"	f	file:
+gpiote_init	.\main.c	/^static void gpiote_init(void)$/;"	f	file:
+handle	.\retarget.c	/^struct __FILE { int handle; \/* Add whatever you need here *\/ };$/;"	m	struct:__FILE	file:
+head	.\SwitchbotNordic.c	/^int head, range;$/;"	v
+hts_sim_measurement	.\arm\main0.c	/^static void hts_sim_measurement(ble_hts_meas_t * p_meas)$/;"	f	file:
+intCount	.\main.c	/^uint16_t									intCount,perCount;$/;"	v
+ir_read	.\ir_processing.c	/^void ir_read(){$/;"	f
+ir_values	.\main.c	/^uint8_t ir_values[8];$/;"	v
+irparams_t	.\ir_processing.h	/^} irparams_t;$/;"	t	typeref:struct:__anon3
+is_notification_enabled	.\ble_nus.h	/^    bool                     is_notification_enabled; \/**< Variable to indicate if the peer has enabled notification of the RX characteristic.*\/$/;"	m	struct:ble_nus_s
+is_sync	.\main.c	/^bool is_sync(uint32_t space){$/;"	f
+leds_init	.\arm\main0.c	/^static void leds_init(void)$/;"	f	file:
+leds_init	.\main.c	/^static void leds_init(void)$/;"	f	file:
+lft_rgt	.\main.c	/^int16_t 								lft_rgt;$/;"	v
+m_adv_params	.\arm\main0.c	/^static ble_gap_adv_params_t                  m_adv_params;                              \/**< Parameters to be passed to the stack when starting advertising. *\/$/;"	v	file:
+m_bas	.\arm\main0.c	/^static ble_bas_t                             m_bas;                                     \/**< Structure used to identify the battery service. *\/$/;"	v	file:
+m_battery_sim_cfg	.\arm\main0.c	/^static ble_sensorsim_cfg_t                   m_battery_sim_cfg;                         \/**< Battery Level sensor simulator configuration. *\/$/;"	v	file:
+m_battery_sim_state	.\arm\main0.c	/^static ble_sensorsim_state_t                 m_battery_sim_state;                       \/**< Battery Level sensor simulator state. *\/$/;"	v	file:
+m_battery_timer_id	.\arm\main0.c	/^static app_timer_id_t                        m_battery_timer_id;                        \/**< Battery timer. *\/$/;"	v	file:
+m_conn_handle	.\arm\main0.c	/^static uint16_t                              m_conn_handle = BLE_CONN_HANDLE_INVALID;   \/**< Handle of the current connection. *\/$/;"	v	file:
+m_conn_handle	.\main.c	/^static uint16_t 						m_conn_handle = BLE_CONN_HANDLE_INVALID;	\/* Handle of the current connection. *\/$/;"	v	file:
+m_hts	.\arm\main0.c	/^static ble_hts_t                             m_hts;                                     \/**< Structure used to identify the health thermometer service. *\/$/;"	v	file:
+m_hts_meas_ind_conf_pending	.\arm\main0.c	/^static bool                                  m_hts_meas_ind_conf_pending = false;       \/**< Flag to keep track of when an indication confirmation is pending. *\/$/;"	v	file:
+m_nus	.\main.c	/^static ble_nus_t                        m_nus;  $/;"	v	file:
+m_sec_params	.\arm\main0.c	/^static ble_gap_sec_params_t                  m_sec_params;                              \/**< Security requirements for this application. *\/$/;"	v	file:
+m_sec_params	.\main.c	/^static ble_gap_sec_params_t 			m_sec_params;			\/* Security requirements for this application. *\/$/;"	v	file:
+m_state	.\main.c	/^} m_state = SYNC_WAIT;$/;"	v	typeref:enum:__anon4
+m_temp_celcius_sim_cfg	.\arm\main0.c	/^static ble_sensorsim_cfg_t                   m_temp_celcius_sim_cfg;                    \/**< Temperature simulator configuration. *\/$/;"	v	file:
+m_temp_celcius_sim_state	.\arm\main0.c	/^static ble_sensorsim_state_t                 m_temp_celcius_sim_state;                  \/**< Temperature simulator state. *\/$/;"	v	file:
+main	.\arm\main0.c	/^int main(void)$/;"	f
+main	.\main.c	/^int main(void)$/;"	f
+max_space	.\main.c	/^uint32_t timestamp1, timestamp2, max_space, previous_space;$/;"	v
+millis	.\main.c	/^static uint32_t millis(void){$/;"	f	file:
+module_id	.\pstorage_platform.h	/^    uint32_t            module_id;      \/**< Module ID.*\/$/;"	m	struct:__anon5
+motionControl_DriveFWD	.\SwitchbotNordic.c	/^static void motionControl_DriveFWD(const int easyRange, const int Head,$/;"	f	file:
+motionControl_YAW	.\SwitchbotNordic.c	/^static void motionControl_YAW(const int Head, int16_t *lft_rgt)$/;"	f	file:
+noDataCount	.\main.c	/^uint16_t									temp, noDataCount;$/;"	v
+nus_data_handler	.\main.c	/^void nus_data_handler(ble_nus_t * p_nus, uint8_t * cmd, uint16_t cmdlen)$/;"	f
+nybble_to_ascii	.\main.c	/^static uint8_t nybble_to_ascii(uint8_t v)$/;"	f	file:
+on_ble_evt	.\arm\main0.c	/^static void on_ble_evt(ble_evt_t * p_ble_evt)$/;"	f	file:
+on_ble_evt	.\main.c	/^static void on_ble_evt(ble_evt_t *evt)$/;"	f	file:
+on_conn_params_evt	.\arm\main0.c	/^static void on_conn_params_evt(ble_conn_params_evt_t * p_evt)$/;"	f	file:
+on_conn_params_evt	.\main.c	/^static void on_conn_params_evt(ble_conn_params_evt_t * p_evt)$/;"	f	file:
+on_connect	.\ble_app.c	/^static void on_connect(ble_app_t *app, ble_evt_t *evt)$/;"	f	file:
+on_connect	.\ble_nus.c	/^static void on_connect(ble_nus_t * p_nus, ble_evt_t * p_ble_evt)$/;"	f	file:
+on_disconnect	.\ble_app.c	/^static void on_disconnect(ble_app_t *app, ble_evt_t *evt)$/;"	f	file:
+on_disconnect	.\ble_nus.c	/^static void on_disconnect(ble_nus_t * p_nus, ble_evt_t * p_ble_evt)$/;"	f	file:
+on_hts_evt	.\arm\main0.c	/^static void on_hts_evt(ble_hts_t * p_hts, ble_hts_evt_t *p_evt)$/;"	f	file:
+on_write	.\ble_app.c	/^static void on_write(ble_app_t *app, ble_evt_t *evt)$/;"	f	file:
+on_write	.\ble_nus.c	/^static void on_write(ble_nus_t * p_nus, ble_evt_t * p_ble_evt)$/;"	f	file:
+overflow	.\ir_processing.h	/^	uint8_t overflow;        \/\/ Raw buffer overflow occurred$/;"	m	struct:__anon3
+perCount	.\main.c	/^uint16_t									intCount,perCount;$/;"	v
+perCount_copy	.\main.c	/^uint8_t perCount_copy;$/;"	v
+pitch	.\SwitchbotNordic.h	/^	uint16_t pitch;					\/* right joystick, up\/down *\/$/;"	m	struct:qr_cmd
+power_manage	.\arm\main0.c	/^static void power_manage(void)$/;"	f	file:
+power_manage	.\main.c	/^static void power_manage(void)$/;"	f	file:
+previous_space	.\main.c	/^uint32_t timestamp1, timestamp2, max_space, previous_space;$/;"	v
+pstorage_block_t	.\pstorage_platform.h	/^typedef uint32_t pstorage_block_t;$/;"	t
+pstorage_handle_t	.\pstorage_platform.h	/^} pstorage_handle_t;$/;"	t	typeref:struct:__anon5
+pstorage_size_t	.\pstorage_platform.h	/^typedef uint16_t pstorage_size_t;      \/** Size of length and offset fields. *\/$/;"	t
+qr_cmd	.\SwitchbotNordic.h	/^struct qr_cmd {$/;"	s
+r1	.\main.c	/^uint8_t									r1,r2,r3,r4, r4_old, fr1, fr2, fr3, fr4;$/;"	v
+r2	.\main.c	/^uint8_t									r1,r2,r3,r4, r4_old, fr1, fr2, fr3, fr4;$/;"	v
+r3	.\main.c	/^uint8_t									r1,r2,r3,r4, r4_old, fr1, fr2, fr3, fr4;$/;"	v
+r4	.\main.c	/^uint8_t									r1,r2,r3,r4, r4_old, fr1, fr2, fr3, fr4;$/;"	v
+r4_old	.\main.c	/^uint8_t									r1,r2,r3,r4, r4_old, fr1, fr2, fr3, fr4;$/;"	v
+range	.\SwitchbotNordic.c	/^int head, range;$/;"	v
+rangeAll	.\main.c	/^uint8_t									rangeAll,rangeOld;$/;"	v
+rangeOld	.\main.c	/^uint8_t									rangeAll,rangeOld;$/;"	v
+rawbuf	.\ir_processing.h	/^	unsigned int rawbuf[RAWBUF];  \/\/ raw data$/;"	m	struct:__anon3
+rawlen	.\ir_processing.h	/^	uint8_t rawlen;          \/\/ counter of entries in rawbuf$/;"	m	struct:__anon3
+rcvstate	.\ir_processing.h	/^	uint8_t rcvstate;        \/\/ State Machine state$/;"	m	struct:__anon3
+receiver_IRM_coord	.\main.c	/^static void receiver_IRM_coord(void)$/;"	f	file:
+recvpin	.\ir_processing.h	/^	uint8_t recvpin;         \/\/ Pin connected to IR data from detector$/;"	m	struct:__anon3
+ref_space	.\main.c	/^uint32_t								     space = 0, ref_space = 0;$/;"	v
+results	.\main.c	/^uint32_t								results[RESULTS_TABLE_SIZE][5] = {0};$/;"	v
+retarget_init	.\retarget.c	/^void retarget_init(void)$/;"	f
+roll	.\SwitchbotNordic.h	/^	uint16_t roll;					\/* right joystick, left\/right *\/$/;"	m	struct:qr_cmd
+rx_char_add	.\ble_nus.c	/^static uint32_t rx_char_add(ble_nus_t * p_nus, const ble_nus_init_t * p_nus_init)$/;"	f	file:
+rx_handles	.\ble_nus.h	/^    ble_gatts_char_handles_t rx_handles;              \/**< Handles related to the RX characteristic. (as provided by the S110 SoftDevice)*\/$/;"	m	struct:ble_nus_s
+s1	.\main.c	/^uint16_t s1,s2,s3,s4;$/;"	v
+s2	.\main.c	/^uint16_t s1,s2,s3,s4;$/;"	v
+s3	.\main.c	/^uint16_t s1,s2,s3,s4;$/;"	v
+s4	.\main.c	/^uint16_t s1,s2,s3,s4;$/;"	v
+scheduler_init	.\main.c	/^static void scheduler_init(void)$/;"	f	file:
+sec_params_init	.\arm\main0.c	/^static void sec_params_init(void)$/;"	f	file:
+sec_params_init	.\main.c	/^static void sec_params_init(void)$/;"	f	file:
+sensor_sim_init	.\arm\main0.c	/^static void sensor_sim_init(void)$/;"	f	file:
+service_error_handler	.\ble_app.c	/^static void service_error_handler(uint32_t nrf_error)$/;"	f	file:
+service_handle	.\ble_app.h	/^	uint16_t service_handle;$/;"	m	struct:ble_app_s
+service_handle	.\ble_nus.h	/^    uint16_t                 service_handle;          \/**< Handle of Nordic UART Service (as provided by the S110 SoftDevice). *\/$/;"	m	struct:ble_nus_s
+services_init	.\arm\main0.c	/^static void services_init(void)$/;"	f	file:
+services_init	.\main.c	/^static void services_init(void)$/;"	f	file:
+simple_uart_config	.\uart_comm2.c	/^void simple_uart_config(uint8_t rts_pin_number,$/;"	f
+simple_uart_get	.\uart_comm2.c	/^uint8_t simple_uart_get(void)$/;"	f
+simple_uart_get_with_timeout	.\uart_comm2.c	/^bool simple_uart_get_with_timeout(int32_t timeout_ms, uint8_t * rx_data)$/;"	f
+simple_uart_put	.\uart_comm2.c	/^void simple_uart_put(uint8_t cr)$/;"	f
+simple_uart_putstring	.\uart_comm2.c	/^void simple_uart_putstring(const uint8_t * str)$/;"	f
+space	.\main.c	/^uint32_t								     space = 0, ref_space = 0;$/;"	v
+sys_evt_dispatch	.\arm\main0.c	/^static void sys_evt_dispatch(uint32_t sys_evt)$/;"	f	file:
+sys_evt_dispatch	.\main.c	/^static void sys_evt_dispatch(uint32_t sys_evt)$/;"	f	file:
+t1	.\main.c	/^volatile uint8_t									t1 = 0,t2=0, t3=0, t4=0, t5=0;$/;"	v
+t2	.\main.c	/^volatile uint8_t									t1 = 0,t2=0, t3=0, t4=0, t5=0;$/;"	v
+t3	.\main.c	/^volatile uint8_t									t1 = 0,t2=0, t3=0, t4=0, t5=0;$/;"	v
+t4	.\main.c	/^volatile uint8_t									t1 = 0,t2=0, t3=0, t4=0, t5=0;$/;"	v
+t5	.\main.c	/^volatile uint8_t									t1 = 0,t2=0, t3=0, t4=0, t5=0;$/;"	v
+temp	.\main.c	/^uint16_t									temp, noDataCount;$/;"	v
+temperature_measurement_send	.\arm\main0.c	/^static void temperature_measurement_send(void)$/;"	f	file:
+thrust	.\SwitchbotNordic.h	/^	uint16_t thrust;					\/* left joystick, up\/down *\/$/;"	m	struct:qr_cmd
+tick_handler	.\main.c	/^static void tick_handler(void * p_context)$/;"	f	file:
+timer	.\ir_processing.h	/^	unsigned int timer;           \/\/ State timer, counts 50uS ticks.$/;"	m	struct:__anon3
+timer2_init	.\main.c	/^void timer2_init(void)$/;"	f
+timer_counter	.\main.c	/^uint32_t timer_counter = 0;$/;"	v
+timers_init	.\arm\main0.c	/^static void timers_init(void)$/;"	f	file:
+timers_init	.\main.c	/^static void timers_init(void)$/;"	f	file:
+timers_start	.\main.c	/^static void timers_start(void)$/;"	f	file:
+timestamp1	.\main.c	/^uint32_t timestamp1, timestamp2, max_space, previous_space;$/;"	v
+timestamp2	.\main.c	/^uint32_t timestamp1, timestamp2, max_space, previous_space;$/;"	v
+tmp_buffer	.\SwitchbotNordic.c	/^uint8_t tmp_buffer[4];$/;"	v
+tmp_head	.\main.c	/^int tmp_head, tmp_head_far;$/;"	v
+tmp_head_far	.\main.c	/^int tmp_head, tmp_head_far;$/;"	v
+tmp_tab1	.\main.c	/^uint8_t tmp_tab1[4];$/;"	v
+tx_char_add	.\ble_nus.c	/^static uint32_t tx_char_add(ble_nus_t * p_nus, const ble_nus_init_t * p_nus_init)$/;"	f	file:
+tx_handles	.\ble_nus.h	/^    ble_gatts_char_handles_t tx_handles;              \/**< Handles related to the TX characteristic. (as provided by the S110 SoftDevice)*\/$/;"	m	struct:ble_nus_s
+uart_init	.\main.c	/^static void uart_init(void)$/;"	f	file:
+uart_put32	.\main.c	/^static void uart_put32(uint32_t v)$/;"	f	file:
+uart_putdec	.\main.c	/^static void uart_putdec(uint32_t v)$/;"	f	file:
+uuid_type	.\ble_app.h	/^	uint8_t uuid_type;$/;"	m	struct:ble_app_s
+uuid_type	.\ble_nus.h	/^    uint8_t                  uuid_type;               \/**< UUID type for Nordic UART Service Base UUID. *\/$/;"	m	struct:ble_nus_s
+yaw	.\SwitchbotNordic.h	/^	uint16_t yaw;					\/* left joystick, left\/right *\/$/;"	m	struct:qr_cmd

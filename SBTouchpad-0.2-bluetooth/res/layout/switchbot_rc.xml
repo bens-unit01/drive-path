@@ -1,0 +1,228 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shadow" >
+    <ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/switchbot"
+    android:layout_margin="40dp" />
+
+ <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal" 
+     android:layout_marginTop="30dp"
+     >
+
+     <TextView
+         android:id="@+id/TextView02"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:text="  Motion:    "
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+     
+     <com.wowwee.views.JoystickView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+
+     <RelativeLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="20dp"
+         android:layout_marginTop="15dp"
+         android:background="@color/blue2"
+         android:padding="30dp" >
+
+         <Button
+             android:id="@+id/btnLeft"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/btnForward"
+             android:background="@drawable/btn_blue_states"
+             android:text="Left" 
+             android:onClick="onClick"/>
+
+         <Button
+             android:id="@+id/btnBackward"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/btnLeft"
+             android:layout_toRightOf="@+id/btnLeft"
+             android:background="@drawable/btn_blue_states"
+             android:text=" Backward " 
+             android:onClick="onClick"/>
+
+         <Button
+             android:id="@+id/btnRight"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_above="@+id/btnBackward"
+             android:layout_toRightOf="@+id/btnBackward"
+             android:background="@drawable/btn_blue_states"
+             android:text="Right" 
+             android:onClick="onClick"/>
+
+         <Button
+             android:id="@+id/btnForward"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:layout_alignRight="@+id/btnBackward"
+             android:background="@drawable/btn_blue_states"
+             android:text="  Forward  " 
+             android:onClick="onClick"/>
+     </RelativeLayout>
+     
+   
+
+ </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:layout_marginTop="15dp" >
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:text="  Body cons: "
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+  <TableLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" 
+      android:background="@color/blue2" 
+      android:paddingLeft ="5dp"
+      android:paddingRight ="5dp"
+      android:paddingTop="20dp"
+      android:paddingBottom="20dp">
+   <TableRow >
+         <Button
+             android:id="@+id/btnDance"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/btn_blue_states"
+             android:text=" Dance " 
+             android:onClick="onClick"/>
+
+         <Button
+             android:id="@+id/btnStandup"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_toRightOf="@+id/btnDance"
+             android:background="@drawable/btn_blue_states"
+             android:text=" Stand up " 
+             android:onClick="onClick"/>
+
+         <Button
+             android:id="@+id/btnLeanForward"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/btn_blue_states"
+             android:text=" Lean forward " 
+             android:onClick="onClick"/>
+     
+         <Button
+             android:id="@+id/btnLeanbackward"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/btn_blue_states"
+             android:text=" Lean backward " 
+             android:onClick="onClick"/>
+         </TableRow>
+         <TableRow>
+
+             <Button
+                 android:id="@+id/btnSpeakNow"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/btn_blue_states"
+                 android:onClick="onClick"
+                 android:text="Speak now" />
+
+             <Button
+                 android:id="@+id/btnKneel"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/btn_blue_states"
+                 android:onClick="onClick"
+                 android:text="  Kneel " />
+
+             <Button
+                 android:id="@+id/btnEStop"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/btn_blue_states"
+                 android:onClick="onClick"
+                 android:text=" E-Stop " />
+
+         <Button
+             android:id="@+id/btnClrEStop"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/btn_blue_states"
+             android:text="Clr E-Stop" 
+             android:onClick="onClick"
+              />
+         </TableRow>
+     </TableLayout>
+ </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="15dp"
+      android:orientation="horizontal" >
+
+      <TextView
+          android:id="@+id/textView4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:text="  Network :    "
+          android:textAppearance="?android:attr/textAppearanceLarge" />
+
+      <TableLayout
+          android:layout_width="410dp"
+          android:layout_height="wrap_content"
+          android:background="@color/blue2"
+          android:padding="15dp" 
+          android:layout_marginTop="15dp">
+        <TableRow>
+             <TextView
+              android:id="@+id/TextView04"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="        Bluetooth     " />
+
+          <Button
+              android:id="@+id/btnConnect"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" 
+              android:text="Connect"
+              android:onClick="onClick"/>
+        </TableRow>  
+         
+        <TableRow >
+            <TextView
+              android:id="@+id/textView2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="        Telepresence " />
+            
+        </TableRow>
+         
+         
+      
+
+      </TableLayout>
+  </LinearLayout>
+</LinearLayout>

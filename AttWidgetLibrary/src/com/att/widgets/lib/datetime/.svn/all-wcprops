@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/CBKMOBILE/!svn/ver/3093/trunk/04-Implementaci%C3%B3n/01-Fuentes/Android/ATT001/AttWidgetLibrary/src/com/att/widgets/lib/datetime
+END
+WheelView.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/CBKMOBILE/!svn/ver/2777/trunk/04-Implementaci%C3%B3n/01-Fuentes/Android/ATT001/AttWidgetLibrary/src/com/att/widgets/lib/datetime/WheelView.java
+END
+OnWheelChangedListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/CBKMOBILE/!svn/ver/2356/trunk/04-Implementaci%C3%B3n/01-Fuentes/Android/ATT001/AttWidgetLibrary/src/com/att/widgets/lib/datetime/OnWheelChangedListener.java
+END
+ArrayWheelAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/CBKMOBILE/!svn/ver/2356/trunk/04-Implementaci%C3%B3n/01-Fuentes/Android/ATT001/AttWidgetLibrary/src/com/att/widgets/lib/datetime/ArrayWheelAdapter.java
+END
+WheelAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/CBKMOBILE/!svn/ver/2356/trunk/04-Implementaci%C3%B3n/01-Fuentes/Android/ATT001/AttWidgetLibrary/src/com/att/widgets/lib/datetime/WheelAdapter.java
+END
+OnWheelScrollListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/CBKMOBILE/!svn/ver/2356/trunk/04-Implementaci%C3%B3n/01-Fuentes/Android/ATT001/AttWidgetLibrary/src/com/att/widgets/lib/datetime/OnWheelScrollListener.java
+END
+NumericWheelAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/CBKMOBILE/!svn/ver/2683/trunk/04-Implementaci%C3%B3n/01-Fuentes/Android/ATT001/AttWidgetLibrary/src/com/att/widgets/lib/datetime/NumericWheelAdapter.java
+END
+DatePicker.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/CBKMOBILE/!svn/ver/3079/trunk/04-Implementaci%C3%B3n/01-Fuentes/Android/ATT001/AttWidgetLibrary/src/com/att/widgets/lib/datetime/DatePicker.java
+END
+DatePickerDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/CBKMOBILE/!svn/ver/3034/trunk/04-Implementaci%C3%B3n/01-Fuentes/Android/ATT001/AttWidgetLibrary/src/com/att/widgets/lib/datetime/DatePickerDialog.java
+END
+TimePicker.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/CBKMOBILE/!svn/ver/3093/trunk/04-Implementaci%C3%B3n/01-Fuentes/Android/ATT001/AttWidgetLibrary/src/com/att/widgets/lib/datetime/TimePicker.java
+END
+TimePickerDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/CBKMOBILE/!svn/ver/3093/trunk/04-Implementaci%C3%B3n/01-Fuentes/Android/ATT001/AttWidgetLibrary/src/com/att/widgets/lib/datetime/TimePickerDialog.java
+END

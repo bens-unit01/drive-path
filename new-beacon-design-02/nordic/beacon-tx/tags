@@ -1,0 +1,677 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADC_IRQHandler	.\battery.c	/^void ADC_IRQHandler(void)$/;"	f
+ADC_PRE_SCALING_COMPENSATION	.\battery.c	42;"	d	file:
+ADC_REF_VOLTAGE_IN_MILLIVOLTS	.\battery.c	41;"	d	file:
+ADC_RESULT_IN_MILLI_VOLTS	.\battery.c	49;"	d	file:
+ADC_struct	.\car_driver\Pram.h	/^}ADC_struct;$/;"	t	typeref:struct:__anon5
+ADVERTISING_LED_PIN_NO	.\arm\main0.c	73;"	d	file:
+APP_ADV_INTERVAL	.\arm\main0.c	83;"	d	file:
+APP_ADV_INTERVAL	.\main.c	50;"	d	file:
+APP_ADV_TIMEOUT_IN_SECONDS	.\arm\main0.c	84;"	d	file:
+APP_ADV_TIMEOUT_IN_SECONDS	.\main.c	51;"	d	file:
+APP_CMD_ARM	.\ble_app.h	20;"	d
+APP_CMD_MOVE	.\ble_app.h	21;"	d
+APP_GPIOTE_MAX_USERS	.\arm\main0.c	110;"	d	file:
+APP_GPIOTE_MAX_USERS	.\main.c	69;"	d	file:
+APP_TIMER_MAX_TIMERS	.\arm\main0.c	87;"	d	file:
+APP_TIMER_MAX_TIMERS	.\main.c	54;"	d	file:
+APP_TIMER_OP_QUEUE_SIZE	.\arm\main0.c	88;"	d	file:
+APP_TIMER_OP_QUEUE_SIZE	.\main.c	55;"	d	file:
+APP_TIMER_PRESCALER	.\arm\main0.c	86;"	d	file:
+APP_TIMER_PRESCALER	.\main.c	53;"	d	file:
+APP_TX_index	.\car_driver\Vehicles.c	/^uint8_t		APP_TX_index	=	0;	\/\/APP发送索引.$/;"	v
+APP_UUID_BASE	.\ble_app.h	16;"	d
+ASSERT_LED_PIN_NO	.\arm\main0.c	75;"	d	file:
+BATTERY_H__	.\battery.h	25;"	d
+BATTERY_LEVEL_INCREMENT	.\arm\main0.c	93;"	d	file:
+BATTERY_LEVEL_MEAS_INTERVAL	.\arm\main0.c	90;"	d	file:
+BATTERY_LEVEL_MEAS_INTERVAL	.\main.c	2;"	d	file:
+BGtime	.\car_driver\Pram.h	/^	uint8_t		BGtime;				\/\/闪烁时间.				\/\/OFF time.$/;"	m	struct:__anon8
+BLE_BONDMNGR_CCCD_COUNT	.\ble_bondmngr_cfg.h	27;"	d
+BLE_BONDMNGR_CFG_H__	.\ble_bondmngr_cfg.h	24;"	d
+BLE_BONDMNGR_MAX_BONDED_CENTRALS	.\ble_bondmngr_cfg.h	30;"	d
+BLE_NUS_H__	.\ble_nus.h	33;"	d
+BLE_NUS_MAX_DATA_LEN	.\ble_nus.h	44;"	d
+BLE_NUS_MAX_RX_CHAR_LEN	.\ble_nus.h	46;"	d
+BLE_NUS_MAX_TX_CHAR_LEN	.\ble_nus.h	47;"	d
+BLE_RD_index	.\car_driver\Vehicles.c	/^uint8_t		BLE_RD_index	=	0;	\/\/BLE读取索引.$/;"	v
+BLE_UUID_NUS_RX_CHARACTERISTIC	.\ble_nus.h	42;"	d
+BLE_UUID_NUS_SERVICE	.\ble_nus.h	40;"	d
+BLE_UUID_NUS_TX_CHARACTERISTIC	.\ble_nus.h	41;"	d
+BONDMNGR_DELETE_BUTTON_PIN_NO	.\arm\main0.c	71;"	d	file:
+BUTTON_0	.\arm\main0.c	59;"	d	file:
+BUTTON_0	.\main.c	43;"	d	file:
+BUTTON_1	.\arm\main0.c	60;"	d	file:
+BUTTON_1	.\main.c	44;"	d	file:
+BUTTON_DETECTION_DELAY	.\arm\main0.c	112;"	d	file:
+BUTTON_PULL	.\arm\main0.c	62;"	d	file:
+BUTTON_PULL	.\main.c	40;"	d	file:
+BUTTON_START	.\arm\main0.c	58;"	d	file:
+BUTTON_STOP	.\arm\main0.c	61;"	d	file:
+BackGround	.\car_driver\Pram.h	/^	uint8_t		BackGround;		\/\/背景背景颜色.$/;"	m	struct:__anon8
+BleBuf	.\car_driver\Vehicles.c	/^uint8_t		BleBuf[10][20]	=$/;"	v
+BleData	.\car_driver\Vehicles.c	/^uint8_t		BleData[20]	=	{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};$/;"	v
+BleReturn	.\car_driver\Vehicles.c	/^uint8_t		BleReturn[20]	=	{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};$/;"	v
+Bootloader	.\car_driver\Vehicles.c	/^uint8_t		Bootloader = 0;$/;"	v
+CELCIUS_DEGREES_INCREMENT	.\arm\main0.c	99;"	d	file:
+CLEAR_ESTOP	.\SwitchbotNordic.h	130;"	d
+CONNECTED_LED_PIN_NO	.\arm\main0.c	74;"	d	file:
+CONN_SUP_TIMEOUT	.\arm\main0.c	104;"	d	file:
+CONN_SUP_TIMEOUT	.\main.c	60;"	d	file:
+CTS_PIN_NUMBER	.\SwitchbotNordic.h	77;"	d
+CTS_PIN_NUMBER	.\SwitchbotNordic.h	85;"	d
+CTS_PIN_NUMBER	.\arm\main0.c	66;"	d	file:
+DAC_IR_3Min	.\car_driver\Vehicles.c	/^uint16_t	DAC_IR_3Min	=	0;$/;"	v
+DEAD_BEEF	.\arm\main0.c	125;"	d	file:
+DEAD_BEEF	.\main.c	81;"	d	file:
+DEVICE_NAME	.\arm\main0.c	77;"	d	file:
+DEVICE_NAME	.\main.c	47;"	d	file:
+DRIVE	.\SwitchbotNordic.h	131;"	d
+ESTOP	.\SwitchbotNordic.h	129;"	d
+FIRST_CONN_PARAMS_UPDATE_DELAY	.\arm\main0.c	106;"	d	file:
+FIRST_CONN_PARAMS_UPDATE_DELAY	.\main.c	61;"	d	file:
+FLASH_PAGE_BOND	.\arm\main0.c	123;"	d	file:
+FLASH_PAGE_SYS_ATTR	.\arm\main0.c	122;"	d	file:
+F_null	.\car_driver\Pram.h	23;"	d
+Fchk	.\car_driver\Vehicles.c	/^Flash_struct	Fchk;$/;"	v
+Fd	.\car_driver\Pram.h	/^	uint8_t		Fd[Fd_l + 1];	\/\/Flash数据表白.$/;"	m	struct:__anon3
+Fd_l	.\car_driver\Pram.h	24;"	d
+Fdata	.\car_driver\Vehicles.c	/^Flash_struct	Fdata;$/;"	v
+Flash_struct	.\car_driver\Pram.h	/^}Flash_struct;$/;"	t	typeref:struct:__anon3
+GAP_TICKS	.\ir_processing.h	44;"	d
+GPIOTE_ch0	.\car_driver\Ppin.h	35;"	d
+GPIOTE_ch1	.\car_driver\Ppin.h	36;"	d
+GPIOTE_ch2	.\car_driver\Ppin.h	37;"	d
+GPIOTE_ch3	.\car_driver\Ppin.h	38;"	d
+GUN	.\car_driver\Vehicles.c	/^Gun_struct	GUN;$/;"	v
+GUN_IR_dir	.\car_driver\Vehicles.c	/^uint8_t		GUN_IR_dir = 0;$/;"	v
+GUN_MAX	.\car_driver\Ppin.h	66;"	d
+GUN_MID	.\car_driver\Ppin.h	65;"	d
+GUN_MIN	.\car_driver\Ppin.h	64;"	d
+GUN_RxData	.\car_driver\TIMER2.c	/^uint8_t		GUN_RxData[2] = {0,0};$/;"	v
+GUN_RxStep	.\car_driver\TIMER2.c	/^uint8_t		GUN_RxStep[2] = {0,0};$/;"	v
+GUN_cnt	.\car_driver\TIMER2.c	/^uint8_t		GUN_cnt[2] = {0,0};$/;"	v
+GUN_receiver_data	.\car_driver\TIMER2.c	/^static void GUN_receiver_data(uint8_t IRMx)$/;"	f	file:
+Gradient	.\car_driver\Pram.h	/^	uint8_t		Gradient;			\/\/设置渐变的颜色.$/;"	m	struct:__anon8
+Gun_struct	.\car_driver\Pram.h	/^}Gun_struct;$/;"	t	typeref:struct:__anon6
+HWFC	.\SwitchbotNordic.h	79;"	d
+HWFC	.\SwitchbotNordic.h	87;"	d
+Head	.\SwitchbotNordic.c	/^int Range, Head, easyRange;$/;"	v
+Head	.\main.c	/^int 									Head, Range, easyRange;$/;"	v
+I2C_busy	.\car_driver\Pram.h	/^	uint32_t		I2C_busy:1;$/;"	m	struct:__anon9
+I2C_cmd_DAC_AI	.\car_driver\Vehicles.c	/^static void I2C_cmd_DAC_AI()$/;"	f	file:
+I2C_cmd_GUN_ID	.\car_driver\Vehicles.c	/^static void I2C_cmd_GUN_ID(uint8_t ID)$/;"	f	file:
+I2C_cmd_Ramp_ID	.\car_driver\Vehicles.c	/^static void I2C_cmd_Ramp_ID(uint8_t ID)$/;"	f	file:
+I2C_cmd_send_IR	.\car_driver\Vehicles.c	/^void I2C_cmd_send_IR(uint16_t on)$/;"	f
+ID	.\car_driver\Pram.h	/^	uint8_t		ID;					\/\/本身ID号.$/;"	m	struct:__anon6
+ID_goal	.\car_driver\TIMER2.c	/^uint8_t		ID_goal = 0;$/;"	v
+IOS_0x79_battery_life	.\car_driver\Vehicles.c	/^static void IOS_0x79_battery_life(void)$/;"	f	file:
+IR	.\main.c	/^uint8_t									IR[8];$/;"	v
+IRM_ID	.\car_driver\TIMER2.c	/^uint8_t		IRM_ID[3] = {0,0,0};$/;"	v
+IRM_PINs	.\car_driver\TIMER2.c	/^uint8_t		IRM_PINs[2] = {IRM_tail};$/;"	v
+IRM_RxData	.\car_driver\TIMER2.c	/^uint8_t		IRM_RxData[2] = {0,0};$/;"	v
+IRM_RxStep	.\car_driver\TIMER2.c	/^uint8_t		IRM_RxStep[2] = {0,0};$/;"	v
+IRM_cnt	.\car_driver\TIMER2.c	/^uint16_t	IRM_cnt[2] = {0,0};$/;"	v
+IRM_coord	.\car_driver\Pram.h	/^	uint32_t		IRM_coord:1;$/;"	m	struct:__anon9
+IRM_gun	.\car_driver\Pram.h	/^	uint32_t		IRM_gun:1;$/;"	m	struct:__anon9
+IRM_head	.\SwitchbotNordic.h	49;"	d
+IRM_head	.\car_driver\Ppin.h	18;"	d
+IRM_head_far	.\SwitchbotNordic.h	56;"	d
+IRM_left	.\SwitchbotNordic.h	51;"	d
+IRM_left_far	.\SwitchbotNordic.h	58;"	d
+IRM_rec_Vctl	.\car_driver\Ppin.h	20;"	d
+IRM_receiver_coord	.\car_driver\TIMER2.c	/^static void IRM_receiver_coord(void)$/;"	f	file:
+IRM_receiver_data	.\car_driver\TIMER2.c	/^static void IRM_receiver_data(uint8_t IRMx)$/;"	f	file:
+IRM_right	.\SwitchbotNordic.h	52;"	d
+IRM_right_far	.\SwitchbotNordic.h	59;"	d
+IRM_rx	.\car_driver\Pram.h	/^	uint32_t		IRM_rx:1;$/;"	m	struct:__anon9
+IRM_tail	.\SwitchbotNordic.h	50;"	d
+IRM_tail	.\car_driver\Ppin.h	19;"	d
+IRM_tail_far	.\SwitchbotNordic.h	57;"	d
+IR_DATA	.\car_driver\TIMER2.c	/^uint8_t		IR_DATA = 0,data_bit = 0;$/;"	v
+IR_PROCESSING_H_	.\ir_processing.h	9;"	d
+IR_SendCNT	.\car_driver\TIMER2.c	/^uint8_t		IR_SendCNT = 0;$/;"	v
+IR_SendStep	.\car_driver\TIMER2.c	/^uint8_t		IR_SendStep = 0;$/;"	v
+IR_back	.\car_driver\Ppin.h	28;"	d
+IR_gpio_init	.\car_driver\TIMER2.c	/^void IR_gpio_init(void)$/;"	f
+IR_gun	.\car_driver\Ppin.h	30;"	d
+IR_head	.\car_driver\Ppin.h	29;"	d
+IR_left	.\car_driver\Ppin.h	26;"	d
+IR_right	.\car_driver\Ppin.h	27;"	d
+IR_set	.\car_driver\Pram.h	/^	uint32_t		IR_set:1;$/;"	m	struct:__anon9
+IR_status	.\car_driver\Pram.h	/^	uint32_t		IR_status:1;$/;"	m	struct:__anon9
+KNEEL	.\SwitchbotNordic.h	127;"	d
+LEAN	.\SwitchbotNordic.h	128;"	d
+LED_0	.\arm\main0.c	54;"	d	file:
+LED_1	.\arm\main0.c	55;"	d	file:
+LED_START	.\arm\main0.c	53;"	d	file:
+LED_STOP	.\arm\main0.c	56;"	d	file:
+LED_head	.\SwitchbotNordic.h	31;"	d
+LED_left	.\SwitchbotNordic.h	30;"	d
+LED_right	.\SwitchbotNordic.h	32;"	d
+LED_tail	.\SwitchbotNordic.h	33;"	d
+LOG	.\SwitchbotNordic.h	22;"	d
+LOG	.\SwitchbotNordic.h	25;"	d
+LOG2	.\main.c	/^static void LOG2(int input)$/;"	f	file:
+LOG3	.\main.c	/^static void LOG3(int input)$/;"	f	file:
+MANUFACTURER_ID	.\arm\main0.c	80;"	d	file:
+MANUFACTURER_NAME	.\arm\main0.c	78;"	d	file:
+MARK	.\ir_processing.h	39;"	d
+MAX_BATTERY_LEVEL	.\arm\main0.c	92;"	d	file:
+MAX_CELCIUS_DEGRESS	.\arm\main0.c	98;"	d	file:
+MAX_CONN_INTERVAL	.\arm\main0.c	102;"	d	file:
+MAX_CONN_INTERVAL	.\main.c	58;"	d	file:
+MAX_CONN_PARAMS_UPDATE_COUNT	.\arm\main0.c	108;"	d	file:
+MAX_CONN_PARAMS_UPDATE_COUNT	.\main.c	65;"	d	file:
+MCLR	.\SwitchbotNordic.h	41;"	d
+MIN_BATTERY_LEVEL	.\arm\main0.c	91;"	d	file:
+MIN_CELCIUS_DEGREES	.\arm\main0.c	97;"	d	file:
+MIN_CONN_INTERVAL	.\arm\main0.c	101;"	d	file:
+MIN_CONN_INTERVAL	.\main.c	57;"	d	file:
+MODEL_NUM	.\arm\main0.c	79;"	d	file:
+MOT_reflash	.\car_driver\Pram.h	/^	uint32_t		MOT_reflash:1;$/;"	m	struct:__anon9
+M_nc	.\car_driver\Pram.h	/^	uint32_t		M_nc:6;$/;"	m	struct:__anon9
+Main_Flags	.\car_driver\Pram.h	/^}	Main_Flags;$/;"	t	typeref:struct:__anon9
+Mode5_sec	.\car_driver\Vehicles.c	/^uint16_t	Mode5_sec	=	0;$/;"	v
+NEVER_SLEEP	.\main.c	1;"	d	file:
+NEXT_CONN_PARAMS_UPDATE_DELAY	.\arm\main0.c	107;"	d	file:
+NEXT_CONN_PARAMS_UPDATE_DELAY	.\main.c	63;"	d	file:
+NOTF_ACTIVATE_ADB	.\SwitchbotNordic.h	125;"	d
+NOTF_GET_STATUS	.\SwitchbotNordic.h	123;"	d
+NOTF_SET_STATUS	.\SwitchbotNordic.h	124;"	d
+OD_H3	.\car_driver\Pram.h	22;"	d
+OD_L0	.\car_driver\Pram.h	19;"	d
+OD_M1	.\car_driver\Pram.h	20;"	d
+OD_M2	.\car_driver\Pram.h	21;"	d
+ORG_UNIQUE_ID	.\arm\main0.c	81;"	d	file:
+PER_MAX	.\car_driver\Ppin.h	61;"	d
+PER_MID	.\car_driver\Ppin.h	60;"	d
+PER_MIN	.\car_driver\Ppin.h	59;"	d
+PGM_LOG	.\SwitchbotNordic.h	23;"	d
+PGM_LOG	.\SwitchbotNordic.h	26;"	d
+PITCH_MAX	.\SwitchbotNordic.h	106;"	d
+PITCH_MIN	.\SwitchbotNordic.h	105;"	d
+PL_color	.\car_driver\Pram.h	14;"	d
+PL_level	.\car_driver\Pram.h	17;"	d
+PPI_ch0	.\car_driver\Ppin.h	40;"	d
+PPI_ch1	.\car_driver\Ppin.h	41;"	d
+PPI_ch2	.\car_driver\Ppin.h	42;"	d
+PPI_ch3	.\car_driver\Ppin.h	43;"	d
+PPI_ch4	.\car_driver\Ppin.h	44;"	d
+PPI_ch5	.\car_driver\Ppin.h	45;"	d
+PPI_ch6	.\car_driver\Ppin.h	46;"	d
+PPI_ch7	.\car_driver\Ppin.h	47;"	d
+PSTORAGE_CMD_QUEUE_SIZE	.\pstorage_platform.h	36;"	d
+PSTORAGE_DATA_END_ADDR	.\pstorage_platform.h	32;"	d
+PSTORAGE_DATA_START_ADDR	.\pstorage_platform.h	30;"	d
+PSTORAGE_FLASH_EMPTY_MASK	.\pstorage_platform.h	19;"	d
+PSTORAGE_FLASH_PAGE_END	.\pstorage_platform.h	21;"	d
+PSTORAGE_FLASH_PAGE_SIZE	.\pstorage_platform.h	18;"	d
+PSTORAGE_MAX_APPLICATIONS	.\pstorage_platform.h	27;"	d
+PSTORAGE_MAX_BLOCK_SIZE	.\pstorage_platform.h	35;"	d
+PSTORAGE_MIN_BLOCK_SIZE	.\pstorage_platform.h	28;"	d
+PSTORAGE_PL_H__	.\pstorage_platform.h	14;"	d
+PSTORAGE_SWAP_ADDR	.\pstorage_platform.h	33;"	d
+PU_color	.\car_driver\Pram.h	13;"	d
+PU_mode	.\car_driver\Pram.h	18;"	d
+ParseCommandUART	.\main.c	/^void ParseCommandUART(uint8_t cr)$/;"	f
+PowerADC	.\car_driver\Vehicles.c	/^ADC_struct	PowerADC;$/;"	v
+RAMP_send_ctl	.\car_driver\TIMER2.c	/^static void RAMP_send_ctl(void)$/;"	f	file:
+RAWBUF	.\ir_processing.h	15;"	d
+READ_IR	.\main.c	/^	READ_IR,$/;"	e	enum:__anon11	file:
+READ_SPACE	.\main.c	/^	READ_SPACE,$/;"	e	enum:__anon11	file:
+READ_STOP	.\main.c	/^	READ_STOP$/;"	e	enum:__anon11	file:
+REV	.\SwitchbotNordic.h	13;"	d
+REV_main_Loop	.\car_driver\Vehicles.c	/^void REV_main_Loop(void)$/;"	f
+REV_main_initialize	.\car_driver\Vehicles.c	/^void REV_main_initialize(void)$/;"	f
+REV_step	.\car_driver\Vehicles.c	/^uint8_t		REV_step = 0;$/;"	v
+RGB	.\car_driver\RGB_mode.c	/^RGB_struct	RGB;$/;"	v
+RGB_8color_set	.\car_driver\RGB_mode.c	/^void RGB_8color_set(uint8_t i)$/;"	f
+RGB_BLUE	.\SwitchbotNordic.h	37;"	d
+RGB_GREEN	.\SwitchbotNordic.h	36;"	d
+RGB_Gradient_color	.\car_driver\RGB_mode.c	/^void RGB_Gradient_color(uint8_t i)$/;"	f
+RGB_RED	.\SwitchbotNordic.h	35;"	d
+RGB_blue	.\car_driver\Ppin.h	16;"	d
+RGB_flash_color	.\car_driver\RGB_mode.c	/^void RGB_flash_color(uint8_t i)$/;"	f
+RGB_green	.\car_driver\Ppin.h	15;"	d
+RGB_mode_gpio_init	.\car_driver\RGB_mode.c	/^void RGB_mode_gpio_init(void)$/;"	f
+RGB_pwm_on	.\car_driver\Pram.h	/^	uint32_t		RGB_pwm_on:1;$/;"	m	struct:__anon9
+RGB_red	.\car_driver\Ppin.h	14;"	d
+RGB_reflash	.\car_driver\Pram.h	/^	uint32_t		RGB_reflash:1;$/;"	m	struct:__anon9
+RGB_reflash_ctl	.\car_driver\RGB_mode.c	/^void RGB_reflash_ctl(void)$/;"	f
+RGB_show_color	.\car_driver\RGB_mode.c	/^void RGB_show_color(uint8_t i)$/;"	f
+RGB_struct	.\car_driver\Pram.h	/^}RGB_struct;$/;"	t	typeref:struct:__anon8
+ROLL_MAX	.\SwitchbotNordic.h	108;"	d
+ROLL_MIN	.\SwitchbotNordic.h	107;"	d
+RTS_PIN_NUMBER	.\SwitchbotNordic.h	78;"	d
+RTS_PIN_NUMBER	.\SwitchbotNordic.h	86;"	d
+RTS_PIN_NUMBER	.\arm\main0.c	67;"	d	file:
+RX_PIN_NUMBER	.\SwitchbotNordic.h	75;"	d
+RX_PIN_NUMBER	.\SwitchbotNordic.h	83;"	d
+Ramp_dist_cnt	.\car_driver\TIMER2.c	/^uint8_t		Ramp_dist_cnt = 0;	\/\/平台前打枪定位计时.$/;"	v
+Range	.\SwitchbotNordic.c	/^int Range, Head, easyRange;$/;"	v
+Range	.\main.c	/^int 									Head, Range, easyRange;$/;"	v
+SCHED_MAX_EVENT_DATA_SIZE	.\main.c	134;"	d	file:
+SCHED_QUEUE_SIZE	.\main.c	135;"	d	file:
+SCtime	.\car_driver\Pram.h	/^	uint8_t		SCtime;				\/\/显示颜色时间.		\/\/ON time.$/;"	m	struct:__anon8
+SEC_PARAM_BOND	.\arm\main0.c	115;"	d	file:
+SEC_PARAM_BOND	.\main.c	74;"	d	file:
+SEC_PARAM_IO_CAPABILITIES	.\arm\main0.c	117;"	d	file:
+SEC_PARAM_IO_CAPABILITIES	.\main.c	76;"	d	file:
+SEC_PARAM_MAX_KEY_SIZE	.\arm\main0.c	120;"	d	file:
+SEC_PARAM_MAX_KEY_SIZE	.\main.c	79;"	d	file:
+SEC_PARAM_MIN_KEY_SIZE	.\arm\main0.c	119;"	d	file:
+SEC_PARAM_MIN_KEY_SIZE	.\main.c	78;"	d	file:
+SEC_PARAM_MITM	.\arm\main0.c	116;"	d	file:
+SEC_PARAM_MITM	.\main.c	75;"	d	file:
+SEC_PARAM_OOB	.\arm\main0.c	118;"	d	file:
+SEC_PARAM_OOB	.\main.c	77;"	d	file:
+SEC_PARAM_TIMEOUT	.\arm\main0.c	114;"	d	file:
+SEC_PARAM_TIMEOUT	.\main.c	73;"	d	file:
+SEND_MEAS_BUTTON_PIN_NO	.\arm\main0.c	70;"	d	file:
+SERVO_PIN	.\car_driver\Ppin.h	12;"	d
+SIMPLE_UART_H	.\uart_comm2.h	14;"	d
+SLAVE_LATENCY	.\arm\main0.c	103;"	d	file:
+SLAVE_LATENCY	.\main.c	59;"	d	file:
+SLP_color	.\car_driver\Pram.h	15;"	d
+SPACE	.\ir_processing.h	40;"	d
+STAND_UP	.\SwitchbotNordic.h	126;"	d
+STATE_IDLE	.\ir_processing.h	31;"	d
+STATE_MARK	.\ir_processing.h	32;"	d
+STATE_OVERFLOW	.\ir_processing.h	35;"	d
+STATE_SPACE	.\ir_processing.h	33;"	d
+STATE_STOP	.\ir_processing.h	34;"	d
+SYNC_WAIT	.\main.c	/^	SYNC_WAIT,$/;"	e	enum:__anon11	file:
+ShowColor	.\car_driver\Pram.h	/^	uint8_t		ShowColor;		\/\/显示颜色.$/;"	m	struct:__anon8
+Sht_ID	.\car_driver\Pram.h	/^	uint8_t		Sht_ID;			\/\/中枪ID号.$/;"	m	struct:__anon6
+Sht_cnt	.\car_driver\Pram.h	/^	uint8_t		Sht_cnt;		\/\/中枪次数.$/;"	m	struct:__anon6
+Sht_time	.\car_driver\Pram.h	/^	uint8_t		Sht_time;		\/\/打枪时间.$/;"	m	struct:__anon6
+Switch	.\SwitchbotNordic.h	38;"	d
+T2_10ms	.\car_driver\Pram.h	/^	uint32_t		T2_10ms:1;$/;"	m	struct:__anon9
+T32_SLEEP	.\car_driver\Vehicles.c	42;"	d	file:
+TEMP_TYPE_AS_CHARACTERISTIC	.\arm\main0.c	95;"	d	file:
+THRUST_MAX	.\SwitchbotNordic.h	101;"	d
+THRUST_MIN	.\SwitchbotNordic.h	100;"	d
+TIMER2_IRQHandler	.\car_driver\TIMER2.c	/^void TIMER2_IRQHandler(void)$/;"	f
+TIMER2_IRQHandler_copy	.\main.c	/^void TIMER2_IRQHandler_copy(void)$/;"	f
+TIMER2_init	.\car_driver\TIMER2.c	/^void TIMER2_init(void)$/;"	f
+TX_MEDIA_BOX	.\SwitchbotNordic.h	91;"	d
+TX_PIN_NUMBER	.\SwitchbotNordic.h	76;"	d
+TX_PIN_NUMBER	.\SwitchbotNordic.h	84;"	d
+T_RAMP_ID	.\car_driver\Vehicles.c	/^uint8_t		T_RAMP_ID[5] = {0,0x1b,0x1d,0x1e,0x1f};$/;"	v
+TestMode	.\car_driver\Vehicles.c	/^Test_struct	TestMode;$/;"	v
+Test_struct	.\car_driver\Pram.h	/^}Test_struct;$/;"	t	typeref:struct:__anon4
+Tir	.\car_driver\TIMER2.c	/^uint8_t		Tir[4];$/;"	v
+Tir1_string	.\main.c	/^char                                    Tir1_string[4];$/;"	v
+UART0_IRQHandler	.\main.c	/^void UART0_IRQHandler(void)$/;"	f
+UART_data_index	.\main.c	/^static uint8_t                          UART_data_index = 3;$/;"	v	file:
+USECPERTICK	.\ir_processing.h	42;"	d
+UUID_QR_CHR	.\ble_app.h	18;"	d
+UUID_QR_SVC	.\ble_app.h	17;"	d
+Ver_DAC_cnt	.\car_driver\TIMER2.c	/^uint16_t	Ver_DAC_cnt = 0;$/;"	v
+Ver_DAC_data	.\car_driver\TIMER2.c	/^uint8_t		Ver_DAC_data = 0;$/;"	v
+Ver_DAC_step	.\car_driver\TIMER2.c	/^uint8_t		Ver_DAC_step = 0;$/;"	v
+Ver_cnt	.\car_driver\TIMER2.c	/^uint16_t	Ver_cnt = 0;$/;"	v
+Version	.\car_driver\Pram.h	/^	uint32_t		Version:1;	\/\/版本信息.$/;"	m	struct:__anon9
+Version_DAC_GPC2	.\car_driver\TIMER2.c	/^static void Version_DAC_GPC2(void)$/;"	f	file:
+YAW_MAX	.\SwitchbotNordic.h	104;"	d
+YAW_MIN	.\SwitchbotNordic.h	103;"	d
+_BLE_APP_H_	.\ble_app.h	8;"	d
+_GAP	.\ir_processing.h	43;"	d
+__FILE	.\retarget.c	/^struct __FILE { int handle; \/* Add whatever you need here *\/ };$/;"	s	file:
+__JC_PUBLIC_GPIO_H__	.\car_driver\Ppin.h	8;"	d
+__JC_PUBLIC_RAM_H__	.\car_driver\Pram.h	8;"	d
+__JC_RGB_LED_MODE_H__	.\car_driver\RGB_mode.h	8;"	d
+__JC_TIMER2_H__	.\car_driver\TIMER2.h	8;"	d
+__JC_VEHICLES_H__	.\car_driver\Vehicles.h	8;"	d
+__stdin	.\retarget.c	/^FILE __stdin;$/;"	v
+__stdout	.\retarget.c	/^FILE __stdout;$/;"	v
+_write	.\retarget.c	/^int _write(int fd, char * str, int len)$/;"	f
+advertising_init	.\arm\main0.c	/^static void advertising_init(void)$/;"	f	file:
+advertising_init	.\main.c	/^static void advertising_init(void)$/;"	f	file:
+advertising_start	.\arm\main0.c	/^static void advertising_start(void)$/;"	f	file:
+advertising_start	.\main.c	/^static void advertising_start(void)$/;"	f	file:
+angle	.\main.c	/^uint8_t angle, angle_far;$/;"	v
+angle_far	.\main.c	/^uint8_t angle, angle_far;$/;"	v
+app	.\main.c	/^static ble_app_t 						app;                                    \/**< Structure to identify the Nordic UART Service. *\/$/;"	v	file:
+app_error_handler	.\arm\main0.c	/^void app_error_handler(uint32_t error_code, uint32_t line_num, const uint8_t * p_file_name)$/;"	f
+app_error_handler	.\main.c	/^void app_error_handler(uint32_t error_code, uint32_t line_num, const uint8_t *p_file_name)$/;"	f
+application_timers_start	.\arm\main0.c	/^static void application_timers_start(void)$/;"	f	file:
+assert_nrf_callback	.\arm\main0.c	/^void assert_nrf_callback(uint16_t line_num, const uint8_t * p_file_name)$/;"	f
+assert_nrf_callback	.\main.c	/^void assert_nrf_callback(uint16_t line_num, const uint8_t *p_file_name)$/;"	f
+aux1	.\SwitchbotNordic.h	/^	uint16_t aux1;$/;"	m	struct:qr_cmd
+aux2	.\SwitchbotNordic.h	/^	uint16_t aux2;$/;"	m	struct:qr_cmd
+aux3	.\SwitchbotNordic.h	/^	uint16_t aux3;$/;"	m	struct:qr_cmd
+aux4	.\SwitchbotNordic.h	/^	uint16_t aux4;$/;"	m	struct:qr_cmd
+average	.\car_driver\Pram.h	/^	uint16_t	average;		\/\/测试结果.$/;"	m	struct:__anon5
+bas	.\battery.c	/^ble_bas_t bas;      \/* battery service struct *\/$/;"	v
+batt_tid	.\main.c	/^app_timer_id_t batt_tid;								\/* battery timer ID *\/$/;"	v
+battery_level_meas_timeout_handler	.\arm\main0.c	/^static void battery_level_meas_timeout_handler(void * p_context)$/;"	f	file:
+battery_level_update	.\arm\main0.c	/^static void battery_level_update(void)$/;"	f	file:
+battery_mv	.\battery.c	/^volatile uint16_t battery_mv;$/;"	v
+battery_pcnt	.\battery.c	/^volatile uint8_t battery_pcnt;$/;"	v
+battery_start	.\battery.c	/^void battery_start(void)$/;"	f
+ble_GPC2_ctl	.\car_driver\Ppin.h	23;"	d
+ble_GPC_data	.\car_driver\Ppin.h	24;"	d
+ble_Vctl	.\car_driver\Ppin.h	22;"	d
+ble_app_cmd_handler_t	.\ble_app.h	/^typedef void (*ble_app_cmd_handler_t) (ble_app_t *app, uint8_t *cmd, uint8_t cmdlen);$/;"	t
+ble_app_init	.\ble_app.c	/^uint32_t ble_app_init(ble_app_t *app, const ble_app_init_t *app_init)$/;"	f
+ble_app_init_t	.\ble_app.h	/^} ble_app_init_t;$/;"	t	typeref:struct:__anon1
+ble_app_on_ble_evt	.\ble_app.c	/^void ble_app_on_ble_evt(ble_app_t *app, ble_evt_t *evt)$/;"	f
+ble_app_s	.\ble_app.h	/^typedef struct ble_app_s {$/;"	s
+ble_app_t	.\ble_app.h	/^typedef struct ble_app_s ble_app_t;$/;"	t	typeref:struct:ble_app_s
+ble_app_t	.\ble_app.h	/^} ble_app_t;$/;"	t	typeref:struct:ble_app_s
+ble_app_tx_blob	.\ble_app.c	/^uint32_t ble_app_tx_blob(ble_app_t *app, uint8_t *data, uint32_t len)$/;"	f
+ble_cnnct_1st	.\car_driver\Pram.h	/^	uint32_t		ble_cnnct_1st:1;$/;"	m	struct:__anon9
+ble_connect	.\car_driver\Pram.h	/^	uint32_t		ble_connect:1;$/;"	m	struct:__anon9
+ble_control	.\car_driver\Pram.h	/^	uint32_t		ble_control:1;$/;"	m	struct:__anon9
+ble_evt_dispatch	.\arm\main0.c	/^static void ble_evt_dispatch(ble_evt_t * p_ble_evt)$/;"	f	file:
+ble_evt_dispatch	.\main.c	/^static void ble_evt_dispatch(ble_evt_t * p_ble_evt)$/;"	f	file:
+ble_nus_data_handler_t	.\ble_nus.h	/^typedef void (*ble_nus_data_handler_t) (ble_nus_t * p_nus, uint8_t * data, uint16_t length);$/;"	t
+ble_nus_init	.\ble_nus.c	/^uint32_t ble_nus_init(ble_nus_t * p_nus, const ble_nus_init_t * p_nus_init)$/;"	f
+ble_nus_init_t	.\ble_nus.h	/^} ble_nus_init_t;$/;"	t	typeref:struct:__anon2
+ble_nus_on_ble_evt	.\ble_nus.c	/^void ble_nus_on_ble_evt(ble_nus_t * p_nus, ble_evt_t * p_ble_evt)$/;"	f
+ble_nus_s	.\ble_nus.h	/^typedef struct ble_nus_s$/;"	s
+ble_nus_send_string	.\ble_nus.c	/^uint32_t ble_nus_send_string(ble_nus_t * p_nus, uint8_t * string, uint16_t length)$/;"	f
+ble_nus_t	.\ble_nus.h	/^typedef struct ble_nus_s ble_nus_t;$/;"	t	typeref:struct:ble_nus_s
+ble_nus_t	.\ble_nus.h	/^} ble_nus_t;$/;"	t	typeref:struct:ble_nus_s
+ble_parse_control	.\car_driver\Vehicles.c	/^static void ble_parse_control(void)$/;"	f	file:
+ble_stack_init	.\arm\main0.c	/^static void ble_stack_init(void)$/;"	f	file:
+ble_stack_init	.\main.c	/^static void ble_stack_init(void)$/;"	f	file:
+blinkflag	.\ir_processing.h	/^	uint8_t blinkflag;       \/\/ true -> enable blinking of pin on IR processing$/;"	m	struct:__anon10
+blinkpin	.\ir_processing.h	/^	uint8_t blinkpin;$/;"	m	struct:__anon10
+block_id	.\pstorage_platform.h	/^    pstorage_block_t    block_id;       \/**< Block ID.*\/$/;"	m	struct:__anon12
+bond_evt_handler	.\arm\main0.c	/^static void bond_evt_handler(ble_bondmngr_evt_t * p_evt)$/;"	f	file:
+bond_manager_error_handler	.\arm\main0.c	/^static void bond_manager_error_handler(uint32_t nrf_error)$/;"	f	file:
+bond_manager_init	.\arm\main0.c	/^static void bond_manager_init(void)$/;"	f	file:
+br2	.\car_driver\TIMER2.c	/^uint8_t		br2,br4;$/;"	v
+br4	.\car_driver\TIMER2.c	/^uint8_t		br2,br4;$/;"	v
+button_event_handler	.\arm\main0.c	/^static void button_event_handler(uint8_t pin_no)$/;"	f	file:
+buttons_init	.\arm\main0.c	/^static void buttons_init(void)$/;"	f	file:
+c_0x78_ctl	.\car_driver\Pram.h	/^	uint32_t		c_0x78_ctl:1;$/;"	m	struct:__anon9
+c_5ms_max	.\car_driver\TIMER2.c	82;"	d	file:
+c_5ms_min	.\car_driver\TIMER2.c	81;"	d	file:
+c_ADC_times	.\car_driver\Vehicles.c	38;"	d	file:
+c_V00_max	.\car_driver\TIMER2.c	84;"	d	file:
+c_V00_min	.\car_driver\TIMER2.c	83;"	d	file:
+c_V01_max	.\car_driver\TIMER2.c	86;"	d	file:
+c_V01_min	.\car_driver\TIMER2.c	85;"	d	file:
+c_bit0_max	.\car_driver\TIMER2.c	67;"	d	file:
+c_bit0_min	.\car_driver\TIMER2.c	68;"	d	file:
+c_bit1_max	.\car_driver\TIMER2.c	65;"	d	file:
+c_bit1_min	.\car_driver\TIMER2.c	66;"	d	file:
+c_stop_max	.\car_driver\TIMER2.c	69;"	d	file:
+c_stop_min	.\car_driver\TIMER2.c	70;"	d	file:
+c_sync_max	.\car_driver\TIMER2.c	63;"	d	file:
+c_sync_min	.\car_driver\TIMER2.c	64;"	d	file:
+calc_coord	.\SwitchbotNordic.c	/^int calc_coord(uint8_t IR[], int *Head, int *Range)$/;"	f
+calcul_01	.\main.c	/^void calcul_01(void){$/;"	f
+calcul_02	.\main.c	/^void calcul_02(void){$/;"	f
+calcul_03	.\main.c	/^void calcul_03(void){$/;"	f
+calcul_04	.\main.c	/^void calcul_04(void){$/;"	f
+calculate_angle	.\SwitchbotNordic.c	/^bool calculate_angle(const uint8_t IR[], const int MaxRange, int16_t *fwd_bwd,$/;"	f
+calculate_speed	.\SwitchbotNordic.c	/^bool calculate_speed(const uint8_t IR[], const int MaxRange, int16_t *fwd_bwd,$/;"	f
+clr_Black	.\car_driver\Ppin.h	49;"	d
+clr_Blue	.\car_driver\Ppin.h	53;"	d
+clr_Cyan	.\car_driver\Ppin.h	55;"	d
+clr_Green	.\car_driver\Ppin.h	51;"	d
+clr_Magenta	.\car_driver\Ppin.h	54;"	d
+clr_NULL	.\car_driver\Ppin.h	57;"	d
+clr_Red	.\car_driver\Ppin.h	50;"	d
+clr_White	.\car_driver\Ppin.h	56;"	d
+clr_Yollow	.\car_driver\Ppin.h	52;"	d
+cmd_DATA	.\car_driver\TIMER2.c	/^uint16_t	cmd_DATA = 0,cmd_bit = 0;$/;"	v
+cmd_SendCNT	.\car_driver\TIMER2.c	/^uint8_t		cmd_SendCNT = 0;$/;"	v
+cmd_SendStep	.\car_driver\TIMER2.c	/^uint8_t		cmd_SendStep = 0;$/;"	v
+cmd_bit	.\car_driver\TIMER2.c	/^uint16_t	cmd_DATA = 0,cmd_bit = 0;$/;"	v
+cmd_char_add	.\ble_app.c	/^static uint32_t cmd_char_add(ble_app_t *app, const ble_app_init_t *app_init)$/;"	f	file:
+cmd_char_handles	.\ble_app.h	/^	ble_gatts_char_handles_t cmd_char_handles;$/;"	m	struct:ble_app_s
+cmd_handler	.\ble_app.h	/^	ble_app_cmd_handler_t cmd_handler;	\/* Event handler to be called when LED characteristic is written. *\/$/;"	m	struct:__anon1
+cmd_handler	.\ble_app.h	/^	ble_app_cmd_handler_t cmd_handler;$/;"	m	struct:ble_app_s
+colorNow	.\car_driver\Pram.h	/^	uint8_t		colorNow;			\/\/当前显示的颜色.$/;"	m	struct:__anon8
+colorSet	.\car_driver\Pram.h	/^	uint8_t		colorSet;			\/\/设置显示的颜色.$/;"	m	struct:__anon8
+command	.\main.c	/^uint8_t									command;$/;"	v
+conn_handle	.\ble_app.h	/^	uint16_t conn_handle;$/;"	m	struct:ble_app_s
+conn_handle	.\ble_nus.h	/^    uint16_t                 conn_handle;             \/**< Handle of the current connection (as provided by the S110 SoftDevice). This will be BLE_CONN_HANDLE_INVALID if not in a connection. *\/$/;"	m	struct:ble_nus_s
+conn_params_error_handler	.\arm\main0.c	/^static void conn_params_error_handler(uint32_t nrf_error)$/;"	f	file:
+conn_params_error_handler	.\main.c	/^static void conn_params_error_handler(uint32_t nrf_error)$/;"	f	file:
+conn_params_init	.\arm\main0.c	/^static void conn_params_init(void)$/;"	f	file:
+conn_params_init	.\main.c	/^static void conn_params_init(void)$/;"	f	file:
+coord_TSS_on	.\car_driver\Pram.h	/^	uint32_t		coord_TSS_on:1;$/;"	m	struct:__anon9
+coord_ctl	.\car_driver\Pram.h	/^	uint32_t		coord_ctl:1;$/;"	m	struct:__anon9
+coord_escape	.\car_driver\Pram.h	/^	uint32_t		coord_escape:1;$/;"	m	struct:__anon9
+coord_loops	.\car_driver\Pram.h	/^	uint32_t		coord_loops:1;$/;"	m	struct:__anon9
+coord_tracking	.\car_driver\Pram.h	/^	uint32_t		coord_tracking:1;$/;"	m	struct:__anon9
+cur_cmd	.\main.c	/^struct qr_cmd cur_cmd;$/;"	v	typeref:struct:qr_cmd
+data_bit	.\car_driver\TIMER2.c	/^uint8_t		IR_DATA = 0,data_bit = 0;$/;"	v
+data_handler	.\ble_nus.h	/^    ble_nus_data_handler_t   data_handler;            \/**< Event handler to be called for handling received data. *\/$/;"	m	struct:__anon2
+data_handler	.\ble_nus.h	/^    ble_nus_data_handler_t   data_handler;            \/**< Event handler to be called for handling received data. *\/$/;"	m	struct:ble_nus_s
+data_index	.\main.c	/^uint8_t                                   data_index = 0;$/;"	v
+debug	.\main.c	/^uint32_t								debug[15] = {0};$/;"	v
+debug2	.\main.c	/^uint16_t									debug2[200] = {0};$/;"	v
+disCon_color	.\car_driver\Pram.h	16;"	d
+duty	.\car_driver\Pram.h	/^	uint8_t		duty;					\/\/渐变亮度.$/;"	m	struct:__anon8
+easyRange	.\SwitchbotNordic.c	/^int Range, Head, easyRange;$/;"	v
+easyRange	.\main.c	/^int 									Head, Range, easyRange;$/;"	v
+enter_sleep	.\car_driver\Vehicles.c	/^uint8_t		enter_sleep	=	0;$/;"	v
+fDecoy	.\main.c	/^bool 									fDecoy = false;$/;"	v
+fNewData	.\main.c	/^bool 									fNewData = false;$/;"	v
+fintCount	.\main.c	/^uint8_t									fintCount,fperCount;$/;"	v
+fl_new	.\SwitchbotNordic.c	/^uint8_t fl_new[8], fl_old[8];$/;"	v
+fl_old	.\SwitchbotNordic.c	/^uint8_t fl_new[8], fl_old[8];$/;"	v
+fperCount	.\main.c	/^uint8_t									fintCount,fperCount;$/;"	v
+fputc	.\retarget.c	/^int fputc(int ch, FILE * p_file) $/;"	f
+fr1	.\main.c	/^uint8_t									r1,r2,r3,r4, r4_old, fr1, fr2, fr3, fr4;$/;"	v
+fr2	.\main.c	/^uint8_t									r1,r2,r3,r4, r4_old, fr1, fr2, fr3, fr4;$/;"	v
+fr3	.\main.c	/^uint8_t									r1,r2,r3,r4, r4_old, fr1, fr2, fr3, fr4;$/;"	v
+fr4	.\main.c	/^uint8_t									r1,r2,r3,r4, r4_old, fr1, fr2, fr3, fr4;$/;"	v
+frangeAll	.\main.c	/^uint8_t									frangeAll,frangeOld;$/;"	v
+frangeOld	.\main.c	/^uint8_t									frangeAll,frangeOld;$/;"	v
+fs1	.\main.c	/^uint8_t									fs1,fs2,fs3,fs4;$/;"	v
+fs2	.\main.c	/^uint8_t									fs1,fs2,fs3,fs4;$/;"	v
+fs3	.\main.c	/^uint8_t									fs1,fs2,fs3,fs4;$/;"	v
+fs4	.\main.c	/^uint8_t									fs1,fs2,fs3,fs4;$/;"	v
+fwd_bwd	.\main.c	/^int16_t									fwd_bwd;$/;"	v
+g_bit0_max	.\car_driver\TIMER2.c	76;"	d	file:
+g_bit0_min	.\car_driver\TIMER2.c	77;"	d	file:
+g_bit1_max	.\car_driver\TIMER2.c	74;"	d	file:
+g_bit1_min	.\car_driver\TIMER2.c	75;"	d	file:
+g_stop_max	.\car_driver\TIMER2.c	78;"	d	file:
+g_stop_min	.\car_driver\TIMER2.c	79;"	d	file:
+g_sync_max	.\car_driver\TIMER2.c	72;"	d	file:
+g_sync_min	.\car_driver\TIMER2.c	73;"	d	file:
+gap_params_init	.\arm\main0.c	/^static void gap_params_init(void)$/;"	f	file:
+gap_params_init	.\main.c	/^static void gap_params_init(void)$/;"	f	file:
+get_tx_id	.\main.c	/^uint8_t get_tx_id(uint32_t space){$/;"	f
+goal	.\car_driver\TIMER2.c	/^uint8_t 	goal[2] = {1,2};$/;"	v
+gpiote_init	.\arm\main0.c	/^static void gpiote_init(void)$/;"	f	file:
+gpiote_init	.\main.c	/^static void gpiote_init(void)$/;"	f	file:
+gun_10ms_cnt	.\car_driver\TIMER2.c	/^uint8_t		gun_10ms_cnt = 0;$/;"	v
+gun_ID	.\car_driver\Pram.h	/^	uint8_t		gun_ID;			\/\/打枪ID号.$/;"	m	struct:__anon7
+gun_ID_range	.\car_driver\Vehicles.h	/^const	static	uint8_t	gun_ID_range[6] =$/;"	v
+gun_right	.\car_driver\Pram.h	/^	uint32_t		gun_right:1;$/;"	m	struct:__anon9
+gun_rising	.\car_driver\Pram.h	/^	uint32_t		gun_rising:1;	\/\/上升沿对齐,为从车打枪用.$/;"	m	struct:__anon9
+gun_send_ctl	.\car_driver\Vehicles.c	/^static void gun_send_ctl(void)$/;"	f	file:
+gun_shoot	.\car_driver\Pram.h	/^	uint32_t		gun_shoot:1;$/;"	m	struct:__anon9
+gun_shooting_start	.\car_driver\TIMER2.c	/^static void gun_shooting_start(void)$/;"	f	file:
+gun_start_cnt	.\car_driver\TIMER2.c	/^uint16_t	gun_start_cnt = 0;$/;"	v
+handle	.\retarget.c	/^struct __FILE { int handle; \/* Add whatever you need here *\/ };$/;"	m	struct:__FILE	file:
+head	.\SwitchbotNordic.c	/^int head, range;$/;"	v
+head_rx_CMD	.\car_driver\TIMER2.c	/^uint8_t		head_rx_CMD = 0,tail_rx_CMD = 0;$/;"	v
+hts_sim_measurement	.\arm\main0.c	/^static void hts_sim_measurement(ble_hts_meas_t * p_meas)$/;"	f	file:
+index	.\car_driver\Pram.h	/^	uint8_t		index;				\/\/渐变索引.				\/\/当前渐变步骤.$/;"	m	struct:__anon8
+index	.\car_driver\Pram.h	/^	uint8_t		index;			\/\/结果等级.$/;"	m	struct:__anon5
+intCount	.\main.c	/^uint16_t									intCount,perCount;$/;"	v
+ir_read	.\ir_processing.c	/^void ir_read(){$/;"	f
+ir_values	.\main.c	/^uint8_t ir_values[8];$/;"	v
+irparams_t	.\ir_processing.h	/^} irparams_t;$/;"	t	typeref:struct:__anon10
+is_notification_enabled	.\ble_nus.h	/^    bool                     is_notification_enabled; \/**< Variable to indicate if the peer has enabled notification of the RX characteristic.*\/$/;"	m	struct:ble_nus_s
+is_sync	.\main.c	/^bool is_sync(uint32_t space){$/;"	f
+last_step	.\car_driver\Pram.h	/^	uint8_t		last_step;		\/\/原来方式.	0:显示颜色;1:闪烁;2:渐变;$/;"	m	struct:__anon8
+leds_init	.\arm\main0.c	/^static void leds_init(void)$/;"	f	file:
+leds_init	.\main.c	/^static void leds_init(void)$/;"	f	file:
+lft_rgt	.\main.c	/^int16_t 								lft_rgt;$/;"	v
+mFlags	.\car_driver\Vehicles.c	/^Main_Flags	mFlags;$/;"	v
+m_adv_params	.\arm\main0.c	/^static ble_gap_adv_params_t                  m_adv_params;                              \/**< Parameters to be passed to the stack when starting advertising. *\/$/;"	v	file:
+m_bas	.\arm\main0.c	/^static ble_bas_t                             m_bas;                                     \/**< Structure used to identify the battery service. *\/$/;"	v	file:
+m_battery_sim_cfg	.\arm\main0.c	/^static ble_sensorsim_cfg_t                   m_battery_sim_cfg;                         \/**< Battery Level sensor simulator configuration. *\/$/;"	v	file:
+m_battery_sim_state	.\arm\main0.c	/^static ble_sensorsim_state_t                 m_battery_sim_state;                       \/**< Battery Level sensor simulator state. *\/$/;"	v	file:
+m_battery_timer_id	.\arm\main0.c	/^static app_timer_id_t                        m_battery_timer_id;                        \/**< Battery timer. *\/$/;"	v	file:
+m_conn_handle	.\arm\main0.c	/^static uint16_t                              m_conn_handle = BLE_CONN_HANDLE_INVALID;   \/**< Handle of the current connection. *\/$/;"	v	file:
+m_conn_handle	.\main.c	/^static uint16_t 						m_conn_handle = BLE_CONN_HANDLE_INVALID;	\/* Handle of the current connection. *\/$/;"	v	file:
+m_hts	.\arm\main0.c	/^static ble_hts_t                             m_hts;                                     \/**< Structure used to identify the health thermometer service. *\/$/;"	v	file:
+m_hts_meas_ind_conf_pending	.\arm\main0.c	/^static bool                                  m_hts_meas_ind_conf_pending = false;       \/**< Flag to keep track of when an indication confirmation is pending. *\/$/;"	v	file:
+m_nus	.\main.c	/^static ble_nus_t                        m_nus;  $/;"	v	file:
+m_sec_params	.\arm\main0.c	/^static ble_gap_sec_params_t                  m_sec_params;                              \/**< Security requirements for this application. *\/$/;"	v	file:
+m_sec_params	.\main.c	/^static ble_gap_sec_params_t 			m_sec_params;			\/* Security requirements for this application. *\/$/;"	v	file:
+m_state	.\main.c	/^} m_state = SYNC_WAIT;$/;"	v	typeref:enum:__anon11
+m_temp_celcius_sim_cfg	.\arm\main0.c	/^static ble_sensorsim_cfg_t                   m_temp_celcius_sim_cfg;                    \/**< Temperature simulator configuration. *\/$/;"	v	file:
+m_temp_celcius_sim_state	.\arm\main0.c	/^static ble_sensorsim_state_t                 m_temp_celcius_sim_state;                  \/**< Temperature simulator state. *\/$/;"	v	file:
+main	.\arm\main0.c	/^int main(void)$/;"	f
+main	.\main.c	/^int main(void)$/;"	f
+max_space	.\main.c	/^uint32_t timestamp1, timestamp2, max_space, previous_space;$/;"	v
+millis	.\main.c	/^static uint32_t millis(void){$/;"	f	file:
+module_id	.\pstorage_platform.h	/^    uint32_t            module_id;      \/**< Module ID.*\/$/;"	m	struct:__anon12
+motionControl_DriveFWD	.\SwitchbotNordic.c	/^static void motionControl_DriveFWD(const int easyRange, const int Head,$/;"	f	file:
+motionControl_YAW	.\SwitchbotNordic.c	/^static void motionControl_YAW(const int Head, int16_t *lft_rgt)$/;"	f	file:
+noDataCount	.\main.c	/^uint16_t									temp, noDataCount;$/;"	v
+nus_data_handler	.\main.c	/^void nus_data_handler(ble_nus_t * p_nus, uint8_t * cmd, uint16_t cmdlen)$/;"	f
+nybble_to_ascii	.\main.c	/^static uint8_t nybble_to_ascii(uint8_t v)$/;"	f	file:
+on_ble_evt	.\arm\main0.c	/^static void on_ble_evt(ble_evt_t * p_ble_evt)$/;"	f	file:
+on_ble_evt	.\main.c	/^static void on_ble_evt(ble_evt_t *evt)$/;"	f	file:
+on_conn_params_evt	.\arm\main0.c	/^static void on_conn_params_evt(ble_conn_params_evt_t * p_evt)$/;"	f	file:
+on_conn_params_evt	.\main.c	/^static void on_conn_params_evt(ble_conn_params_evt_t * p_evt)$/;"	f	file:
+on_connect	.\ble_app.c	/^static void on_connect(ble_app_t *app, ble_evt_t *evt)$/;"	f	file:
+on_connect	.\ble_nus.c	/^static void on_connect(ble_nus_t * p_nus, ble_evt_t * p_ble_evt)$/;"	f	file:
+on_disconnect	.\ble_app.c	/^static void on_disconnect(ble_app_t *app, ble_evt_t *evt)$/;"	f	file:
+on_disconnect	.\ble_nus.c	/^static void on_disconnect(ble_nus_t * p_nus, ble_evt_t * p_ble_evt)$/;"	f	file:
+on_hts_evt	.\arm\main0.c	/^static void on_hts_evt(ble_hts_t * p_hts, ble_hts_evt_t *p_evt)$/;"	f	file:
+on_write	.\ble_app.c	/^static void on_write(ble_app_t *app, ble_evt_t *evt)$/;"	f	file:
+on_write	.\ble_nus.c	/^static void on_write(ble_nus_t * p_nus, ble_evt_t * p_ble_evt)$/;"	f	file:
+overflow	.\ir_processing.h	/^	uint8_t overflow;        \/\/ Raw buffer overflow occurred$/;"	m	struct:__anon10
+overflow_MAX	.\car_driver\Ppin.h	62;"	d
+perCnt	.\car_driver\TIMER2.c	/^uint16_t	perCnt,perCount;$/;"	v
+perCount	.\car_driver\TIMER2.c	/^uint16_t	perCnt,perCount;$/;"	v
+perCount	.\main.c	/^uint16_t									intCount,perCount;$/;"	v
+perCount_copy	.\main.c	/^uint8_t perCount_copy;$/;"	v
+pitch	.\SwitchbotNordic.h	/^	uint16_t pitch;					\/* right joystick, up\/down *\/$/;"	m	struct:qr_cmd
+power	.\car_driver\Pram.h	/^	uint8_t		power;			\/\/打枪功率.$/;"	m	struct:__anon7
+power_low	.\car_driver\Pram.h	/^	uint32_t		power_low:1;$/;"	m	struct:__anon9
+power_manage	.\arm\main0.c	/^static void power_manage(void)$/;"	f	file:
+power_manage	.\main.c	/^static void power_manage(void)$/;"	f	file:
+previous_space	.\main.c	/^uint32_t timestamp1, timestamp2, max_space, previous_space;$/;"	v
+pstorage_block_t	.\pstorage_platform.h	/^typedef uint32_t pstorage_block_t;$/;"	t
+pstorage_handle_t	.\pstorage_platform.h	/^} pstorage_handle_t;$/;"	t	typeref:struct:__anon12
+pstorage_size_t	.\pstorage_platform.h	/^typedef uint16_t pstorage_size_t;      \/** Size of length and offset fields. *\/$/;"	t
+qr_cmd	.\SwitchbotNordic.h	/^struct qr_cmd {$/;"	s
+r1	.\main.c	/^uint8_t									r1,r2,r3,r4, r4_old, fr1, fr2, fr3, fr4;$/;"	v
+r2	.\main.c	/^uint8_t									r1,r2,r3,r4, r4_old, fr1, fr2, fr3, fr4;$/;"	v
+r3	.\main.c	/^uint8_t									r1,r2,r3,r4, r4_old, fr1, fr2, fr3, fr4;$/;"	v
+r4	.\main.c	/^uint8_t									r1,r2,r3,r4, r4_old, fr1, fr2, fr3, fr4;$/;"	v
+r4_old	.\main.c	/^uint8_t									r1,r2,r3,r4, r4_old, fr1, fr2, fr3, fr4;$/;"	v
+ramp6_index	.\car_driver\Vehicles.c	/^uint8_t		ramp6_index	=	0;$/;"	v
+ramp_ID	.\car_driver\Vehicles.c	/^uint8_t		ramp_ID = 0;$/;"	v
+range	.\SwitchbotNordic.c	/^int head, range;$/;"	v
+rangeAll	.\main.c	/^uint8_t									rangeAll,rangeOld;$/;"	v
+rangeOld	.\main.c	/^uint8_t									rangeAll,rangeOld;$/;"	v
+rawbuf	.\ir_processing.h	/^	unsigned int rawbuf[RAWBUF];  \/\/ raw data$/;"	m	struct:__anon10
+rawlen	.\ir_processing.h	/^	uint8_t rawlen;          \/\/ counter of entries in rawbuf$/;"	m	struct:__anon10
+rcvstate	.\ir_processing.h	/^	uint8_t rcvstate;        \/\/ State Machine state$/;"	m	struct:__anon10
+real_10ms	.\car_driver\Pram.h	/^	uint16_t	real_10ms;		\/\/10ms计数.$/;"	m	struct:__anon8
+receiver_IRM_coord	.\main.c	/^static void receiver_IRM_coord(void)$/;"	f	file:
+recvpin	.\ir_processing.h	/^	uint8_t recvpin;         \/\/ Pin connected to IR data from detector$/;"	m	struct:__anon10
+ref_space	.\main.c	/^uint32_t								     space = 0, ref_space = 0;$/;"	v
+reflash_RGB	.\car_driver\RGB_mode.c	/^static void reflash_RGB(void)$/;"	f	file:
+result	.\car_driver\Pram.h	/^	uint16_t	result;			\/\/测试结果.$/;"	m	struct:__anon5
+results	.\main.c	/^uint32_t								results[20][5] = {0};$/;"	v
+retarget_init	.\retarget.c	/^void retarget_init(void)$/;"	f
+roll	.\SwitchbotNordic.h	/^	uint16_t roll;					\/* right joystick, left\/right *\/$/;"	m	struct:qr_cmd
+rx_char_add	.\ble_nus.c	/^static uint32_t rx_char_add(ble_nus_t * p_nus, const ble_nus_init_t * p_nus_init)$/;"	f	file:
+rx_data	.\car_driver\Pram.h	/^	uint8_t		rx_data;		\/\/中枪数据.$/;"	m	struct:__anon7
+rx_goal	.\car_driver\Pram.h	/^	uint8_t		rx_goal;		\/\/中枪方向.$/;"	m	struct:__anon7
+rx_handles	.\ble_nus.h	/^    ble_gatts_char_handles_t rx_handles;              \/**< Handles related to the RX characteristic. (as provided by the S110 SoftDevice)*\/$/;"	m	struct:ble_nus_s
+s1	.\main.c	/^uint8_t									s1,s2,s3,s4;$/;"	v
+s2	.\main.c	/^uint8_t									s1,s2,s3,s4;$/;"	v
+s3	.\main.c	/^uint8_t									s1,s2,s3,s4;$/;"	v
+s4	.\main.c	/^uint8_t									s1,s2,s3,s4;$/;"	v
+sR2	.\car_driver\TIMER2.c	/^uint8_t		sR2,sR4;$/;"	v
+sR4	.\car_driver\TIMER2.c	/^uint8_t		sR2,sR4;$/;"	v
+sRall	.\car_driver\TIMER2.c	/^uint8_t		sRall,sRold;$/;"	v
+sRold	.\car_driver\TIMER2.c	/^uint8_t		sRall,sRold;$/;"	v
+scheduler_init	.\main.c	/^static void scheduler_init(void)$/;"	f	file:
+sec_params_init	.\arm\main0.c	/^static void sec_params_init(void)$/;"	f	file:
+sec_params_init	.\main.c	/^static void sec_params_init(void)$/;"	f	file:
+send_GPC_cmd	.\car_driver\TIMER2.c	/^void send_GPC_cmd(void)$/;"	f
+sensor_sim_init	.\arm\main0.c	/^static void sensor_sim_init(void)$/;"	f	file:
+service_error_handler	.\ble_app.c	/^static void service_error_handler(uint32_t nrf_error)$/;"	f	file:
+service_handle	.\ble_app.h	/^	uint16_t service_handle;$/;"	m	struct:ble_app_s
+service_handle	.\ble_nus.h	/^    uint16_t                 service_handle;          \/**< Handle of Nordic UART Service (as provided by the S110 SoftDevice). *\/$/;"	m	struct:ble_nus_s
+services_init	.\arm\main0.c	/^static void services_init(void)$/;"	f	file:
+services_init	.\main.c	/^static void services_init(void)$/;"	f	file:
+simple_uart_config	.\uart_comm2.c	/^void simple_uart_config(uint8_t rts_pin_number,$/;"	f
+simple_uart_get	.\uart_comm2.c	/^uint8_t simple_uart_get(void)$/;"	f
+simple_uart_get_with_timeout	.\uart_comm2.c	/^bool simple_uart_get_with_timeout(int32_t timeout_ms, uint8_t * rx_data)$/;"	f
+simple_uart_put	.\uart_comm2.c	/^void simple_uart_put(uint8_t cr)$/;"	f
+simple_uart_putstring	.\uart_comm2.c	/^void simple_uart_putstring(const uint8_t * str)$/;"	f
+sleep_time	.\car_driver\Vehicles.c	/^uint32_t	sleep_time	=	0;$/;"	v
+space	.\main.c	/^uint32_t								     space = 0, ref_space = 0;$/;"	v
+spcl	.\car_driver\Vehicles.c	/^spcl_gun_struct	spcl;$/;"	v
+spcl_gun_struct	.\car_driver\Pram.h	/^}spcl_gun_struct;$/;"	t	typeref:struct:__anon7
+spcl_step	.\car_driver\Vehicles.c	/^uint8_t		spcl_step	=	0;$/;"	v
+speed_INC	.\car_driver\Pram.h	/^	uint8_t		speed_INC;		\/\/渐变处理速度.$/;"	m	struct:__anon8
+speed_OFF	.\car_driver\Pram.h	/^	uint8_t		speed_OFF;		\/\/渐变灭速度.			\/\/OFF速度.$/;"	m	struct:__anon8
+speed_ON	.\car_driver\Pram.h	/^	uint8_t		speed_ON;			\/\/渐变亮速度.			\/\/ON速度.$/;"	m	struct:__anon8
+status	.\car_driver\Pram.h	/^	uint32_t	status;		\/\/Flash data状态.$/;"	m	struct:__anon3
+step	.\car_driver\Pram.h	/^	uint8_t		step;					\/\/显示方式.	0:显示颜色;1:闪烁;2:渐变;$/;"	m	struct:__anon8
+step	.\car_driver\Pram.h	/^	uint8_t		step;				\/\/测试模式步骤.$/;"	m	struct:__anon4
+sum	.\car_driver\Pram.h	/^	uint16_t	sum;				\/\/测试结果.$/;"	m	struct:__anon5
+sys_evt_dispatch	.\arm\main0.c	/^static void sys_evt_dispatch(uint32_t sys_evt)$/;"	f	file:
+sys_evt_dispatch	.\main.c	/^static void sys_evt_dispatch(uint32_t sys_evt)$/;"	f	file:
+t1	.\main.c	/^volatile uint8_t									t1 = 0,t2=0, t3=0, t4=0, t5=0;$/;"	v
+t2	.\main.c	/^volatile uint8_t									t1 = 0,t2=0, t3=0, t4=0, t5=0;$/;"	v
+t2_100us	.\car_driver\TIMER2.c	/^uint8_t		t2_100us = 100;$/;"	v
+t2_10ms	.\car_driver\TIMER2.c	/^uint8_t		t2_10ms = 0;$/;"	v
+t3	.\main.c	/^volatile uint8_t									t1 = 0,t2=0, t3=0, t4=0, t5=0;$/;"	v
+t4	.\main.c	/^volatile uint8_t									t1 = 0,t2=0, t3=0, t4=0, t5=0;$/;"	v
+t5	.\main.c	/^volatile uint8_t									t1 = 0,t2=0, t3=0, t4=0, t5=0;$/;"	v
+tail_rx_CMD	.\car_driver\TIMER2.c	/^uint8_t		head_rx_CMD = 0,tail_rx_CMD = 0;$/;"	v
+temp	.\main.c	/^uint16_t									temp, noDataCount;$/;"	v
+temperature_measurement_send	.\arm\main0.c	/^static void temperature_measurement_send(void)$/;"	f	file:
+test_10ms	.\car_driver\Pram.h	/^	uint32_t		test_10ms:1;$/;"	m	struct:__anon9
+test_2sec	.\car_driver\Vehicles.c	/^uint8_t		test_2sec = 0;$/;"	v
+test_gun_ID	.\car_driver\Vehicles.c	/^uint8_t		test_gun_ID = 5;$/;"	v
+testing	.\car_driver\Pram.h	/^	uint32_t		testing:1;$/;"	m	struct:__anon9
+thrust	.\SwitchbotNordic.h	/^	uint16_t thrust;					\/* left joystick, up\/down *\/$/;"	m	struct:qr_cmd
+tick_handler	.\main.c	/^static void tick_handler(void * p_context)$/;"	f	file:
+timer	.\ir_processing.h	/^	unsigned int timer;           \/\/ State timer, counts 50uS ticks.$/;"	m	struct:__anon10
+timer2_init	.\main.c	/^void timer2_init(void)$/;"	f
+timer_counter	.\main.c	/^uint32_t timer_counter = 0;$/;"	v
+timers_init	.\arm\main0.c	/^static void timers_init(void)$/;"	f	file:
+timers_init	.\main.c	/^static void timers_init(void)$/;"	f	file:
+timers_start	.\main.c	/^static void timers_start(void)$/;"	f	file:
+times	.\car_driver\Pram.h	/^	uint8_t		times;				\/\/闪烁次数.$/;"	m	struct:__anon8
+times	.\car_driver\Pram.h	/^	uint8_t		times;			\/\/测试次数.$/;"	m	struct:__anon5
+timestamp1	.\main.c	/^uint32_t timestamp1, timestamp2, max_space, previous_space;$/;"	v
+timestamp2	.\main.c	/^uint32_t timestamp1, timestamp2, max_space, previous_space;$/;"	v
+tmp_buffer	.\SwitchbotNordic.c	/^uint8_t tmp_buffer[4];$/;"	v
+tmp_head	.\main.c	/^int tmp_head, tmp_head_far;$/;"	v
+tmp_head_far	.\main.c	/^int tmp_head, tmp_head_far;$/;"	v
+tmp_tab1	.\main.c	/^uint8_t tmp_tab1[4];$/;"	v
+tx_char_add	.\ble_nus.c	/^static uint32_t tx_char_add(ble_nus_t * p_nus, const ble_nus_init_t * p_nus_init)$/;"	f	file:
+tx_cnt	.\car_driver\Pram.h	/^	uint8_t		tx_cnt;			\/\/打枪计时.$/;"	m	struct:__anon7
+tx_data	.\car_driver\Pram.h	/^	uint8_t		tx_data;		\/\/打枪数据.$/;"	m	struct:__anon7
+tx_handles	.\ble_nus.h	/^    ble_gatts_char_handles_t tx_handles;              \/**< Handles related to the TX characteristic. (as provided by the S110 SoftDevice)*\/$/;"	m	struct:ble_nus_s
+tx_step	.\car_driver\Pram.h	/^	uint8_t		tx_step;		\/\/打枪步骤.$/;"	m	struct:__anon7
+uart_init	.\main.c	/^static void uart_init(void)$/;"	f	file:
+uart_put32	.\main.c	/^static void uart_put32(uint32_t v)$/;"	f	file:
+uart_putdec	.\main.c	/^static void uart_putdec(uint32_t v)$/;"	f	file:
+uuid_type	.\ble_app.h	/^	uint8_t uuid_type;$/;"	m	struct:ble_app_s
+uuid_type	.\ble_nus.h	/^    uint8_t                  uuid_type;               \/**< UUID type for Nordic UART Service Base UUID. *\/$/;"	m	struct:ble_nus_s
+wait	.\car_driver\Pram.h	/^	uint8_t		wait;				\/\/等待时间.$/;"	m	struct:__anon5
+wait	.\car_driver\Pram.h	/^	uint8_t		wait;				\/\/输出高暂时用寄存器.$/;"	m	struct:__anon4
+yaw	.\SwitchbotNordic.h	/^	uint16_t yaw;					\/* left joystick, left\/right *\/$/;"	m	struct:qr_cmd

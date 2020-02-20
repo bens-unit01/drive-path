@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  	<TextView
+	  	android:id="@+id/drop_down_text"
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:singleLine="true"
+	  	android:imeOptions="actionSearch"
+	  	android:background="@drawable/drop_down_style"
+	  	android:paddingLeft="10dip"
+	  	android:textColor="#000000">
+	 </TextView>
+	 <ImageView
+	  	android:id="@+id/drop_down_arrow"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:background="@drawable/dropdown_open"
+	  	android:layout_alignRight="@id/drop_down_text"
+	  	android:layout_marginTop="10dip" 
+	  	android:layout_marginRight="8dip">
+	</ImageView>
+</RelativeLayout>

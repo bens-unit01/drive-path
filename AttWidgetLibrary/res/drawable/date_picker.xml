@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/relative_inside"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <TextView android:id="@+id/date_picker_label"
+	  android:text="Set Date"
+	  android:textSize="18dp"
+	  android:textStyle="bold"
+	  android:textColor="@color/white"
+	  android:layout_gravity="center_horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:layout_marginBottom="5dp">
+  </TextView>
+  <LinearLayout
+	  android:id="@+id/linear_inside"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:background="@color/white">
+ 	  <com.att.widgets.lib.datetime.WheelView
+		    android:id="@+id/months"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"/>
+	  <com.att.widgets.lib.datetime.WheelView
+		    android:id="@+id/days"
+		    android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			/>
+	  <com.att.widgets.lib.datetime.WheelView 
+		    android:id="@+id/years"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			/>	
+  </LinearLayout>
+  <com.att.widgets.lib.button.StaticTextButton 
+	android:id="@+id/primary_button_time_picker" 
+	android:layout_width="100dp" 
+	android:layout_height="40dp" 
+	android:text="Done"
+	android:layout_marginTop="5dp"
+	android:layout_gravity="center_horizontal"
+	android:layout_marginBottom="5dp"/>
+</LinearLayout>

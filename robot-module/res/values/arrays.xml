@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <string-array name="pics_array">
+        <item>file://data/user/photos/pic_00.jpg</item>
+        <item>file://data/user/photos/pic_01.jpg</item>
+        <item>file://data/user/photos/pic_02.jpg</item>
+        <item>file://data/user/photos/pic_03.jpg</item>
+        <item>file://data/user/photos/pic_04.jpg</item>
+        <item>file://data/user/photos/pic_05.jpg</item>
+        <item>file://data/user/photos/pic_06.jpg</item>
+        <item>file://data/user/photos/pic_07.jpg</item>
+        <item>file://data/user/photos/pic_08.jpg</item>
+    </string-array>
+    <string-array name="vids_array">
+        <item>assets://images/vid_00.jpg</item>
+        <item>assets://images/vid_01.jpg</item>
+    </string-array>
+
+</resources>

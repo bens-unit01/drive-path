@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:state_checked="false" android:state_enabled="true" android:state_focused="true" android:drawable="@drawable/switch_button_enable_off_focus" />
+    <item android:state_checked="false" android:state_enabled="true" android:drawable="@drawable/switch_button_enable_off" />
+    <item android:state_checked="true" android:state_enabled="true" android:state_focused="true" android:drawable="@drawable/switch_button_enable_on_focus" />
+    <item android:state_checked="true" android:state_enabled="true" android:drawable="@drawable/switch_button_enable_on" />
+    <item android:state_checked="false" android:state_enabled="false" android:state_focused="true" android:drawable="@drawable/switch_button_disable_off_focus" />
+    <item android:state_checked="false" android:state_enabled="false" android:drawable="@drawable/switch_button_disable_off" />
+    <item android:state_checked="true" android:state_enabled="false" android:state_focused="true" android:drawable="@drawable/switch_button_disable_on_focus" />
+    <item android:state_checked="true" android:state_enabled="false" android:drawable="@drawable/switch_button_disable_on" />
+    
+</selector>

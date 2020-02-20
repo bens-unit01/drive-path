@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+<title></title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+   <!--  <link rel="stylesheet" type="text/css" href="https://labs.godogfetch.com/css/gdf-site.css"> -->
+     <link rel="stylesheet" type="text/css" href="gdf-site.css"> 
+	 <link rel="stylesheet" href="https://labs.godogfetch.com/css/godog.css" type="text/css">
+    
+        <script src="https://labs.godogfetch.com/js/jquery/jquery.min.js"></script>
+     <!--   <script src="https://labs.godogfetch.com/js/jquery/jquery.widget.min.js"></script>
+
+        <script src="https://labs.godogfetch.com/js/gdf-site-progress.js"></script>
+        <script src="https://labs.godogfetch.com/js/gdf-site.min.js"></script>
+    -->
+
+<style>
+.mirror{
+
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+body {
+	font-size:3.4em;
+}
+</style>	
+</head>
+<body class="metro">
+	
+	<script type="text/javascript">
+
+
+		
+     $(document).ready(function(){
+		//	updateResult(html);
+		});		
+
+		
+
+
+	function updateResult(html) {
+
+          $('#listview').append(html).trigger('create');
+			
+	}
+
+	</script>
+
+
+	
+	<div class="container" style="margin:10px 10px 10px 10px; padding-bottom: 5px;">
+		<div class="conversation" data-role="content">
+			<div id="listview" class="listview" style="margin-top: 10px; margin-bottom: 10px;">
+			</div>
+		</div>
+	</div>
+		
+    </body>
+</html>

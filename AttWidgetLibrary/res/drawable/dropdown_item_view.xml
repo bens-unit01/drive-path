@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" 
+  android:layout_height="35dip"
+  android:layout_marginLeft="10dip"
+  android:layout_marginRight="10dip">
+  
+  <TextView android:id="@+id/dropdown_item_text" 
+  	android:layout_height="wrap_content" 
+  	android:layout_width="fill_parent" 
+  	android:layout_centerVertical="true"
+  	android:text="Item 1" 
+  	android:textSize="18dip"
+  	android:textColor="#000000"/>
+  <ImageView android:id="@+id/dropdown_item_check"
+  	android:layout_width="wrap_content" 
+  	android:layout_height="wrap_content" 
+  	android:layout_centerVertical="true"
+  	android:layout_alignParentRight="true" 
+  	android:background="@drawable/dropdown_item_check_mark" />
+</RelativeLayout>

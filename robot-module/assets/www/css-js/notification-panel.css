@@ -1,0 +1,262 @@
+
+
+
+@font-face {
+    font-family: 'Venera';
+    src: url('file:///android_asset/fonts/Venera-900.ttf'); 
+} 
+
+@font-face {
+    font-family: 'Opificio';
+    src: url('file:///android_asset/fonts/Opificio_rounded.ttf'); 
+} 
+
+
+
+.resize-not{
+
+  -moz-transform: scale(0.8, 0.8);
+  -webkit-transform: scale(0.8, 0.8);
+  -o-transform: scale(0.8, 0.8);
+  -ms-transform: scale(0.8, 0.8);
+  transform: scale(0.8, 0.8);
+}
+
+.resize-eye{
+
+  -moz-transform: scale(0.85, 0.85);
+  -webkit-transform: scale(0.85, 0.85);
+  -o-transform: scale(0.85, 0.85);
+  -ms-transform: scale(0.85, 0.85);
+  transform: scale(0.85, 0.85);
+}
+
+hr{
+
+    color:#FFFFFF;
+    background-color: #FFFFFF;
+    height: 5px;
+    border: 0px;
+}
+
+#principal-3{
+    width:1280px; 
+    height:720px;
+    background-color: #FFFFFF;
+    font-size:13px;
+}
+
+#top-panel{
+    background-color: #FFFFFF;
+    width: 95%;
+    height: 32%;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #002240;
+}
+#bottom-panel{
+
+    background-color: #002240;
+    width: 92%;
+    height: 46%;
+    margin-left: 15px;
+    margin-top: 0px;
+    color: black;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+#date-time{
+
+    color:#FFFFFF;
+    width:73.6%;
+    padding:0px;
+    height: 93%;
+    background-color: #002240;
+    /* font-family: Opificio;*/
+
+
+}
+
+#pnl-time{
+
+    padding-left: 5px;
+    margin:0px;
+    position: relative;
+    top: -65px;
+    position:relative;
+    z-index:2;
+    width:800px;
+    text-align: center;
+
+    /*  font-size:10em; 
+    font-weight:bold;*/
+    /*  color:green;*/
+}
+
+#pnl-date{
+    /* font-size:2em; */
+    /* color:green;*/
+    width : 100px;
+    position: relative;
+    margin-top:  55px;
+   /* padding-top:30px;*/
+    text-align: center;
+}
+#pnl-date ul{
+    list-style-type: none;
+    padding: 0px;
+}
+#pnl-date ul li {
+
+
+    font-size:1.6em; 
+
+    font-family: 'Venera';
+
+}
+
+.green-color{
+    color:#C8EA1C;
+}
+
+
+
+#alarms{
+    font-size:2em;
+    /* background-color: blue;*/
+    padding-top:40px;
+    color:white;
+    height: 160px;
+    width:200px;
+}
+
+#buttons{
+    /*  background-color: blue;*/
+    color:white;
+    height: 100%;
+    /*width:200px;*/
+}
+
+#temperature{
+    position: relative;
+    z-index: 20;
+    top:-115px;
+    left:30px;
+    /* float:left;*/
+}
+#temp-max{
+    position: relative;
+    font-size:5.3em;
+
+}
+#temp-min{
+    font-size:3em;
+}
+
+.font-white{
+    font-family: 'Opificio';
+    color:white;
+
+}
+.big{
+    font-size:24em;
+}
+.midium{
+    font-size: 4em;
+}
+
+.font-black{
+    font-family: 'Venera';
+    font-size: 1.6em;
+    line-height: 22px;
+    color: #E3EAF2;
+
+}
+
+.maps-minutes{
+
+    font-size:10em;
+    padding-right: 10px;
+    position:relative;
+    z-index: 3;
+    top:-15px;
+
+
+}
+#clock{
+    padding-right: 50px;
+    padding-top: 20px;
+    position:relative;
+    top:-340px;
+    left:25px;
+
+}
+#email{
+
+    /*margin-left: 60px;*/
+}
+#calendar{
+    margin-left: 85px;
+
+}
+
+#map{
+    padding:10px;
+    padding-top: 0px;
+    height: 92%;
+    font-size:3.5em;
+}
+#location{
+    font-family: 'Venera';
+    font-size: 1.9em;
+    text-align: center;
+    color: #7F909F;
+    position:relative;
+    top:-84px;
+
+}
+#am-pm{
+
+    margin-top: 10px;
+}
+
+.email-icon{
+    padding-bottom: 15px;
+}
+.calendar-icon{}
+
+
+.weather{
+
+    height:90%;
+}
+
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+hr{
+    position:relative;
+    left:-30px;
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
